@@ -1,0 +1,6 @@
+{
+  "name": "NAUTI — Misión Aurora",
+  "description": "Aventura educativa de gestión de una base lunar para estudiantes de 10 a 16 años, creada por Filómatas LAB.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

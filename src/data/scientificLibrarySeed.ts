@@ -1,0 +1,580 @@
+import type {
+  LibraryCategory,
+  LibraryCategoryId,
+  NasaSourceRepository,
+  ScientificRecord,
+} from '../types/scientificLibrary';
+
+export const DEFAULT_LIBRARY_CATEGORIES: readonly LibraryCategory[] = [
+  {
+    id: 'agua_soporte_vital',
+    order: 1,
+    icon: '💧',
+    accentColor: '#38bdf8',
+    labels: {
+      es: '1. Agua y soporte vital',
+      en: '1. Water & Life Support',
+      'gn-PY': '1. Y ha tekove ñangareko',
+    },
+    descriptions: {
+      es: 'Recuperación de agua, purificación de aire, generación de oxígeno y sistemas ECLSS en órbita.',
+      en: 'Water recovery, air purification, oxygen generation, and ECLSS systems in orbit.',
+      'gn-PY':
+        'Y ñemopotĩ jey, yvytu pytu ñembohekove ha tekove ñangareko sistema arapýpe.',
+    },
+    isDefault: true,
+  },
+  {
+    id: 'energia',
+    order: 2,
+    icon: '⚡',
+    accentColor: '#facc15',
+    labels: {
+      es: '2. Energía',
+      en: '2. Energy',
+      'gn-PY': '2. Tendyry',
+    },
+    descriptions: {
+      es: 'Paneles solares fotovoltaicos, arreglos IROSA, almacenamiento en baterías y estrategias de energía lunar.',
+      en: 'Photovoltaic solar panels, IROSA arrays, battery storage, and lunar power planning.',
+      'gn-PY':
+        'Panel solar fotovoltaico, IROSA, batería ñongatu ha tendyry ñemohenda Jasýpe.',
+    },
+    isDefault: true,
+  },
+  {
+    id: 'salud_espacial',
+    order: 3,
+    icon: '🩺',
+    accentColor: '#48C5B5',
+    labels: {
+      es: '3. Salud espacial',
+      en: '3. Space Health',
+      'gn-PY': '3. Tesãi arapýpe',
+    },
+    descriptions: {
+      es: 'Microgravedad, pérdida ósea y muscular, respuesta inmunológica, radiación y ritmos de sueño en el espacio.',
+      en: 'Microgravity, bone and muscle changes, immune response, radiation, and sleep in space.',
+      'gn-PY':
+        'Microgravedad, kangue ha to\'o ñemoambue, ñe\'ã ñangareko, radiación ha ke arapýpe.',
+    },
+    isDefault: true,
+  },
+  {
+    id: 'investigacion_espacial',
+    order: 4,
+    icon: '🔬',
+    accentColor: '#a78bfa',
+    labels: {
+      es: '4. Investigación espacial',
+      en: '4. Space Research',
+      'gn-PY': '4. Tembikuaareka arapýpe',
+    },
+    descriptions: {
+      es: 'Cultivos en órbita (Veggie), estudios biológicos NASA OSDR, regolito lunar y ciencia abierta.',
+      en: 'Orbital plant growth (Veggie), NASA OSDR biology studies, lunar regolith, and open science.',
+      'gn-PY':
+        'Ka\'avo ñemity arapýpe (Veggie), tekove kuaapy NASA OSDR, Jasy yvyku\'i ha ciencia abierta.',
+    },
+    isDefault: true,
+  },
+] as const;
+
+export const SUGGESTED_NASA_QUERIES: readonly {
+  enQuery: string;
+  esLabel: string;
+  enLabel: string;
+  gnLabel: string;
+  category: LibraryCategoryId;
+}[] = [
+  {
+    enQuery: 'bone loss',
+    esLabel: 'Pérdida ósea',
+    enLabel: 'Bone loss',
+    gnLabel: 'Kangue kangy (bone loss)',
+    category: 'salud_espacial',
+  },
+  {
+    enQuery: 'muscle atrophy',
+    esLabel: 'Atrofia muscular',
+    enLabel: 'Muscle atrophy',
+    gnLabel: "To'o kangy (muscle atrophy)",
+    category: 'salud_espacial',
+  },
+  {
+    enQuery: 'immune response',
+    esLabel: 'Respuesta inmune',
+    enLabel: 'Immune response',
+    gnLabel: 'Ñeñangareko retepy (immune response)',
+    category: 'salud_espacial',
+  },
+  {
+    enQuery: 'sleep',
+    esLabel: 'Sueño espacial',
+    enLabel: 'Sleep',
+    gnLabel: 'Ke arapýpe (sleep)',
+    category: 'salud_espacial',
+  },
+  {
+    enQuery: 'plant growth',
+    esLabel: 'Crecimiento de plantas',
+    enLabel: 'Plant growth',
+    gnLabel: "Ka'avo kakuaa (plant growth)",
+    category: 'investigacion_espacial',
+  },
+  {
+    enQuery: 'microgravity',
+    esLabel: 'Microgravedad',
+    enLabel: 'Microgravity',
+    gnLabel: 'Microgravedad',
+    category: 'investigacion_espacial',
+  },
+] as const;
+
+const SPANISH_TO_ENGLISH_TERMS: readonly [RegExp, string][] = [
+  [/p[eé]rdida [oó]sea/gi, 'bone loss'],
+  [/densidad [oó]sea/gi, 'bone density'],
+  [/atrofia muscular/gi, 'muscle atrophy'],
+  [/m[uú]sculos?/gi, 'muscle'],
+  [/huesos?/gi, 'bone'],
+  [/respuesta inmune|sistema inmune|respuesta inmunitaria|inmunidad/gi, 'immune response'],
+  [/sue[nñ]o|ritmo circadiano/gi, 'sleep circadian'],
+  [/crecimiento de plantas|cultivo de plantas|plantas espaciales|invernadero/gi, 'plant growth'],
+  [/microgravedad/gi, 'microgravity'],
+  [/recuperaci[oó]n de agua|reciclaje de agua|agua/gi, 'water recovery'],
+  [/soporte vital/gi, 'life support ECLSS'],
+  [/ox[ií]geno/gi, 'oxygen generation'],
+  [/energ[ií]a solar|paneles? solares?|arreglos? solares?/gi, 'solar array power'],
+  [/bater[ií]as? lunares?|almacenamiento de energ[ií]a/gi, 'lunar power battery'],
+  [/polvo lunar|regolito lunar|regolito/gi, 'lunar regolith dust'],
+  [/radiaci[oó]n espacial|tormenta solar|radiaci[oó]n/gi, 'space radiation'],
+  [/polo sur lunar|artemis|noche lunar/gi, 'lunar south pole Artemis'],
+  [/ratones/gi, 'mice Mus musculus'],
+  [/c[eé]lulas/gi, 'cells'],
+];
+
+export function translateSpanishQueryToEnglish(rawQuery: string): {
+  translatedQuery: string;
+  wasTranslated: boolean;
+} {
+  const trimmed = rawQuery.trim();
+  if (!trimmed) {
+    return { translatedQuery: '', wasTranslated: false };
+  }
+  let next = trimmed;
+  for (const [pattern, replacement] of SPANISH_TO_ENGLISH_TERMS) {
+    next = next.replace(pattern, replacement);
+  }
+  // Clean duplicate spaces while keeping technical terms intact
+  next = next.replace(/\s+/g, ' ').trim();
+  return {
+    translatedQuery: next,
+    wasTranslated: next.toLowerCase() !== trimmed.toLowerCase(),
+  };
+}
+
+export function inferCategoryFromText(text: string): LibraryCategoryId {
+  const low = text.toLowerCase();
+  if (
+    low.includes('water') ||
+    low.includes('eclss') ||
+    low.includes('oxygen') ||
+    low.includes('life support') ||
+    low.includes('agua') ||
+    low.includes('oxígeno')
+  ) {
+    return 'agua_soporte_vital';
+  }
+  if (
+    low.includes('solar') ||
+    low.includes('power') ||
+    low.includes('battery') ||
+    low.includes('energía') ||
+    low.includes('energy') ||
+    low.includes('irosa')
+  ) {
+    return 'energia';
+  }
+  if (
+    low.includes('bone') ||
+    low.includes('muscle') ||
+    low.includes('immune') ||
+    low.includes('sleep') ||
+    low.includes('health') ||
+    low.includes('atrophy') ||
+    low.includes('radiation') ||
+    low.includes('mouse') ||
+    low.includes('mice')
+  ) {
+    return 'salud_espacial';
+  }
+  return 'investigacion_espacial';
+}
+
+export const SOURCE_REPOSITORY_LABELS: Record<
+  NasaSourceRepository,
+  { es: string; en: string; 'gn-PY': string }
+> = {
+  NASA_OSDR: {
+    es: 'NASA OSDR (Open Science Data Repository)',
+    en: 'NASA OSDR (Open Science Data Repository)',
+    'gn-PY': 'NASA OSDR (Open Science Data Repository)',
+  },
+  NASA_NTRS: {
+    es: 'NASA Technical Reports Server (NTRS)',
+    en: 'NASA Technical Reports Server (NTRS)',
+    'gn-PY': 'NASA Technical Reports Server (NTRS)',
+  },
+  NASA_ISS_RESEARCH: {
+    es: 'NASA ISS Research',
+    en: 'NASA ISS Research',
+    'gn-PY': 'NASA ISS Research',
+  },
+  NASA_ARTEMIS: {
+    es: 'NASA Artemis',
+    en: 'NASA Artemis',
+    'gn-PY': 'NASA Artemis',
+  },
+  OTHER_OFFICIAL_NASA: {
+    es: 'Otras publicaciones oficiales de la NASA',
+    en: 'Other Official NASA Publications',
+    'gn-PY': 'Ambue kuatia tee NASA pegua',
+  },
+};
+
+/**
+ * Strictly verified starter records backed by real NASA documentation already curated
+ * in NAUTI, plus 1 real OSDR dataset kept in UNDER_REVIEW for Admin workflow visibility
+ * (never shown to students until explicitly verified and published).
+ */
+export const VERIFIED_SEED_RECORDS: readonly ScientificRecord[] = [
+  {
+    id: 'nasa-iss-water-recovery-2023',
+    category: 'agua_soporte_vital',
+    topic: 'Recuperación de agua del 98% en la Estación Espacial Internacional',
+    scientific_claim:
+      'En junio de 2023, la NASA informó que el sistema de soporte vital ambiental (ECLSS) de la Estación Espacial Internacional demostró alcanzar su objetivo de aproximadamente 98% de recuperación de agua en órbita gracias al procesador de salmuera (Brine Processor Assembly).',
+    student_explanation:
+      'En el espacio no hay ríos ni grifos infinitos, y enviar agua nueva en cohetes desde la Tierra es muy pesado y costoso. Por eso, los astronautas de la Estación Espacial Internacional capturan la humedad de su respiración y sudor, junto con aguas procesadas, y las filtran hasta reutilizar cerca del 98% de toda el agua.',
+    why_it_matters:
+      'Reciclar casi cada gota de agua permite que las tripulaciones vivan y realicen ciencia en órbita durante meses sin depender de entregas constantes desde la Tierra, y prepara las misiones futuras hacia la Luna y Marte.',
+    where_to_use:
+      'Puedes relacionar este hecho con la Jornada 3 de Efecto Dominó (cuando decidimos cuidar o posponer los filtros de agua), con el Caso 01 de Detectives de la NASA y con el módulo de agua en Escucha, imagina y construye.',
+    source_title:
+      'NASA Achieves Water Recovery Milestone on International Space Station',
+    source_organization: 'NASA · International Space Station Research',
+    source_url:
+      'https://www.nasa.gov/missions/station/iss-research/nasa-achieves-water-recovery-milestone-on-international-space-station/',
+    source_identifier: 'NASA-ISS-WATER-2023',
+    authors: ['NASA Johnson Space Center / ECLSS Team'],
+    publication_date: '2023-06-20',
+    organism_or_population: 'Tripulación humana y hardware ECLSS a bordo de la EEI',
+    research_context:
+      'Operación real en microgravedad dentro de la Estación Espacial Internacional bajo condiciones nominales de vuelo y mantenimiento continuo.',
+    numerical_values: ['98'],
+    units: ['% de recuperación de agua'],
+    limitations:
+      'El 98% representa una capacidad demostrada bajo las condiciones específicas de operación de la Estación Espacial Internacional; no garantiza automáticamente la misma tasa en cualquier otro hábitat o nave sin equipos equivalentes.',
+    verification_status: 'PUBLISHED',
+    verified_by: 'Equipo Científico Filómatas LAB',
+    verification_date: '2025-11-10',
+    related_experiences: [
+      'efecto-domino',
+      'detectives-de-la-nasa',
+      'escucha-imagina-construye',
+    ],
+    related_content_ids: [
+      'efecto-domino:day-3',
+      'detectives-de-la-nasa:case-01-water',
+      'escucha-imagina-construye:ep-02-water-recovery',
+    ],
+    language: 'es',
+    created_at: '2025-11-10T10:00:00.000Z',
+    updated_at: '2025-11-10T10:00:00.000Z',
+    source_repository: 'NASA_ISS_RESEARCH',
+    localized: {
+      en: {
+        topic: '98% Water Recovery Milestone Aboard the International Space Station',
+        scientific_claim:
+          'In June 2023, NASA reported that the International Space Station Environmental Control and Life Support System (ECLSS) demonstrated reaching its goal of roughly 98% water recovery using the Brine Processor Assembly.',
+        student_explanation:
+          'In space there are no rivers or taps, and launching water from Earth is heavy and expensive. Astronauts aboard the International Space Station capture moisture from breathing and sweat plus wastewater, filtering and purifying it until nearly 98% of the water can be reused safely.',
+        why_it_matters:
+          'Recycling almost every drop lets crews live and conduct science in orbit for months with far fewer Earth resupply flights, paving the way for long-duration Moon and Mars missions.',
+        where_to_use:
+          'Connect this fact with Day 3 of Domino Effect (water filter maintenance), Case 01 in NASA Detectives, and the water recovery episode of Listen, Imagine & Build.',
+        organism_or_population: 'Human ISS crew & ECLSS flight hardware',
+        research_context:
+          'Real orbital operation aboard the International Space Station under active maintenance conditions.',
+        limitations:
+          'Represents a demonstrated capability under specific ISS operating conditions, not an automatic guarantee for every spacecraft or lunar outpost.',
+      },
+      'gn-PY': {
+        topic: '98% Y ñemopotĩ jey Estación Espacial Internacional-pe',
+        scientific_claim:
+          'Jasypoteĩ 2023-pe, NASA omombe\'u sistema ECLSS Estación Espacial Internacional-pe ohechauka og̃uahẽha 98% rupi y ñemopotĩ jey tembiporu Brine Processor Assembly rupive.',
+        student_explanation:
+          'Arapýpe ndaipóri ysyry ha y jegueru Yvýgui hepy ha ipohýi. Upévare astronauta-kuéra ombyaty pytu, ry\'ái ha y oiporuva\'ekue omopotĩ jey hag̃ua ha oiporu jey 98% rupi.',
+        why_it_matters:
+          'Ñamopotĩ jey ramo haimete opaite y, aty ikatu oikove ha ojapo tembikuaareka are arapýpe oha\'ãrõ\'ỹre heta carga Yvýgui.',
+        where_to_use:
+          'Ejoaju ko kuaapy Ára 3 Efecto Dominó ndive, Caso 01 Detectives de la NASA ha Escucha, imagina y construye tembiapo ndive.',
+        organism_or_population: 'Yvypóra aty ha tembiporu ECLSS EEI-pe',
+        research_context:
+          'Tembiapo añetegua microgravedad-pe Estación Espacial Internacional ryepýpe.',
+        limitations:
+          '98% ohechauka mba\'e ojejapokuaáva EEI reko tee rupi; ndaha\'éi opavave mba\'yrumýipe ijeheguínte og̃uahẽtava upeichaitépe.',
+      },
+    },
+  },
+  {
+    id: 'nasa-iss-solar-irosa-2025',
+    category: 'energia',
+    topic: 'Arreglos solares fotovoltaicos y paneles desplegables IROSA en la EEI',
+    scientific_claim:
+      'La Estación Espacial Internacional convierte la luz solar en electricidad mediante alas solares fotovoltaicas y baterías recargables para cruzar cada eclipse orbital, elevando la potencia disponible de ~160 kW hasta ~215 kW con los arreglos desplegables IROSA.',
+    student_explanation:
+      'A cientos de kilómetros de la Tierra no hay cables eléctricos. Por eso las estaciones espaciales extienden alas gigantes cubiertas de celdas fotovoltaicas que convierten la luz del Sol en electricidad, y además cargan baterías para seguir encendidas cuando pasan por la sombra de la Tierra.',
+    why_it_matters:
+      'Sin electricidad dejarían de funcionar el aire respirable, el reciclaje de agua, las luces y las computadoras científicas. Mejorar la eficiencia solar permite sumar más experimentos sin aumentar demasiado el peso.',
+    where_to_use:
+      'Úsalo para analizar la generación de energía en el Episodio 01 (Jornadas 1, 2 y 4) de Efecto Dominó y la pieza tecnológica de Escucha, imagina y construye.',
+    source_title:
+      'International Space Station — Solar Arrays & Electrical Power System',
+    source_organization: 'NASA (National Aeronautics and Space Administration)',
+    source_url: 'https://www.nasa.gov/mission/international-space-station/',
+    source_identifier: 'NASA-ISS-SOLAR-IROSA',
+    authors: ['NASA International Space Station Program'],
+    publication_date: '2025-01-15',
+    organism_or_population: 'Sistemas de ingeniería espacial en órbita terrestre baja',
+    research_context:
+      'Operación de ingeniería orbital continua (ciclos de luz/sombra cada ~90 minutos en órbita terrestre baja).',
+    numerical_values: ['160', '215', '90'],
+    units: ['kW (capacidad base)', 'kW (con IROSA)', 'minutos por órbita'],
+    limitations:
+      'Las cifras de 160–215 kW corresponden a la arquitectura eléctrica específica de la EEI en órbita terrestre baja; una base lunar enfrenta ciclos de luz y noche distintos (~14 días en muchas zonas).',
+    verification_status: 'PUBLISHED',
+    verified_by: 'Equipo Científico Filómatas LAB',
+    verification_date: '2025-11-10',
+    related_experiences: ['efecto-domino', 'escucha-imagina-construye'],
+    related_content_ids: [
+      'efecto-domino:day-1',
+      'efecto-domino:day-4',
+      'escucha-imagina-construye:ep-01-solar-panels',
+    ],
+    language: 'es',
+    created_at: '2025-11-10T10:05:00.000Z',
+    updated_at: '2025-11-10T10:05:00.000Z',
+    source_repository: 'NASA_ISS_RESEARCH',
+    localized: {
+      en: {
+        topic: 'Photovoltaic Solar Arrays & IROSA Roll-Out Wings on the ISS',
+        scientific_claim:
+          'The International Space Station converts sunlight into electricity using photovoltaic solar arrays paired with rechargeable batteries during orbital eclipses, raising available electrical power from ~160 kW to ~215 kW with IROSA roll-out arrays.',
+        student_explanation:
+          'Hundreds of kilometers above Earth there are no power lines. Space stations unfold wide solar wings covered in photovoltaic cells that turn sunlight into electricity and charge batteries for the dark side of each 90-minute orbit.',
+        why_it_matters:
+          'Without electricity, air circulation, water recycling, lights, and laboratory instruments cannot operate. Newer roll-out arrays produce more power with compact launch mass.',
+        where_to_use:
+          'Link this reference to Domino Effect Days 1 & 4 and the Solar Arrays module in Listen, Imagine & Build.',
+        organism_or_population: 'Orbital electrical engineering hardware',
+        research_context: 'Low-Earth orbit ISS electrical power architecture.',
+        limitations:
+          '160–215 kW applies specifically to the ISS power system in low-Earth orbit; lunar surface missions experience multi-day illumination patterns.',
+      },
+      'gn-PY': {
+        topic: 'Panel solar fotovoltaico ha IROSA Estación Espacial-pe',
+        scientific_claim:
+          'Estación Espacial Internacional ombohasa kuarahy resape tendyrýpe panel solar ha batería rupive, ombotuichávo tendyry ~160 kW-gui ~215 kW peve umi IROSA pyahu reheve.',
+        student_explanation:
+          'Arapýpe ndaipóri cable tendyrýgui. Upévare estación-kuéra oipysóva ipepo panel solar oguerekóva celda ombohasáva kuarahy resape tendyrýpe ha omyenyhẽ batería pyhare mbyky jave.',
+        why_it_matters:
+          'Tendyry\'ỹre ndaikatúi omba\'apo yvytu ñangareko, y ñemopotĩ ni tembiporu tembikuaareka rehegua.',
+        where_to_use:
+          'Eiporu ko marandu Ára 1 ha 4 Efecto Dominó-pe ha Escucha, imagina y construye-pe.',
+        organism_or_population: 'Tembiporu ingeniería arapýpe',
+        research_context: 'Tendyry apopy órbita terrestre baja-pe.',
+        limitations:
+          '160–215 kW ha\'e EEI rekópe g̃uarã añoite; Jasýpe kuarahy ha pyhare puku iñambue.',
+      },
+    },
+  },
+  {
+    id: 'nasa-iss-veggie-plant-growth-2014',
+    category: 'investigacion_espacial',
+    topic: 'Cultivo de plantas en microgravedad con el sistema Veggie de la NASA',
+    scientific_claim:
+      'El sistema de crecimiento vegetal Veggie de la NASA utiliza iluminación LED roja, azul y verde y almohadillas especiales para estudiar cómo germinan, crecen y absorben agua las plantas comestibles en microgravedad a bordo de la EEI.',
+    student_explanation:
+      'En la Tierra, la gravedad hace que el agua baje y las raíces crezcan hacia abajo. En el espacio todo flota, así que las plantas podrían ahogarse si el agua rodea sus raíces. El experimento Veggie de la NASA usa almohadillas especiales y luces LED de colores para ayudar a que lechugas y flores crezcan en órbita.',
+    why_it_matters:
+      'Cultivar alimentos frescos en el espacio aporta vitaminas y bienestar psicológico a la tripulación y permite entender cómo interactúan agua, raíces y luz fuera de la Tierra.',
+    where_to_use:
+      'Relaciónalo con el Episodio 03 de Efecto Dominó (alimentos lunares) y con los estudios biológicos sobre crecimiento de plantas en el espacio.',
+    source_title:
+      'Veggie Plant Growth System Activated on International Space Station',
+    source_organization: 'NASA · Biological and Physical Sciences',
+    source_url:
+      'https://www.nasa.gov/history/veggie-plant-growth-system-activated-on-international-space-station/',
+    source_identifier: 'NASA-ISS-VEGGIE-2014',
+    authors: ['NASA Kennedy Space Center / Veggie Team'],
+    publication_date: '2014-05-08',
+    organism_or_population:
+      'Plantas comestibles y ornamentales (ej. lechuga Lactuca sativa, zinnia)',
+    research_context:
+      'Investigación botánica en cámara controlada en microgravedad a bordo de la Estación Espacial Internacional (estudios en plantas, no ensayos clínicos humanos).',
+    numerical_values: ['3'],
+    units: ['colores principales de LED (rojo, azul, verde)'],
+    limitations:
+      'Investigación realizada específicamente en especies vegetales seleccionadas dentro de cámaras controladas; los resultados varían según especie, sustrato, ventilación y riego.',
+    verification_status: 'PUBLISHED',
+    verified_by: 'Equipo Científico Filómatas LAB',
+    verification_date: '2025-11-10',
+    related_experiences: [
+      'efecto-domino',
+      'escucha-imagina-construye',
+      'detectives-de-la-nasa',
+    ],
+    related_content_ids: [
+      'efecto-domino:ep-03',
+      'escucha-imagina-construye:ep-03-space-plants',
+      'detectives-de-la-nasa:case-03-plants',
+    ],
+    language: 'es',
+    created_at: '2025-11-10T10:10:00.000Z',
+    updated_at: '2025-11-10T10:10:00.000Z',
+    source_repository: 'NASA_ISS_RESEARCH',
+    localized: {
+      en: {
+        topic: 'Growing Plants in Microgravity with NASA’s Veggie System',
+        scientific_claim:
+          'NASA’s Veggie plant growth chamber combines red, blue, and green LED lighting with specialized root pillows to study how edible plants germinate, orient roots, and absorb water in microgravity aboard the ISS.',
+        student_explanation:
+          'On Earth gravity pulls water downward and guides roots. In orbit water floats and can suffocate plant roots. NASA’s Veggie chamber uses special pillows and colored LED lights so astronauts can grow leafy greens and study plant biology in space.',
+        why_it_matters:
+          'Fresh space-grown produce adds nutrients and crew morale while teaching scientists how water and roots behave without gravity.',
+        where_to_use:
+          'Connect with Domino Effect Episode 03 (lunar food production) and Listen, Imagine & Build Episode 03.',
+        organism_or_population: 'Plants (e.g., Lactuca sativa red romaine lettuce, zinnia)',
+        research_context: 'Botanical microgravity chamber experiment aboard the ISS.',
+        limitations:
+          'Study conducted in selected plant species inside controlled spaceflight chambers; behaviors differ across plant species and cannot be generalized directly to human physiology.',
+      },
+      'gn-PY': {
+        topic: "Ka'avo ñemity microgravedad-pe NASA Veggie rupive",
+        scientific_claim:
+          'NASA tembiporu Veggie oiporu tesape LED pytã, hovy ha hovyũ ha mba\'e apu\'a oñangareko hag̃ua mba\'éichapa ka\'avo okakuaa ha ho\'u y microgravedad-pe EEI ryepýpe.',
+        student_explanation:
+          'Yvýpe gravedad ogueraha y ha hapo yvýre. Arapýpe y oveve ha ikatu ombopytu\'upa ka\'avópe. Upévare Veggie oiporu almohadilla ha tesape LED ikatu hag̃ua ka\'avo okakuaa órbita-pe.',
+        why_it_matters:
+          'Tembi\'u pyahu arapýpe ome\'ẽ vitamina ha vy\'a atýpe, ha ombo\'e mba\'éichapa oiko ka\'avo gravedad\'ỹre.',
+        where_to_use:
+          'Ejoaju Efecto Dominó Episodio 03 ha Escucha, imagina y construye Episodio 03 ndive.',
+        organism_or_population: "Ka'avo (lechuga Lactuca sativa, zinnia)",
+        research_context: "Tembikuaareka ka'avo rehegua microgravedad-pe EEI-pe.",
+        limitations:
+          "Ko tembikuaareka ojejapo ka'avóre añoite óga ñangarekopyrépe; ndaikatúi oñembohasa ijeheguiete yvypóra rekópe.",
+      },
+    },
+  },
+  {
+    id: 'nasa-artemis-lunar-illumination-2025',
+    category: 'energia',
+    topic: 'Iluminación lunar, sombras prolongadas y planificación energética Artemis',
+    scientific_claim:
+      'En regiones próximas al polo sur lunar, los ángulos bajos del Sol y el relieve del terreno crean zonas con periodos prolongados de sombra o luz cambiante, obligando a diseñar estrategias integradas de generación y almacenamiento eléctrico.',
+    student_explanation:
+      'En gran parte de la Luna una noche dura cerca de 14 días terrestres seguidos. Cerca del polo sur lunar hay picos que reciben mucha luz y cráteres que permanecen en sombra permanente, así que una base lunar debe combinar paneles bien ubicados y baterías para sobrevivir.',
+    why_it_matters:
+      'Planificar cuánta energía guardar antes de que llegue la sombra es vital para no apagar la calefacción ni los equipos de agua cuando baja la luz del Sol.',
+    where_to_use:
+      'Relaciónalo directamente con las Jornadas 1 y 5 de Efecto Dominó en Base Aurora.',
+    source_title: 'Integrated Lunar Power Strategy Considerations',
+    source_organization: 'NASA Technical Reports Server (NTRS) / Artemis',
+    source_url: 'https://ntrs.nasa.gov/citations/20250010948',
+    source_identifier: '20250010948',
+    authors: ['NASA Lunar Power Architecture Authors'],
+    publication_date: '2025-01-01',
+    organism_or_population: 'Sistemas energéticos de superficie lunar (Artemis)',
+    research_context:
+      'Estudio técnico y simulación de arquitectura energética para misiones lunares sostenibles (modelado de ingeniería, no estudio biológico).',
+    numerical_values: ['14'],
+    units: ['días terrestres aproximados por noche lunar ecuatorial/media'],
+    limitations:
+      'La duración exacta de la luz y la sombra depende estrechamente de la latitud, elevación local y topografía del cráter; modelos técnicos requieren validación con datos topográficos locales.',
+    verification_status: 'PUBLISHED',
+    verified_by: 'Equipo Científico Filómatas LAB',
+    verification_date: '2025-11-12',
+    related_experiences: ['efecto-domino'],
+    related_content_ids: ['efecto-domino:day-1', 'efecto-domino:day-5'],
+    language: 'es',
+    created_at: '2025-11-12T10:00:00.000Z',
+    updated_at: '2025-11-12T10:00:00.000Z',
+    source_repository: 'NASA_NTRS',
+    localized: {
+      en: {
+        topic: 'Lunar Illumination, Long Shadows & Artemis Power Planning',
+        scientific_claim:
+          'Near the lunar south pole, low solar angles and crater topography create complex shifting shadows and prolonged dark intervals, requiring integrated power generation and energy storage architectures.',
+        student_explanation:
+          'Across much of the Moon, a single night lasts about 14 Earth days. Near the lunar south pole, crater rims get long sunlight while deep crater floors stay in dark shadow, so lunar bases need smart battery storage and solar placement.',
+        why_it_matters:
+          'Saving energy before reduced-light periods keeps life-support heaters and water processors alive when solar power drops.',
+        where_to_use: 'Directly supports Days 1 and 5 of Domino Effect at Aurora Base.',
+        organism_or_population: 'Lunar surface power systems (Artemis)',
+        research_context: 'Engineering mission-planning study and solar illumination modeling.',
+        limitations:
+          'Illumination varies dramatically by local latitude and crater elevation; engineering simulations must be validated against local site topography.',
+      },
+      'gn-PY': {
+        topic: "Kuarahy resape Jasýpe, kuarahy'ã puku ha Artemis tendyry rape",
+        scientific_claim:
+          "Jasy polo sur ag̃ui, Kuarahy karapã ha yvytypa'ũ omoheñói kuarahy'ã puku ha tesape iñambuéva, ojeruréva ñemohenda porã tendyry apopy ha ñongatúpe.",
+        student_explanation:
+          "Heta Jasy rendápe peteĩ pyhare ipuku 14 ára Yvy pegua rupi. Polo sur ag̃ui oĩ yvyty oguerekóva heta kuarahy ha yvytykua pytũ meméva, upévare base Jasýpe oikotevẽ batería mbarete ha panel oĩ porãva.",
+        why_it_matters:
+          "Ñañongatu tendyry kuarahy oguejy mboyve oñangareko tekove ñangarekóre ha y ñemopotĩre.",
+        where_to_use: 'Ojoaju Ára 1 ha Ára 5 Efecto Dominó ndive Base Aurora-pe.',
+        organism_or_population: 'Tendyry sistema Jasy ape ári (Artemis)',
+        research_context: 'Tembikuaareka ingeniería ha modelo kuarahy resape rehegua.',
+        limitations:
+          "Kuarahy resape puku odepende tenda ha yvyty reko tee rehe; modelo oikotevẽ jehechajey tenda añeteguápe.",
+      },
+    },
+  },
+  {
+    id: 'nasa-osdr-osd-342-review',
+    category: 'salud_espacial',
+    topic: 'Estudio NASA OSDR OSD-342: Respuesta ósea y muscular en vuelo espacial (en revisión)',
+    scientific_claim:
+      'Conjunto de datos biológicos abiertos OSD-342 (RR-6 / ISS) que investiga cambios transcriptómicos y fisiológicos en tejidos musculoesqueléticos de ratones (Mus musculus) tras vuelo espacial y recuperación.',
+    student_explanation:
+      'Borrador pendiente de verificación docente: datos del repositorio NASA OSDR sobre cómo la microgravedad afecta músculos y huesos en modelos animales de ratón.',
+    why_it_matters:
+      'Comprender qué genes y tejidos cambian en microgravedad ayuda a diseñar ejercicio y contramedidas para cuidar la salud en misiones largas.',
+    where_to_use: 'Salud espacial · Pendiente de revisión para Traduciendo la ciencia.',
+    source_title:
+      'Transcriptional profiling of musculoskeletal tissues from mice flown on Rodent Research-6 (OSD-342)',
+    source_organization: 'NASA Open Science Data Repository (OSDR)',
+    source_url: 'https://osdr.nasa.gov/bio/repo/data/studies/OSD-342',
+    source_identifier: 'OSD-342',
+    authors: ['NASA GeneLab / Rodent Research-6 Investigators'],
+    publication_date: '2021-03-15',
+    organism_or_population: 'Ratones (Mus musculus) — modelo animal',
+    research_context:
+      'Estudio en modelo animal (ratones) a bordo de la Estación Espacial Internacional; NO corresponde directamente a ensayos clínicos en humanos sin validación adicional.',
+    numerical_values: ['1', '6'],
+    units: ['misión Rodent Research-6', 'grupos experimentales / recuperación'],
+    limitations:
+      'Estudio realizado en ratones (Mus musculus); los resultados biológicos en modelos animales no deben presentarse como efectos idénticos o ya comprobados en humanos sin estudios clínicos específicos.',
+    verification_status: 'UNDER_REVIEW',
+    verified_by: '',
+    verification_date: '',
+    related_experiences: ['traduciendo-la-ciencia'],
+    related_content_ids: [],
+    language: 'es',
+    created_at: '2025-11-14T12:00:00.000Z',
+    updated_at: '2025-11-14T12:00:00.000Z',
+    source_repository: 'NASA_OSDR',
+  },
+];

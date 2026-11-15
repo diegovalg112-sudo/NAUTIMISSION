@@ -1,0 +1,1160 @@
+{
+  "ui": {
+    "languageLabel": "Español",
+    "portraitTitle": "Gira tu celular a horizontal",
+    "portraitBody": "NAUTI está diseñado para pantalla panorámica 16:9.",
+    "welcomePill": "Misión Aurora · 100 % sin conexión",
+    "kitBanner": "Kit de exploración espacial",
+    "createdBy": "Una experiencia educativa creada por Filómatas LAB",
+    "baseSubtitle": "Base Aurora · 5 jornadas científicas",
+    "startMission": "¡Estoy listo para la misión!",
+    "launching": "¡Despegando hacia Aurora!",
+    "welcomeTipLeft": "Para estudiantes de 10 a 16 años · Decisiones en equipo",
+    "welcomeTipRight": "Narración automática activa · Puedes repetir cuando quieras",
+    "nautiSays": "NAUTI dice:",
+    "speakingStatus": "Hablando…",
+    "listenAgain": "Escuchar de nuevo",
+    "stopVoice": "Detener voz",
+    "stopShort": "Detener",
+    "tapToListen": "Toca para escuchar",
+    "autoplayBlockedHint": "Tu navegador pausó el audio automático.",
+    "listenAgainAria": "Escuchar de nuevo la narración de NAUTI",
+    "stopVoiceAria": "Detener narración de NAUTI",
+    "hudMission": "Misión Aurora",
+    "hudOfflineSub": "Efecto Dominó · Modo sin conexión",
+    "hudShiftPrefix": "J",
+    "hudEnergy": "Energía",
+    "hudHealth": "Salud",
+    "hudWater": "Agua",
+    "hudScience": "Ciencia",
+    "hudResearch": "Inv.",
+    "hudScienceTitle": "Puntos de Ciencia para MODELAR",
+    "hudResearchTitle": "Puntos de Investigación (meta: 60)",
+    "skip": "Saltar",
+    "prev": "Anterior",
+    "continueBtn": "Continuar",
+    "startMissionBtn": "Iniciar misión",
+    "finishTutorialBtn": "Finalizar tutorial",
+    "reviewTutorialBtn": "Revisar tutorial",
+    "pauseTutorialBtn": "Pausar",
+    "resumeTutorialBtn": "Continuar entrenamiento",
+    "startTrainingBtn": "Comenzar entrenamiento",
+    "tutorialLockedHint": "Completa el entrenamiento guiado para desbloquear los episodios.",
+    "stepProgressLabel": "Paso {{current}} de {{total}}",
+    "step1Of4": "Manual · Paso 1 de 7",
+    "tutEnergyDesc": "Electricidad disponible para operar la base lunar.",
+    "tutHealthDesc": "Bienestar y seguridad de la tripulación.",
+    "tutWaterDesc": "Agua disponible para la tripulación y los sistemas de la misión.",
+    "tutResearchDesc": "Progreso científico alcanzado durante la misión.",
+    "tutTryHelp": "Probar AYUDA",
+    "tutHelpExample": "Ejemplo de ayuda: en la Luna, el polvo fino puede adherirse a visores, sellos y paneles, afectando su rendimiento.",
+    "tutHelpGuide": {
+      "heading": "🔬 Pistas científicas de la NASA",
+      "introParagraphs": [
+        "Durante la misión encontrarás ayudas científicas basadas en investigaciones y datos publicados por la NASA.",
+        "Estas pistas te ayudarán a comprender los desafíos de Base Aurora y a tomar decisiones fundamentadas en evidencia científica.",
+        "Cada pista tendrá tres partes:"
+      ],
+      "parts": [
+        {
+          "title": "1. 🔬 Información científica",
+          "description": "Una explicación sencilla basada en conocimientos científicos."
+        },
+        {
+          "title": "2. 💡 Piensen en equipo",
+          "description": "Una pregunta para conversar, analizar la situación y relacionar la información con sus decisiones."
+        },
+        {
+          "title": "3. 📚 Fuente científica",
+          "description": "La referencia y el enlace al documento original para conocer de dónde proviene la información."
+        }
+      ],
+      "finalReminder": "¡Recuerda! NAUTI no te dirá qué opción elegir. Tu equipo deberá analizar las pistas y decidir.",
+      "exampleBadge": "Ejemplo real · Jornada 1",
+      "exampleHintHeading": "🔬 Pista científica de la NASA",
+      "exampleReflectHeading": "💡 Piensen en equipo",
+      "exampleSourceHeading": "📚 Fuente científica",
+      "exampleSourceUrlLabel": "Enlace al documento original (NASA)"
+    },
+    "tutTryModel": "Probar MODELAR (sin costo)",
+    "tutModelExample": "Ejemplo de simulación: reparar un filtro puede consumir Energía, pero proteger el Agua y evitar una pérdida posterior.",
+    "tutOptA": "Proteger recursos",
+    "tutOptB": "Avanzar investigación",
+    "tutPracticeHint": "Prueba seleccionando una alternativa; esta práctica no modifica tus indicadores.",
+    "tutBadgePrefix": "Entrenamiento",
+    "tutorialOnboarding": {
+      "mandatoryBadge": "Entrenamiento inicial",
+      "reviewBadge": "Revisión de guía",
+      "pauseTooltip": "Guarda tu avance del tutorial para continuar luego.",
+      "sectionBadges": [
+        "Sección 1 de 5 · Indicadores",
+        "Sección 2 de 5 · Ciencia",
+        "Sección 3 de 5 · Decisiones",
+        "Sección 4 de 5 · Trivias",
+        "Sección 5 de 5 · Meta y reglas",
+        "Práctica interactiva",
+        "Entrenamiento completado"
+      ],
+      "section1": {
+        "title": "⚡💧💚🔬 Los recursos de Base Aurora",
+        "intro": "En Base Aurora debemos cuidar cuatro indicadores: energía, agua, salud e investigación.\n\nCada decisión puede aumentar o disminuir estos recursos. Lo importante es mantener el equilibrio para que la misión pueda continuar.",
+        "initialLabel": "Valor inicial en partida",
+        "goalLabel": "Meta final",
+        "demoTitle": "Simulación visual de prueba (no cambia tu partida real)",
+        "demoResetBtn": "Reiniciar ejemplo (50)",
+        "demoLabBtn": "Probar impacto: laboratorio activo (⚡ -10 · 🔬 +3)",
+        "demoCareBtn": "Probar impacto: cuidado vital (⚡ -5 · 💚 +6 · 💧 +2)",
+        "demoNote": "Toca un indicador o un ejemplo para ver cómo suben y bajan las barras."
+      },
+      "section2": {
+        "title": "⭐ ¿Qué son los puntos de ciencia?",
+        "intro": "Los puntos de ciencia son recursos que tu equipo puede utilizar para realizar análisis durante la misión.\n\nPuedes obtenerlos mediante las actividades que ofrece el juego, como las trivias científicas, según sus reglas.",
+        "researchCardTitle": "🔬 Indicador de Investigación",
+        "researchCardValue": "Inicio: 50 · Meta: 60",
+        "researchCardDesc": "Registra el progreso científico acumulado de la misión. No se gasta al usar herramientas.",
+        "scienceCardTitle": "⭐ Puntos de Ciencia",
+        "scienceCardValue": "Disponibles al inicio: 1 · Costo de MODELAR: 1",
+        "scienceCardDesc": "Es un recurso gastable que tu equipo invierte en herramientas de análisis como MODELAR (1 punto por jornada).",
+        "earnRuleNote": "Regla actual del juego: empiezas con 1 punto de Ciencia y puedes ganar +1 punto extra por cada trivia científica acertada."
+      },
+      "section3": {
+        "title": "🎮 Aprende a tomar decisiones",
+        "selectTitle": "Seleccionar una opción",
+        "selectBody": "Elige la alternativa que tu equipo quiere analizar.",
+        "modelTitle": "MODELAR",
+        "modelBody": "Antes de confirmar, puedes utilizar MODELAR para explorar los posibles efectos de tu elección.\n\nEsta herramienta está inspirada en las prácticas de modelado, simulación y visualización de escenarios utilizadas por científicos e ingenieros de la NASA para analizar posibles resultados antes de actuar.",
+        "confirmTitle": "Confirmar decisión",
+        "confirmBody": "Cuando el equipo llegue a un acuerdo, confirma la decisión. Sus consecuencias pasarán a formar parte de la historia de la misión.",
+        "importantWarning": "MODELAR no decide por ti. Sus resultados ayudan a analizar alternativas, pero no necesariamente revelan todas las consecuencias futuras.",
+        "otherToolsTitle": "Otras herramientas disponibles durante la misión",
+        "otherTools": [
+          {
+            "label": "AYUDA",
+            "desc": "Muestra pistas científicas basadas en datos e investigaciones reales de la NASA (Información científica, Piensen en equipo y Fuente científica) para apoyar su razonamiento sin dar la respuesta."
+          },
+          {
+            "label": "Ver imagen real de la NASA",
+            "desc": "En la Jornada 1, abre una fotografía real de la misión Artemis I sobre paneles solares espaciales."
+          },
+          {
+            "label": "Ver contexto / Evaluar efectos diferidos",
+            "desc": "En las Jornadas 2 a 5, permite revisar decisiones previas, efectos acumulados y usar «Revisar y confirmar» antes de aplicar cambios."
+          },
+          {
+            "label": "Escuchar / Idioma / Sonido",
+            "desc": "Repite la narración de NAUTI, cambia entre Español, English o Avañe'ẽ y ajusta música o efectos."
+          }
+        ],
+        "toggleHelpPreviewBtn": "Ver cómo funciona AYUDA (NASA)"
+      },
+      "section4": {
+        "title": "🧠 ¡Pon a prueba tus conocimientos!",
+        "intro": "Durante la misión encontrarás preguntas de trivia relacionadas con ciencia y exploración espacial.\n\nTu equipo deberá conversar, analizar la información y elegir una respuesta.",
+        "cards": [
+          {
+            "heading": "Cuándo y cómo aparecen",
+            "body": "Al finalizar las jornadas 1, 3 y 4 aparece el botón «Trivia científica» con una pregunta de tres opciones (A, B o C)."
+          },
+          {
+            "heading": "Mazos físicos de apoyo",
+            "body": "Antes de responder, el equipo puede consultar sus mazos físicos de tarjetas de información científica para argumentar mejor."
+          },
+          {
+            "heading": "Si aciertan (+1 Ciencia)",
+            "body": "Ganan +1 punto de Ciencia real que luego podrán invertir en MODELAR para anticipar decisiones futuras."
+          },
+          {
+            "heading": "Si fallan (sin penalización)",
+            "body": "No pierden recursos ni puntos: leen la explicación científica para aprender un dato nuevo y continúan la misión."
+          }
+        ],
+        "distinctionBanner": "Importante: Responder correctamente una trivia otorga puntos de Ciencia para MODELAR, pero ganar una trivia no es lo mismo que ganar la misión."
+      },
+      "section5": {
+        "title": "🏆 ¿Cómo logramos completar la misión?",
+        "objectiveText": "El objetivo es completar las 5 jornadas en Base Aurora cuidando la supervivencia de la estación y el avance científico.",
+        "rules": [
+          {
+            "badge": "Victoria sostenible",
+            "tone": "success",
+            "body": "Al cerrar la Jornada 5, mantener Energía, Agua y Salud en 25 o más y alcanzar al menos 60 en Investigación."
+          },
+          {
+            "badge": "Falla crítica (derrota)",
+            "tone": "danger",
+            "body": "Si Energía, Agua o Salud llega a 0 o menos en cualquier momento (incluso por efectos acumulados), la base entra en emergencia y la misión termina de inmediato."
+          },
+          {
+            "badge": "Zona frágil / Meta pendiente",
+            "tone": "warning",
+            "body": "Si algún recurso esencial queda por debajo de 25 o Investigación no llega a 60 al final de las 5 jornadas, la misión concluye sin victoria sostenible."
+          },
+          {
+            "badge": "Efecto Dominó diferido",
+            "tone": "info",
+            "body": "Una decisión que hoy parece favorable (como postergar el mantenimiento del agua o los paneles) puede provocar pérdidas acumuladas en días posteriores."
+          }
+        ],
+        "triviaReminder": "Recuerda: ganar trivias te da puntos de Ciencia para MODELAR, pero la misión solo se gana equilibrando los cuatro indicadores durante las 5 jornadas."
+      },
+      "practice": {
+        "title": "Práctica rápida antes de despegar",
+        "subtitle": "Completen estos 5 pasos breves en equipo. Esta práctica es independiente y no gasta puntos de Ciencia ni cambia recursos reales.",
+        "progressChip": "Paso {{done}} de 5",
+        "step1Prompt": "1. Identifica un indicador: toca la tarjeta de Agua (💧).",
+        "step1Wrong": "Ese es otro indicador. Busca el ícono azul de la gota: Agua.",
+        "step1Success": "¡Correcto! Agua muestra las reservas vitales para la tripulación y los sistemas.",
+        "step2Prompt": "2. Selecciona una decisión de ejemplo para analizar en equipo.",
+        "step2Options": [
+          {
+            "title": "Revisar sellos del depósito de agua",
+            "summary": "Consume un poco de energía hoy para cuidar el agua en jornadas futuras.",
+            "forecast": "Simulación de ejemplo: Energía −4, Salud 0, Agua +3, Investigación +1."
+          },
+          {
+            "title": "Acelerar pruebas sin revisar sellos",
+            "summary": "Aumenta la investigación rápida, pero puede exigir más recursos luego.",
+            "forecast": "Simulación de ejemplo: Energía −6, Salud −1, Agua 0, Investigación +3 (posible desgaste futuro)."
+          }
+        ],
+        "step2Success": "¡Bien! Ya eligieron una alternativa para analizar.",
+        "step3Prompt": "3. Observa una demostración de MODELAR (no gasta tus puntos reales).",
+        "step3Btn": "Usar MODELAR de práctica (0 puntos reales)",
+        "step3Success": "Así muestra MODELAR una estimación antes de confirmar.",
+        "step4Prompt": "4. Identifica el botón que confirma definitivamente la decisión:",
+        "step4Buttons": {
+          "help": "AYUDA",
+          "model": "MODELAR",
+          "confirm": "Confirmar decisión"
+        },
+        "step4Wrong": "Ese botón sirve para consultar o simular antes. Toca «Confirmar decisión» para aplicarla.",
+        "step4Success": "¡Exacto! Al pulsar «Confirmar decisión», la elección se aplica a la misión.",
+        "step5Prompt": "5. Reconoce una posible consecuencia sobre los recursos:",
+        "step5Question": "Si una decisión gasta mucha energía o posterga cuidados, ¿qué puede ocurrir?",
+        "step5Choices": [
+          "Puede bajar ese recurso ahora o generar efectos días después.",
+          "Nunca cambia ningún indicador de Base Aurora."
+        ],
+        "step5Wrong": "Recuerda: en Efecto Dominó cada decisión mueve los indicadores y puede traer efectos diferidos.",
+        "step5Success": "¡Excelente! Ya comprenden cómo las decisiones conectan todos los sistemas.",
+        "completedBanner": "¡Práctica completada! Ya pueden avanzar al resumen final para desbloquear los episodios.",
+        "finishPracticeBtn": "Completar entrenamiento"
+      },
+      "completion": {
+        "title": "🚀 ¡Equipo preparado!",
+        "paragraphs": [
+          "Ahora conocen los indicadores, los puntos de ciencia, las trivias y las herramientas para tomar decisiones.",
+          "Recuerden: en Efecto Dominó, las decisiones de hoy pueden cambiar el futuro de la misión.",
+          "¡Es momento de comenzar!"
+        ],
+        "primaryBtn": "Explorar episodios"
+      }
+    },
+    "chapterShift": "Misión Aurora · Jornada {{shift}} de 5",
+    "emergencyPrefix": "Emergencia:",
+    "tutorialBtn": "Tutorial",
+    "simActivePrefix": "🔬 Simulación activa:",
+    "simPickHintTwo": "Selecciona A o B para ver su predicción.",
+    "simPickHintThree": "Selecciona A, B o C para ver su predicción.",
+    "helpBtn": "AYUDA",
+    "modelActiveBtn": "MODELAR (activa)",
+    "modelCostBtn": "MODELAR · 1 Ciencia",
+    "confirmDecision": "Confirmar decisión",
+    "selectOptionBtn": "Revisar y confirmar",
+    "sceneBadge": "Jornada {{shift}} · Decisión",
+    "briefingBadge": "Jornada {{shift}} · Inicio",
+    "confirmBadge": "Jornada {{shift}} · Confirmar",
+    "delayedBadge": "Jornada 5 · Efectos acumulados",
+    "helpBadge": "Dato científico",
+    "modelBadge": "Simulando futuro",
+    "resultConseqBadge": "Consecuencias · Jornada {{shift}}",
+    "resultReportBadge": "Jornada {{shift}} · Reporte",
+    "resultDeadTitle": "⚠ Emergencia en Base Aurora",
+    "resultTitle": "Así cambió la misión",
+    "accumulatedConseq": "Consecuencia acumulada:",
+    "resourceZero": "Un recurso esencial llegó a 0 o menos",
+    "bonusAvailable": "Bonus disponible: +1 Ciencia",
+    "readyContinue": "Listos para continuar",
+    "seeOutcome": "Ver evaluación final",
+    "seeEnding": "Ver evaluación final",
+    "sciTriviaBtn": "Trivia científica",
+    "nextShiftBtn": "Siguiente jornada",
+    "triviaBadge": "Trivia científica · +1 Ciencia",
+    "triviaNautiPrompt": "¡Trivia espacial! Si acertamos, mis sensores ganan +1 punto de Ciencia para MODELAR.",
+    "triviaNautiBadge": "Trivia · +1 Ciencia",
+    "triviaEurekaBadge": "¡Eureka!",
+    "triviaLearnBadge": "Aprendizaje",
+    "triviaCorrectTitle": "¡Correcto! +1 Ciencia",
+    "triviaWrongTitle": "Buena oportunidad para aprender. Sin penalización.",
+    "triviaPickHint": "Elige una respuesta para continuar",
+    "triviaDoneHint": "Trivia completada",
+    "triviaContinueBtn": "Continuar aventura",
+    "triviaRightBanner": "¡Correcto! Ganaste un punto de Ciencia.",
+    "triviaWrongBanner": "Buena oportunidad para aprender.",
+    "endBadge": "Evaluación de misión",
+    "endVictoryTitle": "Una misión sostenible",
+    "endDeadTitle": "Emergencia en Base Aurora",
+    "endPartialTitle": "Misión finalizada",
+    "endVictoryBody": "El equipo mantuvo Energía, Agua y Salud en 25 o más y alcanzó al menos 60 puntos de Investigación.",
+    "endDeadBody": "Uno de los recursos esenciales llegó a cero y la operación no pudo continuar.",
+    "endPartialBody": "Completamos las cinco jornadas de la misión. Revisemos la evolución y las decisiones.",
+    "discussTitle": "Pregunta para conversar:",
+    "discussBody": "¿Qué decisión tuvo una consecuencia inesperada? ¿Qué evidencia científica habría cambiado nuestra elección?",
+    "downloadLog": "Descargar bitácora",
+    "playAgain": "Jugar de nuevo",
+    "logSimTitle": "NAUTI · Efecto Dominó — Misión Aurora",
+    "noneRisk": "ninguno",
+    "helpModalTag": "Manual de misión · Ciencia",
+    "modelModalTag": "Simulador predictivo",
+    "helpModalTitle": "Pista científica de la NASA",
+    "modelModalTitle": "Simulación de alternativa",
+    "closeWindow": "Cerrar ventana",
+    "sourceLabel": "Fuente:",
+    "viewNasaSource": "Consultar fuente NASA",
+    "offlineSourceNote": "La fuente externa puede requerir conexión a internet para abrirse; este consejo funciona 100 % sin conexión.",
+    "modelSelectPrompt": "Selecciona una alternativa (A, B o C) en la pantalla para ver su predicción antes de confirmar. Tu simulación sigue activa en esta jornada.",
+    "modelSelectPromptTwo": "Selecciona una alternativa (A o B) en la pantalla para ver su predicción antes de confirmar. Tu simulación sigue activa en esta jornada.",
+    "optionPrefix": "Alternativa",
+    "possibleRiskPrefix": "Posible efecto futuro:",
+    "delayedRiskFallback": "efecto diferido",
+    "backToDecisions": "Volver a decisiones",
+    "nasaPhotoBtn": "Ver imagen real de la NASA",
+    "nasaPhotoHoverHint": "Vista previa · Clic o toca para ampliar",
+    "nasaPhotoBadge": "Imagen documental real · Artemis I",
+    "nasaPhotoTitle": "Los paneles solares de Orion — Artemis I",
+    "nasaPhotoDesc": "Durante el día 13 de la misión Artemis I, la nave Orion fotografió la Tierra y la Luna a ambos lados de uno de sus paneles solares. Estos paneles permiten generar electricidad a partir de la luz solar, una tecnología fundamental para las misiones espaciales.",
+    "nasaPhotoDateLabel": "Fecha:",
+    "nasaPhotoDate": "28 de noviembre de 2022.",
+    "nasaPhotoCreditLabel": "Crédito de la fotografía:",
+    "nasaPhotoCredit": "NASA.",
+    "nasaPhotoSourceLabel": "Fuente de la imagen:",
+    "nasaPhotoSource": "Agencia Espacial Canadiense (CSA).",
+    "nasaPhotoViewOriginal": "Abrir fuente original (CSA)",
+    "nasaPhotoError": "No se pudo mostrar la imagen en este dispositivo. Puedes abrir la fotografía original en el enlace de la fuente.",
+    "nasaPhotoNautiComment": "¡Miren esto, tripulación! ¡Es una fotografía real de Artemis I! Los paneles solares ayudan a las naves espaciales a obtener energía del Sol. ¡Y nosotros también necesitamos administrar muy bien nuestra energía!",
+    "nasaPhotoClose": "Cerrar",
+    "tooltipInfoAria": "Más información sobre {{label}}",
+    "tooltipHelp": "Lee información científica basada en la NASA que puede ayudar a tu equipo a analizar la situación.",
+    "tooltipModel": "🔭 Explora los posibles efectos de tu decisión antes de confirmarla, utilizando puntos de ciencia. Inspirado en las simulaciones de la NASA.",
+    "tooltipLearnMore": "Saber más",
+    "modelHelpPanel": {
+      "exploreHeading": "🔭 MODELAR: Explora antes de decidir",
+      "exploreParagraphs": [
+        "En la NASA, los científicos e ingenieros utilizan modelos, simulaciones y visualizaciones para explorar diferentes escenarios, anticipar posibles resultados y analizar riesgos antes de tomar decisiones importantes.",
+        "Inspirado en estas prácticas, MODELAR te permite explorar cómo una decisión podría afectar los recursos de Base Aurora antes de confirmarla."
+      ],
+      "howHeading": "⚙️ ¿Cómo funciona?",
+      "howParagraphs": [
+        "Selecciona una opción y presiona MODELAR. Utilizarás puntos de ciencia para visualizar los posibles efectos de esa decisión sobre la energía, el agua, la salud y la investigación.",
+        "Después, conversa con tu equipo sobre los resultados. Puedes mantener tu elección o cambiarla antes de tomar la decisión definitiva."
+      ],
+      "rememberHeading": "💡 ¡Recuerda!",
+      "rememberBody": "MODELAR no toma decisiones por ti. Te ayuda a explorar posibles consecuencias, pero algunas pueden aparecer más adelante y no ser visibles en la simulación.",
+      "nasaConnectionNote": "MODELAR es una representación educativa simplificada, inspirada en las prácticas de modelado, simulación y visualización utilizadas en la exploración espacial."
+    },
+    "tooltipWater": "Muestra los recursos de agua disponibles para la tripulación.",
+    "tooltipEnergy": "Muestra cuánta energía tiene disponible actualmente la base Aurora.",
+    "tooltipHealth": "Muestra el bienestar actual de los astronautas.",
+    "tooltipScience": "Puntos disponibles para análisis científico y modelado.",
+    "tooltipResearch": "Muestra el progreso de investigación acumulado durante la misión (meta: 60).",
+    "tooltipListenAgain": "Vuelve a reproducir la explicación de NAUTI desde el inicio.",
+    "tooltipStopVoice": "Detiene la narración de voz actual de NAUTI.",
+    "tooltipConfirmDecision": "Envía la opción elegida por tu equipo. Una vez confirmada, la decisión afectará la misión.",
+    "tooltipNasaPhoto": "Abre una fotografía real de la NASA relacionada con esta misión.",
+    "tooltipStartMission": "Inicia la aventura espacial de gestión lunar en la base Aurora.",
+    "tooltipTutorial": "Abre una guía rápida para conocer los indicadores y herramientas antes de decidir.",
+    "tooltipSound": "Ajusta la música de fondo, la voz de NAUTI, la narración automática y los efectos.",
+    "contextRecapTitle": "Lo ocurrido anteriormente:",
+    "analyzeSituationBtn": "Analizar situación",
+    "viewContextBtn": "Ver contexto",
+    "confirmTitle": "¿Confirmar esta decisión?",
+    "confirmSubtitle": "Revisa la alternativa seleccionada por el equipo antes de aplicarla.",
+    "confirmReminder": "Los efectos sobre Energía, Agua, Salud e Investigación se aplicarán una sola vez al confirmar.",
+    "confirmBackBtn": "Volver",
+    "confirmApplyBtn": "Confirmar",
+    "day5TimelineTitle": "Línea de tiempo de decisiones (Jornadas 1 a 4)",
+    "day5CheckDelayedBtn": "Evaluar efectos diferidos",
+    "day5DelayedTitle": "Consecuencias de decisiones anteriores",
+    "day5DelayedSubtitle": "Antes de tomar la última decisión, revisemos cómo influyen nuestras elecciones previas en la base:",
+    "day5PostDelayedTitle": "Estado actual tras los efectos acumulados",
+    "day5ToDecisionBtn": "Ir a la decisión final",
+    "day5BonusEnergyNote": "Bonificación por experiencia de Jornada 2: programar sesiones cortas reduce el costo eléctrico de −8 a −5.",
+    "dayLabelShort": "Jornada {{day}}",
+    "researchFullLabel": "Investigación",
+    "endTabOutcome": "Resultado",
+    "endTabChart": "Gráfica",
+    "endTabHistory": "Historial",
+    "endTabReflection": "Reflexión",
+    "endNextStepBtn": "Siguiente",
+    "endPrevStepBtn": "Anterior",
+    "endSustThresholdNote": "Meta sostenible: ≥ 25 en Energía, Agua y Salud",
+    "endResGoalNote": "Meta científica: ≥ 60 en Investigación",
+    "chartTitle": "Evolución de recursos de Base Aurora",
+    "chartSubtitle": "Trayectoria completa desde el inicio (50), cada jornada y la subfase de efectos diferidos.",
+    "chartSustMin": "Mín. sostenible (25)",
+    "chartResGoal": "Meta Inv. (60)",
+    "chartStageStart": "Inicio",
+    "chartStageDay": "J{{day}}",
+    "chartStageDelayed": "Dif. J5",
+    "chartStageFinal": "Final J5",
+    "historyTitle": "Historial de decisiones y causalidad",
+    "historySubtitle": "Solo se muestran las decisiones tomadas realmente por el equipo y sus efectos encadenados.",
+    "historyCausalityLabel": "Relación causal:",
+    "historyEmpty": "No se registraron decisiones en esta partida.",
+    "reflectionTitle": "Preguntas de reflexión en equipo",
+    "reflectionSubtitle": "Conversen en grupo sobre estas tres preguntas para analizar la estrategia de la misión:",
+    "missionCompleteTitle": "Partida completada",
+    "replayMissionBtn": "Repetir misión",
+    "mainMenuBtn": "Menú principal",
+    "reviewDecisionsBtn": "Revisar decisiones",
+    "languageSelectorAria": "Seleccionar idioma: Español, English o Avañe’ẽ",
+    "platformName": "NAUTI",
+    "experienceTitle": "EFECTO DOMINÓ",
+    "adventureSubtitle": "Misión Aurora",
+    "experienceTagline": "Una decisión puede cambiarlo todo.",
+    "aboutTitle": "¿De qué trata?",
+    "aboutBody": "Tu equipo deberá administrar una base lunar. Cada decisión afectará la energía, el agua, la salud y la investigación. ¡Cuidado! Algunas consecuencias aparecerán días después.",
+    "howToPlayTitle": "¿Cómo jugar?",
+    "howToPlaySteps": [
+      "Lee o escucha la situación.",
+      "Conversa con tu equipo y elijan juntos.",
+      "Descubran las consecuencias y completen las 5 jornadas."
+    ],
+    "startMissionCta": "Comenzar misión",
+    "continueMissionCta": "Continuar misión",
+    "tryDemoCta": "🧪 Probar una demostración",
+    "tooltipDemoBtn": "Prueba una situación breve de ejemplo antes de iniciar la misión completa de 5 jornadas."
+  },
+  "audio": {
+    "panelTitle": "Panel de Audio",
+    "buttonLabel": "Sonido",
+    "music": "Música",
+    "voice": "Voz de NAUTI",
+    "autoNarrate": "Narración automática",
+    "replay": "Escuchar de nuevo",
+    "stop": "Detener",
+    "effects": "Efectos",
+    "mute": "Silenciar",
+    "unmute": "Activar sonido",
+    "on": "Activa",
+    "off": "Desactivada",
+    "onPlural": "Activos",
+    "voiceSettings": "Elegir voz y tono",
+    "duckHint": "La música baja suave cuando NAUTI habla",
+    "modalAriaLabel": "Configuración de voz y sonido de NAUTI",
+    "modalTitle": "Voz y sonido de NAUTI",
+    "closeAria": "Cerrar panel de voz",
+    "voiceSelectLabel": "Voz de NAUTI (ES / EN / GN)",
+    "chooseVoiceAria": "Elegir voz",
+    "defaultDeviceVoice": "Voz predeterminada del dispositivo",
+    "latamVoiceReady": "Español LatAm detectado",
+    "compatibleVoice": "Voz compatible",
+    "guaraniVoiceReady": "Voz en Avañe’ẽ detectada",
+    "guaraniTextOnlyBadge": "Texto en pantalla · sin voz gn-PY",
+    "autoNarrateLong": "Narración automática al cambiar de pantalla",
+    "autoNarrateSub": "NAUTI explica cada pantalla automáticamente",
+    "musicVolumeAria": "Volumen de música",
+    "voiceVolume": "Volumen de voz",
+    "voiceVolumeAria": "Volumen de voz",
+    "speed": "Velocidad",
+    "speedAria": "Velocidad de voz",
+    "pitch": "Tono juvenil",
+    "pitchAria": "Tono de voz",
+    "pronunciationTitle": "Acento «Náuti»",
+    "pronunciationSub": "Fuerza «NAU-ti»",
+    "pronunciationActive": "Activo",
+    "pronunciationNatural": "Natural",
+    "testNautiBtn": "Probar «NAUTI»",
+    "doneBtn": "Listo",
+    "guaraniFallbackLabel": "Audio alternativo si falta voz en Avañe’ẽ",
+    "guaraniFallbackHint": "Por defecto solo se muestra texto en Avañe’ẽ para no mezclar idiomas sin avisar.",
+    "guaraniFallbackNone": "Solo texto (Avañe’ẽ)",
+    "guaraniFallbackEs": "Narrar en Español",
+    "guaraniFallbackEn": "Narrar en English",
+    "themes": {
+      "menu": "Melodía de bienvenida",
+      "tutorial": "Ambiente tranquilo",
+      "practice": "Práctica curiosa",
+      "mission": "Exploración lunar",
+      "trivia": "Trivia dinámica",
+      "danger": "Alerta moderada",
+      "victory": "Celebración espacial"
+    }
+  },
+  "nauti": {
+    "lines": {
+      "welcome": [
+        "¡Hola, tripulación! Soy NAUTI. Sé muchísimo sobre el espacio... pero todavía no he descubierto cómo hacer reír a los humanos. ¡Sigo investigando! 🔬",
+        "¡Saludos desde la Luna! Tengo mis gafas limpias, el casco puesto y muchas ganas de investigar en equipo."
+      ],
+      "launch": [
+        "¡Tripulación confirmada! Ajusten sus cascos imaginarios... ¡Nuestra aventura lunar está por comenzar!"
+      ],
+      "tutorial": [
+        "¡Modo entrenamiento! Aquí pueden experimentar sin miedo a romper ningún panel solar.",
+        "Antes de despegar hacia las jornadas, probemos nuestros instrumentos científicos. ¡Prometo no presionar el botón rojo por accidente!"
+      ],
+      "sceneIdle": [
+        "Mmm... analicemos las opciones con calma. Podemos usar AYUDA o MODELAR antes de decidir.",
+        "¿Qué estrategia científica prefieren, tripulación? ¡Mis sensores esperan su veredicto!",
+        "Recuerden: en la Luna cada vatio y cada gota cuentan. ¡Escuchemos todas las ideas!"
+      ],
+      "sceneDanger": [
+        "¡Oh, cráteres lunares! Tenemos un pequeño problema... Bueno, científicamente hablando, quizá no tan pequeño.",
+        "¡Alerta espacial! Mis gafas están parpadeando en rojo. Necesitamos proteger ese indicador cuanto antes."
+      ],
+      "help": [
+        "¡Momento de dato curioso real! La ciencia de la Tierra y la EEI nos da pistas clave para sobrevivir aquí.",
+        "¡Abriendo archivo de la NASA! Me encanta cuando la ciencia real nos ayuda a tomar mejores decisiones."
+      ],
+      "model": [
+        "¡Encendiendo el simulador cuántico... bueno, matemático! Veamos qué pasaría si elegimos esta opción.",
+        "¡Cálculos listos! MODELAR nos muestra el futuro probable antes de gastar recursos reales."
+      ],
+      "goodDecision": [
+        "¡Excelente! Mis circuitos están haciendo una pequeña danza de celebración.",
+        "¡Brillante jugada científica! La base Aurora respira más tranquila gracias al equipo.",
+        "¡Asombroso! Incluso mi anillo orbital está girando de pura emoción."
+      ],
+      "riskDecision": [
+        "¡Decisiones difíciles requieren valentía lunar! Anotemos bien qué pasa en las próximas jornadas.",
+        "Interesante equilibrio... Mantengamos un ojo en los indicadores por si aparecen sorpresas luego."
+      ],
+      "triviaRight": [
+        "¡Eureka espacial! ¡Sus neuronas acaban de alcanzar velocidad de escape!",
+        "¡Correctísimo! Acabamos de ganar +1 punto de Ciencia para seguir simulando."
+      ],
+      "triviaWrong": [
+        "Mmm... interesante hipótesis. La ciencia también avanza cuando descubrimos lo que no funciona.",
+        "¡Buen intento, exploradores! Ahora ya tenemos un dato nuevo guardado en la memoria lunar."
+      ],
+      "victory": [
+        "¡Misión cumplida con honores espaciales! Cuidamos los recursos y enviamos ciencia de primera a la Tierra."
+      ],
+      "partial": [
+        "¡Llegamos al final de las cinco jornadas! Aprendimos muchísimo, y podemos volver a intentarlo para mejorar aún más."
+      ],
+      "evacuation": [
+        "¡Oh no! Un recurso esencial llegó a cero. Analicemos la bitácora para descubrir cómo optimizar la próxima misión."
+      ]
+    },
+    "tickleLines": [
+      "¡Jijiji! ¡Eso hace cosquillas!",
+      "¡Jajaja! ¡Para, para!",
+      "¡Ey! ¡Me estás haciendo cosquillas!"
+    ],
+    "day5DelayedPenaltyNauti": "Miren cómo nuestras elecciones anteriores influyen hoy en Base Aurora. ¡Revisemos las reservas antes de la decisión final!",
+    "day5DelayedSafeNauti": "¡Buena planificación! Nuestro cuidado previo evitó pérdidas adicionales hoy.",
+    "confirmStepNauti": "¡Revisen bien la elección del equipo! Las consecuencias se aplicarán al confirmar."
+  },
+  "mission": {
+    "riskLabels": {
+      "water_delayed": "eficiencia reducida en el sistema de recuperación de agua en jornadas posteriores",
+      "solar_delayed": "menor rendimiento disponible de los paneles solares por acumulación de polvo"
+    },
+    "modelPrediction": {
+      "projectedChanges": "Cambios previstos: Energía {{energy}}, Salud {{health}}, Agua {{water}}, Investigación {{research}}.",
+      "possibleRisk": "Posible efecto futuro: {{risk}}."
+    },
+    "helpHeadings": {
+      "hintHeading": "🔬 Pista científica de la NASA",
+      "reflectHeading": "💡 Piensen en equipo:",
+      "sourceHeading": "📚 Fuente:"
+    },
+    "tutorialScreens": [
+      {
+        "badge": "Paso 1 de 4 · Telemetría",
+        "title": "Conozcamos los indicadores",
+        "desc": "Energía mantiene equipos y temperatura. Salud reúne bienestar, alimentación, oxígeno y exposición a riesgos. Agua representa nuestras reservas utilizables."
+      },
+      {
+        "badge": "Paso 2 de 4 · Evidencia",
+        "title": "AYUDA: investigar antes de decidir",
+        "desc": "AYUDA muestra un dato científico verificable que sirve para evaluar las alternativas. No revela cuál opción es perfecta."
+      },
+      {
+        "badge": "Paso 3 de 4 · Simulación",
+        "title": "MODELAR: anticipar consecuencias",
+        "desc": "MODELAR cuesta 1 punto de Ciencia y muestra cambios estimados de los indicadores y posibles riesgos futuros. Solo se puede usar una vez por jornada."
+      },
+      {
+        "badge": "Paso 4 de 4 · Colaboración",
+        "title": "Decidir en equipo",
+        "desc": "Cada persona puede proponer una opción. Después, el grupo selecciona una alternativa y confirma. Solo entonces se aplican las consecuencias."
+      }
+    ],
+    "day1": {
+      "title": "El primer amanecer",
+      "story": "La base Aurora despierta bajo el horizonte lunar. Los paneles solares reciben poca luz y el laboratorio necesita energía para iniciar su primera investigación.",
+      "question": "¿Cómo distribuimos la energía disponible?",
+      "help": "Pista científica de la NASA. Los paneles solares necesitan luz para producir electricidad. Según la NASA, cuando varios sistemas funcionan al mismo tiempo, la demanda de energía aumenta. Piensen en equipo: Si la energía disponible es limitada, ¿qué sistemas deben funcionar primero y cuáles pueden esperar sin poner en riesgo la misión?",
+      "helpSections": {
+        "hintHeading": "🔬 Pista científica de la NASA",
+        "hintBody": "Los paneles solares necesitan luz para producir electricidad. Según la NASA, cuando varios sistemas funcionan al mismo tiempo, la demanda de energía aumenta.",
+        "reflectHeading": "💡 Piensen en equipo:",
+        "reflectParagraphs": [
+          "Si la energía disponible es limitada, ¿qué sistemas deben funcionar primero y cuáles pueden esperar sin poner en riesgo la misión?"
+        ],
+        "sourceHeading": "📚 Fuente:",
+        "sourceCitationPrefix": "NASA (2025). ",
+        "sourceCitationTitle": "Integrated Lunar Power Strategy Considerations",
+        "sourceCitationSuffix": ", pp. 3–4."
+      },
+      "source": "NASA (2025). Integrated Lunar Power Strategy Considerations, pp. 3–4.",
+      "url": "https://ntrs.nasa.gov/api/citations/20250010948/downloads/ACR25%20-%20WP%20-%20Lunar%20Power%20Strategy.pdf",
+      "options": [
+        {
+          "id": "LIFE_SUPPORT",
+          "title": "Priorizar soporte vital",
+          "modelSummary": "Protege a la tripulación, pero retrasa el trabajo científico.",
+          "deltas": [-7, 8, 0, 0],
+          "feedback": "La investigación arranca tarde y el equipo conserva un margen de seguridad.",
+          "riskFlag": null,
+          "tooltip": "Esta opción asigna más electricidad a los sistemas que ayudan a mantener las condiciones esenciales de vida para los astronautas.",
+          "resultNarrative": {
+            "title": "🛡️ Prioridad para el soporte vital",
+            "narrative": "El equipo destinó la mayor parte de la electricidad inicial a proteger la cabina y a la tripulación. La investigación arranca tarde y el equipo conserva un margen de seguridad.",
+            "energyExplanation": "mantener activos los sistemas esenciales de soporte vital consumió una parte moderada de las reservas eléctricas.",
+            "healthExplanation": "la prioridad en oxígeno, temperatura y seguridad fortaleció el bienestar de los astronautas.",
+            "waterExplanation": "las reservas de agua permanecen estables.",
+            "researchExplanation": "el laboratorio permaneció en espera, sin obtener avances científicos en esta jornada.",
+            "nautiDialogue": "«¡La tripulación está bien protegida y nuestra cabina sigue segura! Eso sí, pronto necesitaremos energía para encender el laboratorio».",
+            "nautiMood": "happy",
+            "spokenNarration": "Prioridad para el soporte vital. El equipo destinó la mayor parte de la electricidad inicial a proteger la cabina y a la tripulación. La investigación arranca tarde y el equipo conserva un margen de seguridad. Mantener activos los sistemas esenciales de soporte vital consumió una parte moderada de las reservas eléctricas, y la prioridad en oxígeno, temperatura y seguridad fortaleció el bienestar de los astronautas. Las reservas de agua permanecen estables, y el laboratorio permaneció en espera sin obtener avances científicos en esta jornada. ¡La tripulación está bien protegida y nuestra cabina sigue segura! Eso sí, pronto necesitaremos energía para encender el laboratorio."
+          }
+        },
+        {
+          "id": "LABORATORY",
+          "title": "Activar el laboratorio",
+          "modelSummary": "Acelera los experimentos a costa de reservas eléctricas.",
+          "deltas": [-17, -4, 0, 3],
+          "feedback": "El laboratorio avanza, pero la reserva de energía cae.",
+          "riskFlag": null,
+          "tooltip": "Esta opción asigna más electricidad al laboratorio para que las actividades científicas puedan continuar.",
+          "resultNarrative": {
+            "title": "🔬 La ciencia tiene un costo",
+            "narrative": "El equipo decidió activar el laboratorio a pesar de la poca energía disponible. ¡Los primeros experimentos han comenzado!",
+            "energyExplanation": "los equipos científicos consumieron gran parte de las reservas eléctricas.",
+            "healthExplanation": "la energía destinada al laboratorio redujo los recursos disponibles para el soporte vital, afectando las condiciones de seguridad de la tripulación.",
+            "waterExplanation": "las reservas de agua permanecen estables.",
+            "researchExplanation": "los astronautas lograron obtener sus primeros resultados científicos.",
+            "nautiDialogue": "«¡Hemos avanzado en nuestra investigación! Pero nuestras reservas de energía están bajando y el soporte vital necesita atención. ¿Podremos mantener este ritmo?»",
+            "nautiMood": "surprised",
+            "spokenNarration": "La ciencia tiene un costo. El equipo decidió activar el laboratorio a pesar de la poca energía disponible. ¡Los primeros experimentos han comenzado! Los equipos científicos consumieron gran parte de las reservas eléctricas, y la energía destinada al laboratorio redujo los recursos disponibles para el soporte vital, afectando las condiciones de seguridad de la tripulación. Las reservas de agua permanecen estables, y los astronautas lograron obtener sus primeros resultados científicos. ¡Hemos avanzado en nuestra investigación! Pero nuestras reservas de energía están bajando y el soporte vital necesita atención. ¿Podremos mantener este ritmo?"
+          }
+        },
+        {
+          "id": "BALANCED",
+          "title": "Operación equilibrada",
+          "modelSummary": "Reparte energía entre soporte vital y laboratorio.",
+          "deltas": [-10, 0, 0, 1],
+          "feedback": "La base mantiene un equilibrio inicial.",
+          "riskFlag": null,
+          "tooltip": "Esta opción reparte la electricidad disponible entre los sistemas esenciales de soporte vital y la investigación del laboratorio.",
+          "resultNarrative": {
+            "title": "⚖️ Un equilibrio para comenzar",
+            "narrative": "El equipo decidió distribuir la energía entre el soporte vital y el laboratorio. Los sistemas esenciales siguen funcionando y los astronautas lograron iniciar algunos experimentos.",
+            "energyExplanation": "mantener ambos sistemas activos consumió una parte importante de las reservas.",
+            "healthExplanation": "el soporte vital recibió suficiente energía para mantener estable a la tripulación.",
+            "waterExplanation": "las reservas permanecen sin cambios.",
+            "researchExplanation": "el laboratorio consiguió sus primeros avances, aunque a un ritmo más lento.",
+            "nautiDialogue": "«¡Logramos mantener la base estable y comenzar nuestras investigaciones! Pero nuestras reservas de energía son limitadas. Tendremos que administrarlas con cuidado durante los próximos días».",
+            "nautiMood": "happy",
+            "spokenNarration": "Un equilibrio para comenzar. El equipo decidió distribuir la energía entre el soporte vital y el laboratorio. Los sistemas esenciales siguen funcionando y los astronautas lograron iniciar algunos experimentos. Mantener ambos sistemas activos consumió una parte importante de las reservas, mientras el soporte vital recibió suficiente energía para mantener estable a la tripulación. Las reservas de agua permanecen sin cambios, y el laboratorio consiguió sus primeros avances, aunque a un ritmo más lento. ¡Logramos mantener la base estable y comenzar nuestras investigaciones! Pero nuestras reservas de energía son limitadas. Tendremos que administrarlas con cuidado durante los próximos días."
+          }
+        }
+      ]
+    },
+    "days": {
+      "2": {
+        "day": 2,
+        "title": "La energía que nos queda",
+        "intro": "¡Buenos días, tripulación! Ha comenzado nuestra segunda jornada en Base Aurora. Ayer tomamos una decisión importante sobre cómo utilizar la energía. Hoy descubriremos que cada elección deja consecuencias.",
+        "context": {
+          "LIFE_SUPPORT": "Los astronautas comienzan la jornada en buenas condiciones. Sin embargo, el laboratorio permanece retrasado y los científicos necesitan tiempo para iniciar sus experimentos. La base dispone de cierta estabilidad, pero aún tiene mucho por descubrir.",
+          "LABORATORY": "Los primeros experimentos produjeron resultados prometedores. Sin embargo, el elevado consumo eléctrico redujo las reservas y afectó las condiciones del soporte vital. Ahora la tripulación debe recuperar margen operativo sin perder los avances científicos.",
+          "BALANCED": "La base consiguió mantener sus sistemas esenciales y comenzar las investigaciones. Pero sostener ambas actividades requiere energía. El equipo debe encontrar una manera de continuar sin agotar sus reservas."
+        },
+        "situation": "Los paneles solares están generando electricidad, pero no podemos utilizar toda la energía al mismo tiempo. Necesitamos preparar nuestras operaciones para los próximos días.",
+        "question": "¿Cómo deberíamos organizar el consumo energético de Base Aurora?",
+        "science": "Los paneles solares necesitan iluminación para generar electricidad. En una misión lunar, la planificación debe considerar tanto la producción como el almacenamiento y la distribución de energía entre los sistemas.",
+        "reflection": "¿Cómo podemos seguir investigando sin comprometer los sistemas que mantienen segura a la tripulación?",
+        "source": {
+          "title": "NASA (2025), Integrated Lunar Power Strategy Considerations",
+          "url": "https://ntrs.nasa.gov/citations/20250010948"
+        },
+        "options": [
+          {
+            "id": "SCHEDULE_SCIENCE",
+            "title": "Programar sesiones científicas cortas",
+            "description": "El laboratorio funcionará en periodos limitados, alternando su actividad con otras operaciones para reducir la demanda simultánea de electricidad.",
+            "tooltip": "Esta opción organiza el uso del laboratorio por horarios limitados para alternar experimentos con otras operaciones de la base.",
+            "effects": { "energy": -5, "health": 0, "water": 0, "research": 2 },
+            "resultTitle": "La ciencia encuentra su momento",
+            "consequence": "El equipo organiza sesiones de laboratorio más cortas. Los experimentos producen nuevos datos y los sistemas esenciales continúan funcionando. Aunque se consume energía, la tripulación aprende a distribuir mejor los horarios de operación.",
+            "nauti": "¡Hicimos ciencia sin mantener todos los equipos encendidos a la vez! Recordemos esta estrategia; podría ayudarnos más adelante.",
+            "indicatorExplanations": {
+              "energy": "Las sesiones científicas consumieron parte de la electricidad disponible.",
+              "health": "Los sistemas esenciales permanecieron operativos y las condiciones de la tripulación se mantuvieron estables.",
+              "water": "La operación no produjo cambios relevantes en las reservas de agua.",
+              "research": "Los experimentos realizados durante las sesiones programadas aportaron nuevos resultados."
+            },
+            "riskHint": null
+          },
+          {
+            "id": "CONSERVE_ENERGY",
+            "title": "Reservar energía para los sistemas críticos",
+            "description": "El equipo reducirá temporalmente las actividades científicas para acumular energía y reforzar la seguridad operativa.",
+            "tooltip": "Esta opción reduce temporalmente las actividades científicas para guardar energía y priorizar los sistemas críticos.",
+            "effects": { "energy": 4, "health": 1, "water": 0, "research": 0 },
+            "resultTitle": "Una reserva para el futuro",
+            "consequence": "El equipo decide reducir las actividades no esenciales. Durante la jornada, los paneles solares continúan produciendo electricidad y parte de esa energía se almacena. La tripulación dispone de mayor margen de seguridad, aunque los experimentos deben esperar.",
+            "nauti": "¡Nuestra reserva ha aumentado! Pero no olvidemos que también tenemos objetivos científicos por cumplir.",
+            "indicatorExplanations": {
+              "energy": "La generación solar superó el consumo durante parte de la jornada y permitió aumentar la energía almacenada.",
+              "health": "El mayor margen operativo contribuyó a mantener condiciones más seguras.",
+              "water": "Las reservas de agua permanecieron estables.",
+              "research": "No se realizaron nuevos experimentos durante este periodo."
+            },
+            "riskHint": null
+          }
+        ]
+      },
+      "3": {
+        "day": 3,
+        "title": "Cada gota cuenta",
+        "intro": "¡Tripulación! Hoy vamos a hablar de algo que utilizamos todos los días: el agua. En el espacio no podemos depender de recibir suministros constantemente. Por eso, recuperar y reutilizar agua es fundamental.",
+        "context": {
+          "CONSERVE_ENERGY": "La planificación de ayer permite afrontar la revisión con un mayor margen energético.",
+          "SCHEDULE_SCIENCE": "El laboratorio ha avanzado, pero será necesario reorganizar sus horarios para realizar el mantenimiento."
+        },
+        "situation": "Durante una revisión de rutina, los sensores del sistema de recuperación de agua muestran una disminución de eficiencia. Los filtros y otros componentes necesitan mantenimiento. El sistema todavía funciona, pero el equipo debe decidir si realiza la revisión ahora o la pospone.",
+        "question": "¿Deberíamos revisar el sistema ahora o continuar investigando?",
+        "science": "Los sistemas de recuperación de agua permiten reducir la cantidad de suministros nuevos que necesita una tripulación. NASA ha demostrado en la Estación Espacial Internacional una recuperación global de agua cercana al 98% mediante tecnologías especializadas. Esto no significa que todos los sistemas espaciales recuperen automáticamente ese porcentaje.",
+        "reflection": "¿Por qué realizar mantenimiento preventivo podría ser tan importante como ahorrar agua?",
+        "source": {
+          "title": "NASA (2023), NASA Achieves Water Recovery Milestone on International Space Station",
+          "url": "https://www.nasa.gov/missions/station/iss-research/nasa-achieves-water-recovery-milestone-on-international-space-station/"
+        },
+        "options": [
+          {
+            "id": "MAINTAIN_WATER",
+            "title": "Realizar mantenimiento preventivo",
+            "description": "Suspender temporalmente algunas operaciones para revisar los componentes y recuperar la eficiencia del sistema.",
+            "tooltip": "Esta opción dedica parte de la jornada a revisar filtros, conexiones y sensores del sistema de recuperación de agua.",
+            "effects": { "energy": -5, "health": 1, "water": 0, "research": 1 },
+            "resultTitle": "Cuidar el agua es cuidar la misión",
+            "consequence": "El equipo dedica parte de la jornada a revisar filtros, conexiones y sensores. El mantenimiento consume energía, pero permite recuperar la eficiencia prevista del sistema y obtener información técnica útil. La tripulación continúa disponiendo de agua recuperada.",
+            "nauti": "¡Un problema atendido a tiempo puede evitar dificultades más adelante! Hoy aprendimos que mantener los equipos también es parte de explorar el espacio.",
+            "indicatorExplanations": {
+              "energy": "La revisión y el funcionamiento de los equipos consumieron electricidad.",
+              "health": "La recuperación de la eficiencia del sistema mejora el margen de seguridad de la tripulación.",
+              "water": "Las reservas se mantuvieron estables durante la jornada.",
+              "research": "La revisión produjo datos técnicos útiles sobre el funcionamiento del sistema."
+            },
+            "riskHint": null
+          },
+          {
+            "id": "POSTPONE_WATER",
+            "title": "Posponer el mantenimiento",
+            "description": "Mantener el sistema funcionando como está y utilizar el tiempo disponible para avanzar en experimentos.",
+            "tooltip": "Esta opción mantiene el sistema funcionando como está y aprovecha la jornada para realizar más experimentos.",
+            "effects": { "energy": -3, "health": 0, "water": 0, "research": 3 },
+            "resultTitle": "Una revisión pendiente",
+            "consequence": "El equipo decide mantener el laboratorio activo. Los experimentos generan nuevos resultados, pero el sistema de recuperación de agua continúa funcionando con una eficiencia inferior a la esperada. Aunque todavía no se produce una emergencia, el problema sigue sin resolverse.",
+            "nauti": "¡Conseguimos más datos científicos! Pero hay una tarea pendiente que no deberíamos olvidar.",
+            "indicatorExplanations": {
+              "energy": "Los experimentos consumieron electricidad durante la jornada.",
+              "health": "No se registraron cambios inmediatos en las condiciones de la tripulación.",
+              "water": "Las reservas no muestran una pérdida inmediata significativa, pero la eficiencia del sistema continúa reducida.",
+              "research": "El laboratorio consiguió nuevos resultados científicos."
+            },
+            "riskHint": "water_delayed"
+          }
+        ]
+      },
+      "4": {
+        "day": 4,
+        "title": "Polvo en el horizonte",
+        "intro": "¡Tripulación! Hemos detectado algo sobre nuestros equipos exteriores. ¡Polvo lunar! Parece inofensivo, pero sus partículas pueden ser abrasivas y adherirse a superficies delicadas.",
+        "context": {
+          "MAINTAIN_WATER": "La revisión de ayer demostró la importancia de anticiparse a los problemas.",
+          "POSTPONE_WATER": "El sistema de agua continúa pendiente de revisión. Ahora aparece un segundo desafío técnico que también necesita atención."
+        },
+        "situation": "Una inspección remota muestra acumulación de polvo sobre algunos componentes expuestos del sistema solar. Los equipos todavía producen electricidad, pero los especialistas recomiendan revisar las superficies antes de que el problema afecte su rendimiento.",
+        "question": "¿Deberíamos dedicar esta jornada a proteger los equipos o aprovecharla para continuar nuestras observaciones?",
+        "science": "El regolito lunar puede adherirse a superficies y causar desgaste. NASA estudia tecnologías para mitigar la acumulación de polvo sobre equipos espaciales.",
+        "reflection": "¿Qué riesgos pueden acumularse cuando una tripulación pospone varias tareas de mantenimiento?",
+        "source": {
+          "title": "NASA (2025), NASA's Dust Shield Successfully Repels Lunar Regolith on Moon",
+          "url": "https://www.nasa.gov/image-article/nasas-dust-shield-successfully-repels-lunar-regolith-on-moon/"
+        },
+        "options": [
+          {
+            "id": "MAINTAIN_SOLAR",
+            "title": "Inspeccionar y limpiar los equipos",
+            "description": "Utilizar procedimientos de mantenimiento apropiados para reducir la acumulación de polvo y revisar el estado del sistema.",
+            "tooltip": "Esta opción prioriza procedimientos de inspección y limpieza sobre las superficies exteriores expuestas al polvo lunar.",
+            "effects": { "energy": -5, "health": 0, "water": 0, "research": 1 },
+            "resultTitle": "Una base mejor preparada",
+            "consequence": "Los astronautas realizan la revisión siguiendo procedimientos de seguridad. La intervención requiere energía, pero reduce la acumulación de polvo en las superficies accesibles. Los equipos quedan mejor preparados para continuar operando.",
+            "nauti": "¡Cuidar nuestros equipos es una inversión en el futuro! Ahora tenemos una preocupación menos.",
+            "indicatorExplanations": {
+              "energy": "La inspección y el mantenimiento consumieron electricidad.",
+              "health": "Las condiciones de la tripulación permanecieron estables.",
+              "water": "No se produjeron cambios relevantes en las reservas de agua.",
+              "research": "La inspección permitió registrar datos sobre el comportamiento del polvo lunar."
+            },
+            "riskHint": null
+          },
+          {
+            "id": "CONTINUE_OBSERVATIONS",
+            "title": "Continuar las observaciones científicas",
+            "description": "Aprovechar la jornada para recopilar datos adicionales, dejando la revisión para otro momento.",
+            "tooltip": "Esta opción continúa recopilando datos científicos durante la jornada y deja la revisión exterior para después.",
+            "effects": { "energy": -4, "health": 0, "water": 0, "research": 3 },
+            "resultTitle": "Descubrimientos entre el polvo",
+            "consequence": "El laboratorio aprovecha el tiempo para continuar sus observaciones y obtiene datos adicionales. Sin embargo, la acumulación de polvo permanece en los equipos exteriores y podría afectar su rendimiento durante las siguientes operaciones.",
+            "nauti": "¡Nuestros descubrimientos avanzan! Pero ahora tenemos otro mantenimiento pendiente.",
+            "indicatorExplanations": {
+              "energy": "Las observaciones científicas consumieron parte de la energía disponible.",
+              "health": "La tripulación mantuvo condiciones estables durante la jornada.",
+              "water": "Las reservas de agua permanecieron sin cambios.",
+              "research": "Las observaciones aportaron nuevos resultados científicos."
+            },
+            "riskHint": "solar_delayed"
+          }
+        ]
+      },
+      "5": {
+        "day": 5,
+        "title": "El desafío de las sombras",
+        "intro": "¡Tripulación! Hemos llegado a una jornada decisiva. Los sensores indican que Base Aurora se aproxima a un periodo de iluminación menos favorable. Necesitamos prepararnos con los recursos que hemos conseguido conservar.",
+        "context": {},
+        "situation": "La base se prepara para un periodo de iluminación menos favorable. Los sistemas esenciales necesitan energía, pero el equipo también tiene objetivos científicos pendientes. Antes de tomar la última decisión, debemos considerar tanto nuestra seguridad como el avance de la investigación.",
+        "question": "¿Cómo debería actuar Base Aurora antes del periodo de iluminación reducida?",
+        "science": "En regiones próximas al polo sur lunar, la topografía y los ángulos bajos del Sol pueden producir condiciones complejas de iluminación y sombra. Las misiones deben planificar cuidadosamente la generación y el almacenamiento de energía.",
+        "reflection": "¿Qué decisiones anteriores nos ayudan ahora y cuáles han aumentado nuestras dificultades?",
+        "source": {
+          "title": "NASA (2025), Integrated Lunar Power Strategy Considerations",
+          "url": "https://ntrs.nasa.gov/citations/20250010948"
+        },
+        "options": [
+          {
+            "id": "FINAL_CONSERVATION",
+            "title": "Activar el modo de conservación",
+            "description": "Reducir las actividades no esenciales, aprovechar la generación disponible y priorizar la seguridad de la tripulación.",
+            "tooltip": "Esta opción reduce actividades no esenciales para almacenar energía y priorizar la seguridad antes de la menor iluminación.",
+            "effects": { "energy": 3, "health": 2, "water": 0, "research": 0 },
+            "resultTitle": "Preparados para continuar",
+            "consequence": "El equipo reorganiza las operaciones y reduce el consumo no esencial. Durante la jornada, la energía generada que no se utiliza puede almacenarse. La tripulación mantiene mejores condiciones para afrontar el periodo de iluminación reducida, aunque algunas investigaciones deberán esperar.",
+            "nauti": "¡Hemos preparado nuestra base para continuar! Ahora veremos si nuestras decisiones anteriores nos dejaron recursos suficientes.",
+            "indicatorExplanations": {
+              "energy": "La reducción del consumo permitió almacenar parte de la electricidad generada durante el periodo simulado.",
+              "health": "La priorización de sistemas esenciales mejoró las condiciones operativas de seguridad.",
+              "water": "Las reservas no cambiaron como resultado directo de esta decisión.",
+              "research": "No se realizaron nuevos experimentos durante este periodo."
+            },
+            "riskHint": null
+          },
+          {
+            "id": "FINAL_RESEARCH",
+            "title": "Completar una última sesión científica",
+            "description": "Utilizar parte de la energía restante para obtener nuevos datos antes de reducir las operaciones.",
+            "tooltip": "Esta opción utiliza parte de la energía disponible para completar una última sesión científica antes de reducir operaciones.",
+            "effects": { "energy": -8, "health": -1, "water": 0, "research": 4 },
+            "resultTitle": "Una última oportunidad para descubrir",
+            "consequence": "Los astronautas completan una sesión científica adicional. Los resultados permiten responder nuevas preguntas, pero el laboratorio consume parte de la energía que podría haberse reservado para el periodo de iluminación reducida.",
+            "nauti": "¡Qué descubrimientos tan interesantes! Ahora tenemos que comprobar si la base cuenta con los recursos necesarios para seguir funcionando.",
+            "indicatorExplanations": {
+              "energy": "El laboratorio utilizó electricidad para completar la última sesión científica. Si se había aprendido a programar sesiones eficientes, el consumo fue menor.",
+              "health": "La operación redujo ligeramente el margen de seguridad disponible para el soporte vital.",
+              "water": "No se produjeron cambios directos en las reservas de agua.",
+              "research": "Los experimentos permitieron obtener nuevos resultados científicos."
+            },
+            "riskHint": null
+          }
+        ],
+        "delayedConsequences": [
+          {
+            "if": "POSTPONE_WATER",
+            "effects": { "water": -5, "health": -1 },
+            "title": "Consecuencia de la Jornada 3",
+            "text": "¿Recuerdan cuando decidimos posponer el mantenimiento del agua en la Jornada 3? Esa decisión nos permitió investigar más, pero el sistema perdió eficiencia y ahora disponemos de menos reservas."
+          },
+          {
+            "if": "MAINTAIN_WATER",
+            "effects": {},
+            "title": "Una pérdida que logramos evitar",
+            "text": "El mantenimiento realizado en la Jornada 3 ayudó a conservar la eficiencia del sistema de recuperación de agua. Gracias a esa decisión, evitamos una pérdida adicional de reservas."
+          },
+          {
+            "if": "CONTINUE_OBSERVATIONS",
+            "effects": { "energy": -6 },
+            "title": "Consecuencia de la Jornada 4",
+            "text": "En la Jornada 4 decidimos continuar las observaciones y posponer la revisión de los equipos exteriores. La acumulación de polvo ha reducido el rendimiento disponible del sistema solar."
+          },
+          {
+            "if": "MAINTAIN_SOLAR",
+            "effects": {},
+            "title": "Los equipos estaban preparados",
+            "text": "La inspección realizada en la Jornada 4 ayudó a mantener los equipos solares en condiciones adecuadas. Esa decisión evitó una reducción adicional de su rendimiento."
+          },
+          {
+            "if": "CONSERVE_ENERGY",
+            "effects": {},
+            "title": "Una reserva preparada con anticipación",
+            "text": "La reserva que acumulamos en la Jornada 2 ya está incluida en nuestra energía disponible. Ahora podemos aprovechar ese margen de seguridad."
+          },
+          {
+            "if": "SCHEDULE_SCIENCE",
+            "effects": {},
+            "title": "Una experiencia que puede ayudarnos",
+            "text": "En la Jornada 2 aprendimos a programar sesiones científicas más eficientes. Esa experiencia puede ayudarnos a reducir el consumo de una última sesión de laboratorio."
+          }
+        ]
+      }
+    },
+    "outcomes": {
+      "CRITICAL_FAILURE": {
+        "title": "Emergencia en Base Aurora",
+        "story": "Nuestra misión ha llegado a una situación crítica. Uno de los recursos esenciales ya no permite mantener las operaciones normales. Debemos revisar nuestras decisiones para comprender qué ocurrió.",
+        "nauti": "Nuestra misión ha llegado a una situación crítica. Vamos a revisar nuestras decisiones para comprender qué ocurrió y cómo podríamos prepararnos mejor la próxima vez."
+      },
+      "SUSTAINABLE_MISSION": {
+        "title": "Una misión sostenible",
+        "story": "El equipo consiguió mantener Base Aurora operativa, conservar reservas suficientes para continuar y obtener resultados científicos importantes. La planificación, el mantenimiento y la investigación contribuyeron al desarrollo de la misión.",
+        "nauti": "¡Lo conseguimos! Nuestra tripulación está segura, tenemos reservas para continuar y hemos realizado investigaciones importantes. ¡Cada decisión nos enseñó algo!"
+      },
+      "FRAGILE_SCIENTIFIC_MISSION": {
+        "title": "Grandes descubrimientos, nuevos desafíos",
+        "story": "La tripulación consiguió resultados científicos importantes, pero las reservas de al menos un recurso esencial son demasiado bajas para considerar sostenible la siguiente etapa de la misión. Base Aurora necesita un plan de recuperación antes de continuar.",
+        "nauti": "¡Hicimos descubrimientos importantes! Pero necesitamos mejorar nuestras reservas para continuar explorando con seguridad."
+      },
+      "SCIENTIFIC_GOAL_PENDING": {
+        "title": "Una base segura, nuevas preguntas",
+        "story": "La tripulación permanece segura, pero todavía no se ha alcanzado la meta científica de esta etapa. El equipo deberá revisar cómo combinar la protección de los recursos con las oportunidades de investigación.",
+        "nauti": "¡La tripulación continúa a salvo! Todavía tenemos preguntas científicas por resolver. ¿Cómo podríamos combinar mejor la investigación y el cuidado de nuestra base?"
+      }
+    },
+    "reflectionQuestions": [
+      "¿Qué decisión tuvo consecuencias que aparecieron recién en la Jornada 5, y cómo cambió eso la situación de Base Aurora?",
+      "¿En qué momentos fue necesario equilibrar el avance científico con el mantenimiento preventivo y la conservación de energía?",
+      "Si volvieran a planificar la misión en equipo, ¿qué estrategia cambiarían para lograr reservas sostenibles y cumplir la meta de investigación?"
+    ],
+    "triviaByDay": {
+      "1": {
+        "question": "¿Cuánto puede durar la noche lunar en muchas zonas de la Luna?",
+        "options": ["Unas 12 horas", "Aproximadamente dos semanas terrestres", "Unos 30 minutos"],
+        "correctIndex": 1,
+        "explanation": "La duración depende del lugar; en muchas regiones se aproxima a 14 días terrestres."
+      },
+      "3": {
+        "question": "¿Qué porcentaje de recuperación de agua ha demostrado la NASA en la EEI con su sistema avanzado?",
+        "options": ["98 %", "45 %", "10 %"],
+        "correctIndex": 0,
+        "explanation": "La NASA informó de una demostración de recuperación de agua del 98 % en la EEI."
+      },
+      "4": {
+        "question": "¿Por qué el polvo lunar puede ser un problema?",
+        "options": ["Porque es abrasivo y se adhiere a superficies", "Porque es líquido", "Porque produce oxígeno"],
+        "correctIndex": 0,
+        "explanation": "El regolito lunar puede afectar instrumentos, sellos y superficies."
+      }
+    },
+    "causality": {
+      "scheduleScienceUsed": "Programar sesiones cortas en la Jornada 2 redujo el gasto eléctrico de la investigación final en la Jornada 5 de −8 a −5.",
+      "scheduleScienceUnused": "Enseñó al equipo a alternar horarios, permitiendo reducir de −8 a −5 el gasto energético de la última sesión científica en Jornada 5.",
+      "conserveEnergy": "Sumó +4 de Energía y +1 de Salud de forma inmediata en la Jornada 2 (sin repetirse en Jornada 5), ampliando la reserva para las siguientes jornadas.",
+      "finalResearchBonus": "Aplicó el aprendizaje de la Jornada 2: el costo eléctrico fue de −5 en lugar de −8."
+    }
+  },
+  "demo": {
+    "badge": "Modo demostración · Práctica breve",
+    "title": "Sector Norte: Lluvia de micrometeoritos",
+    "problem": "Una nube pasajera de micrometeoritos rozará el domo de cultivo durante los próximos minutos. Tu equipo debe elegir una respuesta rápida de prueba.",
+    "question": "¿Qué decide hacer tu equipo en esta demostración?",
+    "isolatedNote": "Esta demostración es independiente: no cambia ni reinicia tu progreso de la misión completa.",
+    "nautiPrompt": "¡Modo demostración listo! Elijan la opción A o B en equipo para observar cómo cambian los indicadores.",
+    "confirmBtn": "Ver consecuencia",
+    "retryBtn": "Probar otra decisión",
+    "backBtn": "Volver al inicio",
+    "indicatorsTitle": "Cambio en indicadores de prueba (inicio → resultado)",
+    "fullMissionTitle": "La misión completa tiene 5 jornadas conectadas",
+    "fullMissionDesc": "En esta prueba viste el efecto inmediato de una sola decisión. En Efecto Dominó: Misión Aurora vivirás 5 jornadas interconectadas donde tus elecciones de hoy pueden activar consecuencias días después.",
+    "energyLabel": "Energía",
+    "healthLabel": "Salud",
+    "waterLabel": "Agua",
+    "researchLabel": "Investigación",
+    "options": [
+      {
+        "id": "shield",
+        "label": "Activar escudo térmico completo",
+        "summary": "Cierra las cubiertas protectoras y refuerza el domo para cuidar la salud y el agua, usando energía adicional.",
+        "resultTitle": "Escudo reforzado a tiempo",
+        "resultNarrative": "Las cubiertas absorbieron el paso de las partículas sin daños. La tripulación permaneció protegida y las tuberías conservaron su presión, aunque las baterías consumieron energía extra.",
+        "nautiReaction": "¡Excelente protección! Usamos reserva eléctrica ahora, pero cuidamos a la tripulación y al sistema de agua."
+      },
+      {
+        "id": "observe",
+        "label": "Mantener ahorro y registrar datos",
+        "summary": "Ahorra electricidad manteniendo el domo en consumo mínimo mientras los sensores miden las partículas.",
+        "resultTitle": "Datos valiosos bajo desgaste",
+        "resultNarrative": "Los sensores obtuvieron mediciones útiles y la reserva eléctrica subió levemente, pero los impactos obligaron a sellar microfugas y generaron tensión operativa.",
+        "nautiReaction": "¡Cuántos datos científicos! Eso sí: el ahorro provocó un pequeño desgaste en salud y agua."
+      }
+    ]
+  },
+  "desktop": {
+    "heading": "¿Qué vamos a explorar hoy?",
+    "subtitle": "Elige una experiencia y comienza a descubrir.",
+    "nautiPrompt": "¡Hola, tripulación! ¿Qué les gustaría explorar hoy?",
+    "availableBadge": "Disponible",
+    "inPreparationBadge": "En preparación",
+    "comingSoonBadge": "Próximamente",
+    "openAppHint": "Abrir experiencia",
+    "comingSoonHint": "Próximamente en NAUTI",
+    "tooltipLabels": {
+      "whatStudentsLearn": "🎯 Lo que aprenden:",
+      "interactiveActivity": "🎮 Actividad interactiva:",
+      "plannedActivityPrefix": "Actividad planificada",
+      "infoAria": "Ver información educativa de {{name}}",
+      "closeAria": "Cerrar descripción"
+    },
+    "apps": {
+      "efecto-domino": {
+        "name": "Efecto Dominó",
+        "subtitle": "Decisiones que transforman misiones",
+        "tooltip": {
+          "description": "Descubre cómo las decisiones pueden afectar el futuro de una misión en una base lunar.",
+          "learningObjective": "Analizar consecuencias, administrar recursos y tomar decisiones basadas en evidencia científica.",
+          "interactiveActivity": "Simulador colaborativo con decisiones, trivias científicas y consecuencias acumulativas."
+        }
+      },
+      "traduciendo-la-ciencia": {
+        "name": "Traduciendo la ciencia",
+        "subtitle": "Grandes descubrimientos, pequeñas grandes historias",
+        "tooltip": {
+          "description": "Descubre cómo las investigaciones de la NASA ayudan a comprender el espacio y sus efectos sobre la vida.",
+          "learningObjective": "Interpretar información científica y comunicar descubrimientos de manera sencilla.",
+          "interactiveActivity": "Analizar investigaciones y transformar información científica en explicaciones accesibles."
+        }
+      },
+      "escucha-imagina-construye": {
+        "name": "Escucha, imagina y construye",
+        "subtitle": "Descubre tecnologías espaciales escuchando, imaginando y dibujando en equipo.",
+        "tooltip": {
+          "description": "Explora tecnologías espaciales utilizadas o investigadas por la NASA.",
+          "learningObjective": "Desarrollar la escucha activa, la imaginación espacial y el trabajo en equipo.",
+          "interactiveActivity": "Escucha un podcast, dibuja una pieza tecnológica en dos minutos y compárala con su imagen de referencia."
+        }
+      },
+      "detectives-de-la-nasa": {
+        "name": "Detectives de la NASA",
+        "subtitle": "¡Investiga misterios espaciales utilizando datos y descubrimientos científicos!",
+        "tooltip": {
+          "description": "Investiga misterios de la exploración espacial utilizando datos reales de la NASA.",
+          "learningObjective": "Aprenderás a interpretar información científica y relacionar evidencias.",
+          "interactiveActivity": "Descubre pistas, conecta datos y resuelve misterios en equipo."
+        }
+      },
+      "biblioteca-cientifica-nasa": {
+        "name": "Biblioteca Científica NASA de NAUTI",
+        "subtitle": "Explora fuentes verificadas de la NASA y respaldo científico.",
+        "tooltip": {
+          "description": "Centro de conocimiento verificado que conecta publicaciones oficiales de la NASA con todas las experiencias NAUTI.",
+          "learningObjective": "Comprender hallazgos reales, distinguir el contexto de cada estudio y consultar fuentes originales.",
+          "interactiveActivity": "Explora fichas verificadas por categoría o administra y audita referencias NASA en tiempo real."
+        }
+      },
+      "explora-con-nauti": {
+        "name": "Explora con NAUTI",
+        "subtitle": "Misiones guiadas por el cosmos",
+        "tooltip": {
+          "description": "Recorre destinos del sistema solar y descubre qué retos enfrentan las misiones espaciales reales.",
+          "learningObjective": "Identificar características de planetas, lunas y entornos extremos del cosmos.",
+          "interactiveActivity": "Recorridos guiados por etapas con observación de pistas espaciales y preguntas en grupo."
+        }
+      },
+      "laboratorio-nauti": {
+        "name": "Laboratorio NAUTI",
+        "subtitle": "Prueba ideas y experimentos",
+        "tooltip": {
+          "description": "Pon a prueba variables científicas sencillas para entender fenómenos físicos y biológicos del espacio.",
+          "learningObjective": "Formular hipótesis y observar cómo cambian los resultados al modificar condiciones.",
+          "interactiveActivity": "Pruebas experimentales interactivas paso a paso con análisis colaborativo."
+        }
+      },
+      "viajes-sonoros": {
+        "name": "Viajes sonoros",
+        "subtitle": "Ciencia y espacio en audio",
+        "tooltip": {
+          "description": "Sumérgete en cápsulas sonoras breves sobre descubrimientos astronómicos y exploración humana.",
+          "learningObjective": "Fortalecer la comprensión auditiva y la curiosidad científica a partir de relatos.",
+          "interactiveActivity": "Episodios narrados con pausas de diálogo y retos de reflexión en clase."
+        }
+      }
+    }
+  },
+  "platform": {
+    "badge": "Plataforma educativa NAUTI",
+    "title": "Aventuras científicas para decidir en equipo",
+    "subtitle": "Explora experiencias interactivas sobre el espacio, analiza evidencia científica y observa cómo cada decisión transforma la misión.",
+    "featuredLabel": "Experiencia disponible",
+    "experienceName": "EFECTO DOMINÓ",
+    "experienceLocation": "Base Aurora · 4 episodios lunares",
+    "experienceSummary": "En Efecto Dominó, tu equipo enfrentará diferentes desafíos en Base Aurora, una estación científica en la Luna.\n\nDurante cinco jornadas deberán tomar decisiones que afectan la energía, el agua, la salud y la investigación.\n\nDescubran cómo los sistemas están conectados y cómo una decisión puede provocar consecuencias inesperadas.",
+    "enterExperienceBtn": "Explorar episodios",
+    "viewTutorialBtn": "Revisar tutorial",
+    "backToDesktopBtn": "Volver al escritorio",
+    "nautiPrompt": "¡Hola, tripulación! Soy NAUTI. En Base Aurora cada decisión conecta la energía, el agua, la salud y la investigación. ¿Exploramos los episodios de Efecto Dominó?"
+  },
+  "catalog": {
+    "heading": "EFECTO DOMINÓ",
+    "subtitle": "Elige tu aventura en Base Aurora",
+    "supportingText": "Todos los episodios se desarrollan en Base Aurora durante cinco jornadas conectadas, integrando energía, agua, salud e investigación científica.",
+    "backToNautiBtn": "Efecto Dominó",
+    "backToCatalogBtn": "Episodios",
+    "inProgressTag": "Partida guardada en curso",
+    "resumeMissionBtn": "Continuar partida",
+    "statusAvailable": "Disponible",
+    "statusComingSoon": "Próximamente",
+    "playBtn": "Jugar",
+    "resumeBtn": "Continuar",
+    "comingSoonBtn": "Próximamente",
+    "comingSoonHint": "Este episodio está en preparación y pronto podrá jugarse de forma directa e independiente.",
+    "initialProblemLabel": "Problema inicial",
+    "sharedSystemsLine": "5 jornadas · Energía, Agua, Salud e Investigación",
+    "nautiPrompt": "¡Elijan el episodio que quieran! En cada desafío las decisiones conectan energía, agua, salud e investigación.",
+    "episodes": {
+      "ep-01-energia-aurora": {
+        "numberLabel": "Episodio 01",
+        "title": "¿Y si nos quedamos sin energía?",
+        "initialProblem": "Disponibilidad limitada de energía eléctrica",
+        "description": "Una dificultad energética pone a prueba el funcionamiento de Base Aurora. Cada decisión puede afectar el agua, la salud de la tripulación y la investigación científica. ¿Podrán mantener el equilibrio de la misión?",
+        "coverSynopsis": "La estación científica Base Aurora despierta bajo el horizonte lunar tras una noche prolongada. Con poca luz sobre los paneles solares, los sistemas esenciales y el laboratorio compiten por la electricidad disponible. ¿Podrá tu equipo conducir la base durante cinco jornadas en equilibrio?"
+      },
+      "ep-02-falla-base-aurora": {
+        "numberLabel": "Episodio 02",
+        "title": "¿Y si algo falla en Base Aurora?",
+        "initialProblem": "Avería técnica inesperada en la base",
+        "description": "Una avería inesperada amenaza varios sistemas de Base Aurora. El equipo deberá decidir cómo responder sin comprometer los recursos ni la seguridad de la misión.",
+        "coverSynopsis": "Una alerta técnica sacude la rutina de Base Aurora en pleno turno científico. Cuando un módulo vital comienza a fallar en el entorno lunar, cada reparación exige tiempo, energía y criterio en equipo. ¿Lograrán estabilizar la estación sin poner en riesgo su misión?"
+      },
+      "ep-03-alimentos-lunares": {
+        "numberLabel": "Episodio 03",
+        "title": "¿Y si debemos producir nuestros alimentos?",
+        "initialProblem": "Producción de alimentos en el hábitat lunar",
+        "description": "Producir alimentos en la Luna requiere mucho más que sembrar plantas. Cada decisión sobre el invernadero puede transformar el equilibrio de toda la base.",
+        "coverSynopsis": "En el módulo de cultivo lunar de Base Aurora, las primeras cosechas dependen de la luz, el agua reciclada y el cuidado constante de la tripulación. Con suministros limitados desde la Tierra, tu equipo deberá decidir cómo sostener los alimentos y la vida en la estación."
+      },
+      "ep-04-tormenta-solar": {
+        "numberLabel": "Episodio 04",
+        "title": "¿Y si una tormenta solar nos sorprende?",
+        "initialProblem": "Alerta por tormenta solar de alta radiación",
+        "description": "Una alerta solar obliga a reorganizar las actividades de Base Aurora. ¿Cómo proteger a la tripulación sin poner en riesgo los sistemas esenciales y los objetivos científicos?",
+        "coverSynopsis": "Los sensores orbitales anuncian una tormenta solar de alta radiación acercándose a Base Aurora. Mientras la tripulación busca refugio y protege los equipos científicos, el margen de maniobra se estrecha. ¿Cómo reorganizarán las operaciones de la base durante cinco días decisivos?"
+      }
+    }
+  }
+}

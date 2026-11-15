@@ -1,0 +1,1160 @@
+{
+  "ui": {
+    "languageLabel": "Avañe’ẽ",
+    "portraitTitle": "Embojere ne pumbyry yke gotyo",
+    "portraitBody": "NAUTI ojejapo ojehecha hag̃ua ta'ãngarupa pukúpe 16:9.",
+    "welcomePill": "Misión Aurora · 100 % internet'ỹre",
+    "kitBanner": "Arapy ñeha'ãrõ ha jekuaa rembiporu",
+    "createdBy": "Tembiapo mbo'epy rehegua ojapóva Filómatas LAB",
+    "baseSubtitle": "Base Aurora · 5 ára tembikuaareka",
+    "startMission": "¡Aime porãma ñañepyrũ hag̃ua!",
+    "launching": "¡Jahátama Base Aurora gotyo!",
+    "welcomeTipLeft": "Temimbo'e 10 guive 16 ary peve · Ñemongueta ha jeporavo oñondive",
+    "welcomeTipRight": "Moñe'ẽ ijeheguíva · Ikatu rehendu jey reipotávo",
+    "nautiSays": "NAUTI he'i:",
+    "speakingStatus": "Oñe'ẽhína…",
+    "listenAgain": "Ehendu jey",
+    "stopVoice": "Emokirirĩ ñe'ẽ",
+    "stopShort": "Emokirirĩ",
+    "tapToListen": "Epoko rehendu hag̃ua",
+    "autoplayBlockedHint": "Ne kundahára ojoko ñe'ẽ ijeheguíva.",
+    "listenAgainAria": "Ehendu jey NAUTI ñe'ẽ",
+    "stopVoiceAria": "Emokirirĩ NAUTI ñe'ẽ",
+    "hudMission": "Misión Aurora",
+    "hudOfflineSub": "Efecto Dominó · Internet'ỹre",
+    "hudShiftPrefix": "Á",
+    "hudEnergy": "Tendyry",
+    "hudHealth": "Tesãi",
+    "hudWater": "Y",
+    "hudScience": "Kuaapy",
+    "hudResearch": "Temb.",
+    "hudScienceTitle": "Kuaapy ñemoĩ MODELAR-pe g̃uarã",
+    "hudResearchTitle": "Tembikuaareka ñembyaty (hupytyrã: 60)",
+    "skip": "Ehasa",
+    "prev": "Tapykue",
+    "continueBtn": "Ejapo gueteri",
+    "startMissionBtn": "Ñepyrũ tembiapo",
+    "finishTutorialBtn": "Emohu'ã ñembokatupyry",
+    "reviewTutorialBtn": "Ehecha jey ñembokatupyry",
+    "pauseTutorialBtn": "Epytu'u",
+    "resumeTutorialBtn": "Embojoapy ñembokatupyry",
+    "startTrainingBtn": "Ñepyrũ ñembokatupyry",
+    "tutorialLockedHint": "Emohu'ã raẽ ñembokatupyry eike hag̃ua umi episodio-pe.",
+    "stepProgressLabel": "Jehupyty {{current}} / {{total}}",
+    "step1Of4": "Ñembokatupyry · 1 / 7",
+    "tutEnergyDesc": "Tendyry oĩva omomba'apo hag̃ua base Jasýpe.",
+    "tutHealthDesc": "Aty tekove porã ha tekorosã.",
+    "tutWaterDesc": "Y oĩva atýpe g̃uarã ha tembiapo sistema-kuérape.",
+    "tutResearchDesc": "Tembikuaareka ñemotenonde tembiapo pukukuépe.",
+    "tutTryHelp": "Eha'ã AYUDA",
+    "tutHelpExample": "Techapyrã pytyvõ rehegua: Jasýpe, yvyku'i po'i ikatu oja jehechahápe, ñembotyháme ha panel solar-pe, ha omboguejy imba'apo porãkue.",
+    "tutHelpGuide": {
+      "heading": "🔬 NASA kuaapy pytyvõrã",
+      "introParagraphs": [
+        "Tembiapo pukukuépe rejuhúta pytyvõ tembikuaareka rehegua oñemopyendáva kuaapy ha marandu NASA omyasãivape.",
+        "Ko'ã kuaapy pytyvõrã nepytyvõta reikũmby hag̃ua umi apañuãi Base Aurora-pe ha rejapo hag̃ua jeporavo oñemopyendáva kuaapy añeteguápe.",
+        "Opaite kuaapy pytyvõrã oguereko mbohapy pehẽngue:"
+      ],
+      "parts": [
+        {
+          "title": "1. 🔬 Marandu tembikuaareka rehegua",
+          "description": "Peteĩ ñemyesakã hasy'ỹva oñemopyendáva tembikuaareka kuaapýpe."
+        },
+        {
+          "title": "2. 💡 Peñemongeta atýpe",
+          "description": "Peteĩ porandu peñemongeta hag̃ua, pehesa'ỹijo mba'épa oiko ha pembojoaju marandu pende jeporavo rehe."
+        },
+        {
+          "title": "3. 📚 Moõguipa osẽ kuaapy",
+          "description": "Techaukaha ha joajuha kuatia ypykue rehegua peikuaa hag̃ua moõguipa ou marandu."
+        }
+      ],
+      "finalReminder": "¡Penemandu'áke! NAUTI nde'imo'ãi ndéve mba'e tapépa reiporavo va'erã. Pende aty ohesa'ỹijo va'erã umi kuaapy ha oiporavo oñondive.",
+      "exampleBadge": "Techapyrã añetegua · Ára 1",
+      "exampleHintHeading": "🔬 NASA kuaapy pytyvõrã",
+      "exampleReflectHeading": "💡 Peñemongeta atýpe",
+      "exampleSourceHeading": "📚 Moõguipa osẽ kuaapy",
+      "exampleSourceUrlLabel": "Joajuha kuatia ypykue rehegua (NASA)"
+    },
+    "tutTryModel": "Eha'ã MODELAR (hepy'ỹre)",
+    "tutModelExample": "Techapyrã ñeha'ã rehegua: ñamyatyrõramo mbogueha (filtro) ikatu oiporu Tendyry, péro oñangareko Y rehe ha omboyke kañy tenondeve.",
+    "tutOptA": "Eñangareko mba'erepy rehe",
+    "tutOptB": "Emotenonde tembikuaareka",
+    "tutPracticeHint": "Eha'ã eiporavóvo peteĩ tape; ko ñembokatupyry nomoambuéi umi techaukaha.",
+    "tutBadgePrefix": "Ñembokatupyry",
+    "tutorialOnboarding": {
+      "mandatoryBadge": "Ñembokatupyry ñepyrũrã",
+      "reviewBadge": "Jehecha jey",
+      "pauseTooltip": "Oñongatu ne ñembokatupyry rembiapo embojoapy hag̃ua uperire.",
+      "sectionBadges": [
+        "Pehẽngue 1 / 5 · Techaukaha",
+        "Pehẽngue 2 / 5 · Kuaapy",
+        "Pehẽngue 3 / 5 · Jeporavo",
+        "Pehẽngue 4 / 5 · Porandu",
+        "Pehẽngue 5 / 5 · Hupytyrã",
+        "Ñeha'ã mbyky",
+        "Ñembokatupyry opáma"
+      ],
+      "section1": {
+        "title": "⚡💧💚🔬 Base Aurora mba'erepykuéra",
+        "intro": "Base Aurora-pe ñañangareko va'erã irundy techaukaáre: tendyry, y, tesãi ha tembikuaareka.\n\nOpaite jeporavo ikatu ombohetave térã omboguejy ko'ã mba'erepy. Iporãvéva ha'e ñañongatu ñembojoja tembiapo oho hag̃ua tenonde.",
+        "initialLabel": "Oñepyrũháicha",
+        "goalLabel": "Hupytyrã paha",
+        "demoTitle": "Ñeha'ã techaukarã (nomoambuéi ne ñembosarái añetegua)",
+        "demoResetBtn": "Emoñepyrũ jey (50)",
+        "demoLabBtn": "Eha'ã: laboratorio omba'apo (⚡ -10 · 🔬 +3)",
+        "demoCareBtn": "Eha'ã: ñangareko (⚡ -5 · 💚 +6 · 💧 +2)",
+        "demoNote": "Epoko peteĩ techaukaáre térã techapyrãre rehecha hag̃ua mba'éichapa ojupi ha oguejy."
+      },
+      "section2": {
+        "title": "⭐ ¿Mba'épa umi kuaapy punto?",
+        "intro": "Umi kuaapy punto ha'e mba'erepy ne aty ikatúva oiporu ohesa'ỹijo hag̃ua tembiapo pukukuépe.\n\nIkatu rehupyty umi tembiapopy ñembosarái ome'ẽva rupive, umi porandu tembikuaareka reheguaicha, hekorãicha.",
+        "researchCardTitle": "🔬 Tembikuaareka Techaukaha",
+        "researchCardValue": "Ñepyrũ: 50 · Hupytyrã: 60",
+        "researchCardDesc": "Ohai mba'eichaitépa oho tenonde tembikuaareka. Ndojeporúi tembiporúpe.",
+        "scienceCardTitle": "⭐ Kuaapy Punto-kuéra",
+        "scienceCardValue": "Ñepyrũme oĩ: 1 · MODELAR hepy: 1",
+        "scienceCardDesc": "Ha'e mba'erepy ojeporúva tembiporúpe MODELAR-icha (1 punto peteĩ árape).",
+        "earnRuleNote": "Tekorã añetegua: reñepyrũ 1 Kuaapy punto ndive ha ikatu rehupyty +1 punto oimeraẽ porandu tembikuaareka rembohovái porãvo."
+      },
+      "section3": {
+        "title": "🎮 Eikuaa mba'éichapa reiporavo va'erã",
+        "selectTitle": "Eiporavo peteĩ tape",
+        "selectBody": "Eiporavo mba'e tapépa pende aty ohesa'ỹijose.",
+        "modelTitle": "MODELAR",
+        "modelBody": "Remoneĩ mboyve, ikatu reiporu MODELAR reheka hag̃ua mba'épa ikatu ogueru ne jeporavo.\n\nKo tembiporu oñemopyenda modelo, ñeha'ã ha ta'ãnga ojeporúvape NASA tembikuaahára ha ingeniero-kuéra rehe ohesa'ỹijo hag̃ua oiko mboyve.",
+        "confirmTitle": "Emoneĩ jeporavo",
+        "confirmBody": "Oĩmbávo peteĩ ñe'ẽme aty, emoneĩ jeporavo. Mba'e oikóva oike tembiapo rembiasakuépe.",
+        "importantWarning": "MODELAR ndoiporavói ndéve g̃uarã. Ohechaukáva nepytyvõ rehesa'ỹijo hag̃ua, péro ndohechaukái katuete opaite mba'e oikótava tenondeve.",
+        "otherToolsTitle": "Ambue tembiporu oĩva tembiapo aja",
+        "otherTools": [
+          {
+            "label": "AYUDA",
+            "desc": "Ohechauka marandu NASA tembikuaareka añetegua rupi (Marandu, Peñemongeta ha Moõguipa osẽ) oipytyvõ hag̃ua pende ñemongetápe."
+          },
+          {
+            "label": "Ehecha NASA ta'ãnga añetegua",
+            "desc": "Ára 1-pe oipe'a Artemis I ta'ãnga añetegua kuarahy panel-kuéra rehegua."
+          },
+          {
+            "label": "Ehecha oikova'ekue / Mba'e oñembyatýva",
+            "desc": "Ára 2 guive 5 peve ohechauka jeporavo yma guare, mba'e oñembyatýva ha «Ehecha ha emoneĩ»."
+          },
+          {
+            "label": "Ehendu / Ñe'ẽ / Tyapu",
+            "desc": "Ohendu jey NAUTI ñe'ẽ, omoambue Español, English térã Avañe'ẽ ha omyatyrõ tyapu."
+          }
+        ],
+        "toggleHelpPreviewBtn": "Ehecha mba'éichapa omba'apo AYUDA (NASA)"
+      },
+      "section4": {
+        "title": "🧠 ¡Eha'ã ne kuaapy!",
+        "intro": "Tembiapo pukukuépe rejuhúta porandu tembikuaareka ha arapy jekuaa rehegua.\n\nNe aty oñemongeta va'erã, ohesa'ỹijo marandu ha oiporavo peteĩ ñembohovái.",
+        "cards": [
+          {
+            "heading": "Araka'e ha mba'éichapa osẽ",
+            "body": "Opa rire ára 1, 3 ha 4 osẽ votõ «Porandu kuaapy rehegua» mbohapy jeporavorã ndive (A, B térã C)."
+          },
+          {
+            "heading": "Kuatia'atã pytyvõrã",
+            "body": "Ombohovái mboyve, aty ikatu ohecha umi kuatia'atã marandu tembikuaareka rehegua oñemombarete hag̃ua."
+          },
+          {
+            "heading": "Pembohovái porãrõ (+1 Kuaapy)",
+            "body": "Rehupyty +1 Kuaapy punto añetegua reiporu hag̃ua uperire MODELAR-pe."
+          },
+          {
+            "heading": "Javy ramo (castigo'ỹre)",
+            "body": "Nereñembyaíri mba'eve: remoñe'ẽ ñemyesakã reñemoarandu hag̃ua ha reho tenonde."
+          }
+        ],
+        "distinctionBanner": "Iporã reikuaa: Rembohovái porãrõ peteĩ porandu ome'ẽ Kuaapy punto MODELAR-pe g̃uarã, péro iporãrõ porandúpe nde'iséi reganáma hague tembiapo."
+      },
+      "section5": {
+        "title": "🏆 ¿Mba'éichapa ñamohu'ã porã tembiapo?",
+        "objectiveText": "Hupytyrã ha'e pemohu'ã umi 5 ára Base Aurora-pe peñangarekóvo mba'erepýre ha pemotenondévo tembikuaareka.",
+        "rules": [
+          {
+            "badge": "Pu'aka iñongatupyre",
+            "tone": "success",
+            "body": "Opávo Ára 5, ñañongatu Tendyry, Y ha Tesãi 25 térã hetave ha jahupyty 60 térã hetave Tembikuaarekape."
+          },
+          {
+            "badge": "Tesaparápe vai (opa)",
+            "tone": "danger",
+            "body": "Tendyry, Y térã Tesãi og̃uahẽrõ 0-pe térã oguejyve oimeraẽ árape, base oĩ tesaparápe ha tembiapo opa pya'e."
+          },
+          {
+            "badge": "Tendaguasu ikangýva",
+            "tone": "warning",
+            "body": "Peteĩ mba'erepy opytárõ 25 guýpe térã Tembikuaareka ndog̃uahẽirõ 60-pe, tembiapo opa pu'aka paha'ỹre."
+          },
+          {
+            "badge": "Efecto Dominó uperiregua",
+            "tone": "info",
+            "body": "Peteĩ jeporavo iporãvaicha ko ára ikatu ogueru mba'e vai oñembyatýva ára uperireguápe."
+          }
+        ],
+        "triviaReminder": "Penemandu'áke: porandu ome'ẽ Kuaapy punto MODELAR-pe g̃uarã, péro tembiapo ojegana ñañangarekórõ irundy techaukaáre 5 ára pukukue."
+      },
+      "practice": {
+        "title": "Ñeha'ã mbyky javeve mboyve",
+        "subtitle": "Pejapo ko'ã 5 paso mbyky oñondive. Ko ñeha'ã ndoiporúi Kuaapy punto ha nomoambuéi techaukaha añetegua.",
+        "progressChip": "Paso {{done}} / 5",
+        "step1Prompt": "1. Ehechakuaa peteĩ techaukaha: epoko Y (💧) rehe.",
+        "step1Wrong": "Ambue techaukaha upéva. Eheka y tyky hovy: Y.",
+        "step1Success": "¡Oĩ porã! Y ohechauka mba'eichaitépa oĩ y atýpe g̃uarã.",
+        "step2Prompt": "2. Eiporavo peteĩ techapyrã rehesa'ỹijo hag̃ua atýpe.",
+        "step2Options": [
+          {
+            "title": "Ehecha y renda ñembotyha",
+            "summary": "Oiporu michĩ tendyry ko ára oñangareko hag̃ua Y rehe ára oúvape.",
+            "forecast": "Techapyrã ñeha'ã: Tendyry −4, Tesãi 0, Y +3, Tembikuaareka +1."
+          },
+          {
+            "title": "Emotenonde pya'e ehecha'ỹre",
+            "summary": "Ombohetave tembikuaareka pya'e, péro ikatu oikotevẽve tenondeve.",
+            "forecast": "Techapyrã ñeha'ã: Tendyry −6, Tesãi −1, Y 0, Tembikuaareka +3."
+          }
+        ],
+        "step2Success": "¡Iporã! Peiporavóma peteĩ tape pehesa'ỹijo hag̃ua.",
+        "step3Prompt": "3. Ehecha mba'éichapa omba'apo MODELAR (0 punto añetegua).",
+        "step3Btn": "Eha'ã MODELAR (0 punto añetegua)",
+        "step3Success": "Péicha MODELAR ohechauka mba'épa ikatu oiko remoneĩ mboyve.",
+        "step4Prompt": "4. Ehechakuaa votõ omoneĩva jeporavo:",
+        "step4Buttons": {
+          "help": "AYUDA",
+          "model": "MODELAR",
+          "confirm": "Emoneĩ jeporavo"
+        },
+        "step4Wrong": "Upéva oipytyvõ ehecha mboyve. Epoko «Emoneĩ jeporavo» rehe.",
+        "step4Success": "¡Oĩ porãite! «Emoneĩ jeporavo» omoañete ne jeporavo.",
+        "step5Prompt": "5. Ehechakuaa mba'épa ikatu oiko mba'erepýre:",
+        "step5Question": "Peteĩ jeporavo oiporuetérõ tendyry térã ndoñangarekóirõ, ¿mba'épa ikatu oiko?",
+        "step5Choices": [
+          "Ikatu omboguejy ko mba'erepy térã ogueru apañuãi ára rire.",
+          "Araka'eve nomoambuéi Base Aurora techaukaha."
+        ],
+        "step5Wrong": "Penemandu'áke: Efecto Dominó-pe opaite jeporavo omoambue umi techaukaha.",
+        "step5Success": "¡Porãitereíma! Peikũmbýma mba'éichapa jeporavo ombojoaju opaite mba'e.",
+        "completedBanner": "¡Ñeha'ã opáma! Peho tenonde pemohu'ã hag̃ua ha peike umi episodio-pe.",
+        "finishPracticeBtn": "Emohu'ã ñembokatupyry"
+      },
+      "completion": {
+        "title": "🚀 ¡Aty oĩmbáma!",
+        "paragraphs": [
+          "Ko'ág̃a peikuaáma umi techaukaha, kuaapy punto-kuéra, porandu ha tembiporu peiporavo hag̃ua.",
+          "Penemandu'áke: Efecto Dominó-pe, umi jeporavo ko aragua ikatu omoambue tembiapo tenondegua.",
+          "¡Ñañepyrũma!"
+        ],
+        "primaryBtn": "Ehecha umi episodio"
+      }
+    },
+    "chapterShift": "Misión Aurora · Ára {{shift}} / 5",
+    "emergencyPrefix": "Tesaparápe:",
+    "tutorialBtn": "Ñembokatupyry",
+    "simActivePrefix": "🔬 Ñeha'ã oiko:",
+    "simPickHintTwo": "Eiporavo A térã B rehecha hag̃ua mba'épa ikatu oiko.",
+    "simPickHintThree": "Eiporavo A, B térã C rehecha hag̃ua mba'épa ikatu oiko.",
+    "helpBtn": "AYUDA",
+    "modelActiveBtn": "MODELAR (oikóva)",
+    "modelCostBtn": "MODELAR · 1 Kuaapy",
+    "confirmDecision": "Emoneĩ jeporavo",
+    "selectOptionBtn": "Ehecha ha emoneĩ",
+    "sceneBadge": "Ára {{shift}} · Jeporavo",
+    "briefingBadge": "Ára {{shift}} · Ñepyrũ",
+    "confirmBadge": "Ára {{shift}} · Ñemoneĩ",
+    "delayedBadge": "Ára 5 · Mba'e oñembyatýva",
+    "helpBadge": "Kuaapy marandu",
+    "modelBadge": "Jahecha tenonde",
+    "resultConseqBadge": "Oikóva · Ára {{shift}}",
+    "resultReportBadge": "Ára {{shift}} · Marandu",
+    "resultDeadTitle": "⚠ Tesaparápe Base Aurora-pe",
+    "resultTitle": "Péicha oñemoambue tembiapo",
+    "accumulatedConseq": "Mba'e oikóva uperire:",
+    "resourceZero": "Peteĩ mba'erepy tekotevẽva og̃uahẽ 0-pe térã oguejyve",
+    "bonusAvailable": "Jopói ikatúva: +1 Kuaapy",
+    "readyContinue": "Ñaiméma jahave hag̃ua",
+    "seeOutcome": "Ehecha mba'éichapa opa",
+    "seeEnding": "Ehecha mba'éichapa opa",
+    "sciTriviaBtn": "Porandu kuaapy rehegua",
+    "nextShiftBtn": "Ambue ára",
+    "triviaBadge": "Porandu kuaapy · +1 Kuaapy",
+    "triviaNautiPrompt": "¡Arapy porandu! Ñambohovái porãramo, che ñanduhára ohupyty +1 Kuaapy ojeporu hag̃ua MODELAR-pe.",
+    "triviaNautiBadge": "Porandu · +1 Kuaapy",
+    "triviaEurekaBadge": "¡Ajépa porã!",
+    "triviaLearnBadge": "Ñemoarandu",
+    "triviaCorrectTitle": "¡Oĩ porã! +1 Kuaapy",
+    "triviaWrongTitle": "Tembiapo porã ñaikũmbyve hag̃ua. Ndaipóri jehepyme'ẽ.",
+    "triviaPickHint": "Eiporavo peteĩ mbohovái rehove hag̃ua",
+    "triviaDoneHint": "Porandu ojejapopáma",
+    "triviaContinueBtn": "Jahave tembiasápe",
+    "triviaRightBanner": "¡Oĩ porã! Rehupyty peteĩ Kuaapy.",
+    "triviaWrongBanner": "Tembiapo porã ñaikũmbyve hag̃ua.",
+    "endBadge": "Tembiapo jehepyme'ẽ",
+    "endVictoryTitle": "Tembiapo iñongatu porãva",
+    "endDeadTitle": "Tesaparápe Base Aurora-pe",
+    "endPartialTitle": "Tembiapo opáma",
+    "endVictoryBody": "Aty oñangareko Tendyry, Y ha Tesãi rehe 25 térã hetave rupi, ha ohupyty 60 térã hetave Tembikuaareka.",
+    "endDeadBody": "Peteĩ mba'erepy tekotevẽva og̃uahẽ 0-pe ha ndaikatuvéima oiko tembiapo Base-pe.",
+    "endPartialBody": "Ñamohu'ãma umi po ára tembiapo. Jahecha jey mba'éichapa oiko ha umi jeporavo.",
+    "discussTitle": "Porandu ñomongetarã:",
+    "discussBody": "¿Mba'e jeporavópa ogueru peteĩ mba'e nañaha'ãrõiva? ¿Mba'e kuaapy rupípa ikatuva'ekue ñamoambue ñane jeporavo?",
+    "downloadLog": "Emboguejy kuatiahaipy",
+    "playAgain": "Eñembosarái jey",
+    "logSimTitle": "NAUTI · Efecto Dominó — Misión Aurora",
+    "noneRisk": "ndaipóri",
+    "helpModalTag": "Tembiapo kuatia · Kuaapy",
+    "modelModalTag": "Tenonderã rechaha",
+    "helpModalTitle": "NASA kuaapy pytyvõrã",
+    "modelModalTitle": "Tape jeporavo ñeha'ã",
+    "closeWindow": "Emboty ovetã",
+    "sourceLabel": "Moõguipa osẽ:",
+    "viewNasaSource": "Ehecha NASA kuatia",
+    "offlineSourceNote": "Reike hag̃ua kuatia okapeguápe ikatu reikotevẽ internet; ko marandu oiko 100 % internet'ỹre.",
+    "modelSelectPrompt": "Eiporavo peteĩ tape (A, B térã C) ta'ãngarupápe rehecha hag̃ua mba'épa ikatu oiko remoneĩ mboyve. Ne ñeha'ã oiko gueteri ko árape.",
+    "modelSelectPromptTwo": "Eiporavo peteĩ tape (A térã B) ta'ãngarupápe rehecha hag̃ua mba'épa ikatu oiko remoneĩ mboyve. Ne ñeha'ã oiko gueteri ko árape.",
+    "optionPrefix": "Tape",
+    "possibleRiskPrefix": "Mba'e ikatúva oiko uperire:",
+    "delayedRiskFallback": "mba'e oikóva uperire",
+    "backToDecisions": "Ejevy jeporavópe",
+    "nasaPhotoBtn": "Ehecha NASA ta'ãnga añetegua",
+    "nasaPhotoHoverHint": "Techauka mbyky · Epoko rembotuichave hag̃ua",
+    "nasaPhotoBadge": "Ta'ãnga añetegua · Artemis I",
+    "nasaPhotoTitle": "Orion panel solar-kuéra — Artemis I",
+    "nasaPhotoDesc": "Ára 13-hápe tembiapo Artemis I-pe, arapy mba'yrumýi Orion onohẽ ta'ãnga Yvy ha Jasy rehegua peteĩ ipanel solar mokõive yképe. Ko'ã panel solar ombohasa kuarahy resape tendyrýpe, peteĩ tembiporu tekotevẽitereíva arapy ñeha'ãme.",
+    "nasaPhotoDateLabel": "Arange:",
+    "nasaPhotoDate": "28 jasypateĩ 2022.",
+    "nasaPhotoCreditLabel": "Ta'ãnga apohára:",
+    "nasaPhotoCredit": "NASA.",
+    "nasaPhotoSourceLabel": "Moõguipa ou ta'ãnga:",
+    "nasaPhotoSource": "Agencia Espacial Canadiense (CSA).",
+    "nasaPhotoViewOriginal": "Eipe'a moõguipa ou (CSA)",
+    "nasaPhotoError": "Ndaikatúi ojehechauka ta'ãnga ko tembiporúpe ko'ág̃a. Ikatu reipe'a ta'ãnga ypykue joajuha rupive.",
+    "nasaPhotoNautiComment": "¡Pemañami kóvare, aty! ¡Kóva ha'e peteĩ ta'ãnga añetegua Artemis I pegua! Panel solar-kuéra oipytyvõ arapy mba'yrumýipe ohupyty hag̃ua tendyry Kuarahýgui. ¡Ha ñande avei ñañangareko porã va'erã ñane tendyrýre!",
+    "nasaPhotoClose": "Emboty",
+    "tooltipInfoAria": "Maranduve {{label}} rehegua",
+    "tooltipHelp": "Emoñe'ẽ kuaapy NASA rehegua ikatúva oipytyvõ ne atýpe ohesa'ỹijo hag̃ua mba'épa oikohína.",
+    "tooltipModel": "🔭 Ehecha mba'épa ikatu oiko ne jeporavógui remoneĩ mboyve, reiporúvo Kuaapy. Ojejapo oñembohekoitereívo umi ñeha'ã NASA ojapóva.",
+    "tooltipLearnMore": "Eikuaave",
+    "modelHelpPanel": {
+      "exploreHeading": "🔭 MODELAR: Eheka remoneĩ mboyve",
+      "exploreParagraphs": [
+        "NASA-pe, tembikuaatyhára ha ingeniero-kuéra oiporu modelo, ñeha'ã ha ta'ãnga ohecha hag̃ua opaichagua mba'e ikatúva oiko, oha'ã tenondeve mba'épa osẽta ha ohesa'ỹijo apañuãi ojapo mboyve jeporavo tuicháva.",
+        "Oñemopyendávo ko'ã tembiapóre, MODELAR oheja ndéve rehecha mba'éichapa peteĩ jeporavo ikatu omoambue Base Aurora mba'erepy remoneĩ mboyve."
+      ],
+      "howHeading": "⚙️ ¿Mba'éichapa omba'apo?",
+      "howParagraphs": [
+        "Eiporavo peteĩ tape ha ejopy MODELAR. Reiporúta Kuaapy rehecha hag̃ua mba'éichapa upe jeporavo ikatu ohupyty tendyry, y, tesãi ha tembikuaareka.",
+        "Uperire, peñemongeta pende atýpe mba'épa osẽ. Ikatu peñongatu pende jeporavo térã pemoambue pemoneĩ mboyve."
+      ],
+      "rememberHeading": "💡 ¡Penemandu'áke!",
+      "rememberBody": "MODELAR ndojapói jeporavo nderehe. Nepytyvõ rehecha hag̃ua mba'e ikatúva oiko, péro oĩ mba'e ikatúva ojekuaa uperire añoite ha ndojehecháiva ñeha'ãme.",
+      "nasaConnectionNote": "MODELAR ha'e peteĩ techauka mbo'epy rehegua oñemombykýva, oñemopyendáva umi modelo, ñeha'ã ha ta'ãnga ojeporúva arapy ñeha'ãme."
+    },
+    "tooltipWater": "Ohechauka mboy ypa oĩ gueteri atýpe g̃uarã.",
+    "tooltipEnergy": "Ohechauka mboy tendyry oguereko ko'ág̃a Base Aurora.",
+    "tooltipHealth": "Ohechauka mba'éichapa oĩ astronauta-kuéra resãi ko'ág̃a.",
+    "tooltipScience": "Kuaapy oĩva jahecha ha ñaha'ã hag̃ua tembiapo.",
+    "tooltipResearch": "Ohechauka mboy tembikuaareka oñembyatýma tembiapo pukukuépe (hupytyrã: 60).",
+    "tooltipListenAgain": "Ombopu jey NAUTI ñe'ẽ ñepyrũ guive.",
+    "tooltipStopVoice": "Omokirirĩ NAUTI ñe'ẽ oikóva ko'ág̃a.",
+    "tooltipConfirmDecision": "Omondo tape ne aty oiporavóva. Oñemoneĩ vove, omoambuéta tembiapo.",
+    "tooltipNasaPhoto": "Oipe'a peteĩ NASA ta'ãnga añetegua ko tembiapo rehegua.",
+    "tooltipStartMission": "Oñepyrũ arapy ñeha'ã Base Aurora ñangarekóre Jasýpe.",
+    "tooltipTutorial": "Oipe'a sãmbyhy mbyky ojekuaa hag̃ua umi techaukaha ha tembiporu ojeporavo mboyve.",
+    "tooltipSound": "Omyatyrõ purahei tapykuegua, NAUTI ñe'ẽ, moñe'ẽ ijeheguíva ha tyapu.",
+    "contextRecapTitle": "Mba'épa oikova'ekue kuehe:",
+    "analyzeSituationBtn": "Jahesa'ỹijo mba'épa oiko",
+    "viewContextBtn": "Jahecha mba'éichapa oñepyrũ",
+    "confirmTitle": "¿Remoneĩtapa ko jeporavo?",
+    "confirmSubtitle": "Ehecha porã tape oiporavóva aty oñemoañete mboyve.",
+    "confirmReminder": "Mba'e oikóva Tendyry, Y, Tesãi ha Tembikuaareka rehe oñemoañetéta peteĩ jey añónte remoneĩ vove.",
+    "confirmBackBtn": "Ejevy",
+    "confirmApplyBtn": "Emoneĩ",
+    "day5TimelineTitle": "Jeporavo rape (Ára 1 guive 4 peve)",
+    "day5CheckDelayedBtn": "Ehecha mba'e oñembyatýva",
+    "day5DelayedTitle": "Umi jeporavo yma guare rembiapo",
+    "day5DelayedSubtitle": "Jajapo mboyve jeporavo paha, jahecha mba'éichapa umi jaiporavova'ekue kuehe ogueru mba'e Base Aurora-pe ko'ág̃a:",
+    "day5PostDelayedTitle": "Base rekove oiko rire umi mba'e oñembyatýva",
+    "day5ToDecisionBtn": "Jaha jeporavo pahápe",
+    "day5BonusEnergyNote": "Pytyvõ Ára 2 mbo'epy rupi: ñamotenonde ramo ñemoarandu mbyky, tendyry jeporu oguejy −8-gui −5-pe.",
+    "dayLabelShort": "Ára {{day}}",
+    "researchFullLabel": "Tembikuaareka",
+    "endTabOutcome": "Ipahápe",
+    "endTabChart": "Ta'ãnga",
+    "endTabHistory": "Tembiasakue",
+    "endTabReflection": "Ñemongeta",
+    "endNextStepBtn": "Tenonde",
+    "endPrevStepBtn": "Tapykue",
+    "endSustThresholdNote": "Hupytyrã iñongatupyre: ≥ 25 Tendyry, Y ha Tesãime",
+    "endResGoalNote": "Tembikuaareka hupytyrã: ≥ 60",
+    "chartTitle": "Base Aurora mba'erepy ñemoambue",
+    "chartSubtitle": "Tape oikopaitéva ñepyrũ guive (50), peteĩteĩ ára ha Ára 5 mba'e oñembyatýva jehechapy.",
+    "chartSustMin": "Michĩvéva iñongatupyre (25)",
+    "chartResGoal": "Temb. hupytyrã (60)",
+    "chartStageStart": "Ñepyrũ",
+    "chartStageDay": "Á{{day}}",
+    "chartStageDelayed": "Mb. Á5",
+    "chartStageFinal": "Paha Á5",
+    "historyTitle": "Jeporavo ha mba'érepa oiko tembiasakue",
+    "historySubtitle": "Ohechauka umi jeporavo añetegua ojapova'ekue aty ha mba'éichapa oñombojoaju uperire.",
+    "historyCausalityLabel": "Joaju mba'érepa:",
+    "historyEmpty": "Ndojejapói jeporavo ko ñeha'ãme.",
+    "reflectionTitle": "Porandu ñomongetarã atýpe",
+    "reflectionSubtitle": "Peñemongeta oñondive ko'ã mbohapy porandúre pehesa'ỹijo hag̃ua tembiapo rape:",
+    "missionCompleteTitle": "Ñembosarái opáma",
+    "replayMissionBtn": "Eñembosarái jey",
+    "mainMenuBtn": "Ovetã ñepyrũ",
+    "reviewDecisionsBtn": "Ehecha jey jeporavo",
+    "languageSelectorAria": "Eiporavo ñe'ẽ: Español, English térã Avañe’ẽ",
+    "platformName": "NAUTI",
+    "experienceTitle": "EFECTO DOMINÓ",
+    "adventureSubtitle": "Misión Aurora",
+    "experienceTagline": "Peteĩ jeporavo ikatu omoambue opaite mba'e.",
+    "aboutTitle": "¿Mba'érepa oñe'ẽ?",
+    "aboutBody": "Pende aty oñangareko va'erã peteĩ base Jasýpe. Opaite jeporavo ohupyty tendyry, y, tesãi ha tembikuaareka. ¡Pema'ẽke! Oĩ mba'e ojehechátava ára rire.",
+    "howToPlayTitle": "¿Mba'éichapa oñembosarái?",
+    "howToPlaySteps": [
+      "Emoñe'ẽ térã ehendu mba'épa oiko.",
+      "Peñemongeta pende atýpe ha peiporavo oñondive.",
+      "Pehecha mba'épa oiko ha pemohu'ã umi 5 ára."
+    ],
+    "startMissionCta": "Ñepyrũ tembiapo",
+    "continueMissionCta": "Embojoapy tembiapo",
+    "tryDemoCta": "🧪 Eha'ã peteĩ techaukaha",
+    "tooltipDemoBtn": "Eha'ã peteĩ techapyrã mbykymi reñepyrũ mboyve upe tembiapo 5 ára rehegua."
+  },
+  "audio": {
+    "panelTitle": "Tyapu Ñangareko",
+    "buttonLabel": "Tyapu",
+    "music": "Purahei",
+    "voice": "NAUTI ñe'ẽ",
+    "autoNarrate": "Moñe'ẽ ijeheguíva",
+    "replay": "Ehendu jey",
+    "stop": "Emokirirĩ",
+    "effects": "Tyapu mirĩ",
+    "mute": "Emokirirĩ",
+    "unmute": "Emyendy tyapu",
+    "on": "Oikóva",
+    "off": "Oguéva",
+    "onPlural": "Oikóva",
+    "voiceSettings": "Ñe'ẽ ha tyapu",
+    "duckHint": "Purahei oguejy mbegue NAUTI oñe'ẽ jave",
+    "modalAriaLabel": "NAUTI ñe'ẽ ha tyapu ñemboheko",
+    "modalTitle": "NAUTI ñe'ẽ ha tyapu",
+    "closeAria": "Emboty ñe'ẽ ovetã",
+    "voiceSelectLabel": "NAUTI ñe'ẽ (ES / EN / GN)",
+    "chooseVoiceAria": "Eiporavo ñe'ẽ",
+    "defaultDeviceVoice": "Tembiporu ñe'ẽ ypykue",
+    "latamVoiceReady": "Español LatAm ojekuaa",
+    "compatibleVoice": "Ñe'ẽ ojokupytýva",
+    "guaraniVoiceReady": "Avañe’ẽ ñe'ẽ ojekuaa",
+    "guaraniTextOnlyBadge": "Moñe'ẽrã ta'ãngarupápe · ndaipóri gn-PY ñe'ẽ",
+    "autoNarrateLong": "Moñe'ẽ ijeheguíva oñemoambuévo ovetã",
+    "autoNarrateSub": "NAUTI omombe'u peteĩteĩ ovetã ijehegui",
+    "musicVolumeAria": "Purahei mbaretekue",
+    "voiceVolume": "Ñe'ẽ mbaretekue",
+    "voiceVolumeAria": "Ñe'ẽ mbaretekue",
+    "speed": "Pya'ekue",
+    "speedAria": "Ñe'ẽ pya'ekue",
+    "pitch": "Ñe'ẽ yvatekue",
+    "pitchAria": "Ñe'ẽ yvatekue",
+    "pronunciationTitle": "Ñe'ẽ «Náuti»",
+    "pronunciationSub": "Omombarete «NAU-ti»",
+    "pronunciationActive": "Oikóva",
+    "pronunciationNatural": "Tekokatu",
+    "testNautiBtn": "Eha'ã «NAUTI»",
+    "doneBtn": "Oĩma",
+    "guaraniFallbackLabel": "Ambue ñe'ẽ ñemombe'u ndaipóriramo Avañe’ẽ ñe'ẽ",
+    "guaraniFallbackHint": "Ypykuépe ohechauka moñe'ẽrã Avañe’ẽme añónte, ani hag̃ua oñembojehe'a ñe'ẽ ñemomarandu'ỹre.",
+    "guaraniFallbackNone": "Moñe'ẽrã añónte (Avañe’ẽ)",
+    "guaraniFallbackEs": "Emombe'u Español-pe",
+    "guaraniFallbackEn": "Emombe'u English-pe",
+    "themes": {
+      "menu": "Purahei ñepyrũgua",
+      "tutorial": "Teko py'aguapy",
+      "practice": "Ñembokatupyry",
+      "mission": "Jasy jekuaa",
+      "trivia": "Porandu pya'e",
+      "danger": "Ma'ẽporã tesaparápe",
+      "victory": "Vy'apavẽ arapýpe"
+    }
+  },
+  "nauti": {
+    "lines": {
+      "welcome": [
+        "¡Mba'éichapa, aty! Che ha'e NAUTI. Aikuaa heta mba'e arapýgui... ha katu ndajuhúi gueteri mba'éichapa ambopuka yvyporakuérape. ¡Ahesa'ỹijo gueteri! 🔬",
+        "¡Maitei Jasy guive! Che resa guasu ipotĩ, che akãmo'ãha oĩ porã, ha che kyre'ỹ ñamba'apo hag̃ua oñondive."
+      ],
+      "launch": [
+        "¡Aty oĩ porãma! Pemohenda pene akãmo'ãha... ¡Ñane rembiasa Jasýpe oñepyrũtama!"
+      ],
+      "tutorial": [
+        "¡Ñembokatupyry! Ko'ápe ikatu peha'ã pekyhyje'ỹre pembyaívo peteĩ panel solar.",
+        "Ñañepyrũ mboyve umi ára, jahechami ñane tembiporu tembikuaareka rehegua. ¡Nañembokachái peteĩ botón pytã che resaráigui!"
+      ],
+      "sceneIdle": [
+        "Mmm... jahesa'ỹijo porã umi tape. Ikatu jaiporu AYUDA térã MODELAR jaiporavo mboyve.",
+        "¿Mba'e tape tembikuaareka reheguápa peiporavose, aty? ¡Che ñanduhára oha'ãrõ pene ñe'ẽ!",
+        "Penemandu'áke: Jasýpe peteĩteĩ vatio ha peteĩteĩ y tyky iporãiterei. ¡Ñahendu opavave remiandu!"
+      ],
+      "sceneDanger": [
+        "¡Ái, Jasy yvykua! Jaguereko peteĩ apañuãi michĩva... Bueno, kuaapy rupi, ikatu ndaha'éi michĩetereíva.",
+        "¡Ma'ẽporã arapýpe! Che resa guasu ohesape pytã. Ñañangareko va'erã pya'e upe techaukaháre."
+      ],
+      "help": [
+        "¡Marandu añetegua aravo! Yvy ha EEI (ISS) kuaapy ome'ẽ ñandéve pytyvõ tekotevẽva jaikove hag̃ua ko'ápe.",
+        "¡Ojepe'a NASA kuatia! Chegustaiterei kuaapy añetegua ñanepytyvõ jave jaiporavo porãve hag̃ua."
+      ],
+      "model": [
+        "¡Jamyendy tenonderã rechaha... bueno, papapygua! Jahechami mba'épa ikatu oiko jaiporavóramo kóva.",
+        "¡Papapy oĩmbáma! MODELAR ohechauka ñandéve mba'épa ikatu oiko jaiporu mboyve mba'erepy añetegua."
+      ],
+      "goodDecision": [
+        "¡Iporãiterei! Che pypuku ojeroky vy'águi.",
+        "¡Tembiapo katupyry! Base Aurora ipytu porãve aty rupive.",
+        "¡Iporã eterei! Che kuairũ arapygua jepe ojeroky vy'apavẽgui."
+      ],
+      "riskDecision": [
+        "¡Jeporavo hasýva oikotevẽ py'aguasu Jasy pegua! Jahaiguy porã mba'épa oiko ambue arakuérape.",
+        "Ñembojoja porã... Ñama'ẽ porã umi techaukaháre oĩramo mba'e pyahu uperire."
+      ],
+      "triviaRight": [
+        "¡Ajépa katupyry arapýpe! ¡Pene apytu'ũ ohupyty pya'ekue tuicháva!",
+        "¡Oĩ porãite! Jahupyty +1 Kuaapy ñaha'ãve hag̃ua."
+      ],
+      "triviaWrong": [
+        "Mmm... ñaimo'ãva iporãva. Kuaapy avei okakuaa jaikuaa jave mba'épa ndoikói.",
+        "¡Ñeha'ã porã, arapy rechahára! Ko'ág̃a jaguerekóma marandu pyahu ñane mandu'a Jasy peguápe."
+      ],
+      "victory": [
+        "¡Tembiapo oikopáma arapy terakuã porãme! Ñañangareko mba'erepy rehe ha ñamondo kuaapy porã Yvýpe."
+      ],
+      "partial": [
+        "¡Ñag̃uahẽma umi po ára pahápe! Ñamoarandu heta, ha ikatu ñaha'ã jey ñamoporãve hag̃ua."
+      ],
+      "evacuation": [
+        "¡Anianga! Peteĩ mba'erepy tekotevẽva og̃uahẽ 0-pe. Jahecha kuatiahaipy jaikuaa hag̃ua mba'éichapa ñamoporãvéta ambue jey."
+      ]
+    },
+    "tickleLines": [
+      "¡Hihihi! ¡Upéva chembokirĩ!",
+      "¡Hahaha! ¡Epyta, epyta!",
+      "¡Éi! ¡Chembokirĩhína!"
+    ],
+    "day5DelayedPenaltyNauti": "Pemañami mba'éichapa ñane jeporavo yma guare omoambue ko ára Base Aurora-pe. ¡Jahechami mba'erepy oĩva jeporavo paha mboyve!",
+    "day5DelayedSafeNauti": "¡Ñesãmbyhy porã! Ñane ñangareko yma guare omboyke kañy joapy ko árape.",
+    "confirmStepNauti": "¡Pehecha porã aty jeporavo! Mba'e oikóva oñemoañetéta pemoneĩ vove."
+  },
+  "mission": {
+    "riskLabels": {
+      "water_delayed": "y ñemopotĩ jey rembiapo oguejyve ambue arakuérape",
+      "solar_delayed": "panel solar tendyry apopy oguejyve yvyku'i oñembyatýgui"
+    },
+    "modelPrediction": {
+      "projectedChanges": "Ñemoambue ikatúva: Tendyry {{energy}}, Tesãi {{health}}, Y {{water}}, Tembikuaareka {{research}}.",
+      "possibleRisk": "Mba'e ikatúva oiko uperire: {{risk}}."
+    },
+    "helpHeadings": {
+      "hintHeading": "🔬 NASA kuaapy pytyvõrã",
+      "reflectHeading": "💡 Peñemongeta atýpe:",
+      "sourceHeading": "📚 Moõguipa osẽ:"
+    },
+    "tutorialScreens": [
+      {
+        "badge": "1/4 · Telemetría (mombyrygua techaukaha)",
+        "title": "Jaikuaami umi techaukaha",
+        "desc": "Tendyry omomba'apo tembiporu ha mbyry'ái ñangareko. Tesãi ombyaty tekove porã, tembi'u, yvytu pytu ha tekorosã. Y ohechauka mboy ypa ikatúva jaiporu."
+      },
+      {
+        "badge": "2/4 · Kuaapy añetegua",
+        "title": "AYUDA: jaheka kuaapy jaiporavo mboyve",
+        "desc": "AYUDA ohechauka peteĩ kuaapy añetegua ñanepytyvõva jahesa'ỹijo hag̃ua umi tape. Ndohechaukái mávapa iporãitevéva."
+      },
+      {
+        "badge": "3/4 · Ñeha'ã",
+        "title": "MODELAR: jahecha tenondeve mba'épa ikatu oiko",
+        "desc": "MODELAR hepy 1 Kuaapy ha ohechauka mba'éichapa ikatu oñemoambue umi techaukaha ha mba'e oikóva uperire. Ikatu ojeporu peteĩ jey añónte peteĩ árape."
+      },
+      {
+        "badge": "4/4 · Ñemba'apo oñondive",
+        "title": "Jaiporavo oñondive",
+        "desc": "Opavave ikatu ome'ẽ hembipota. Uperire, aty oiporavo peteĩ tape ha omoneĩ. Upépe ae oñemoañete umi mba'e oikóva."
+      }
+    ],
+    "day1": {
+      "title": "Ko'ẽ peteĩha",
+      "story": "Base Aurora opáy Jasy yvytypa'ũ guýpe. Panel solar-kuéra ohupyty sa'i kuarahy resape ha laboratorio oikotevẽ tendyry oñepyrũ hag̃ua itembikuaareka peteĩha.",
+      "question": "¿Mba'éichapa ñamboja'óta tendyry jaguerekóva?",
+      "help": "NASA kuaapy pytyvõrã. Panel solar-kuéra oikotevẽ kuarahy resape ojapo hag̃ua tendyry. NASA he'iháicha, heta tembiporu omba'apóramo oñondive peteĩ jave, tendyry jeporu okakuaa. Peñemongeta atýpe: Tendyry oĩva sa'íramo, ¿mba'e tembiporúpa omba'apo raẽ va'erã ha mávapa ikatu oha'ãrõ omoĩ'ỹre tesaparápe tembiapo?",
+      "helpSections": {
+        "hintHeading": "🔬 NASA kuaapy pytyvõrã",
+        "hintBody": "Panel solar-kuéra oikotevẽ kuarahy resape ojapo hag̃ua tendyry. NASA he'iháicha, heta tembiporu omba'apóramo oñondive peteĩ jave, tendyry jeporu okakuaa.",
+        "reflectHeading": "💡 Peñemongeta atýpe:",
+        "reflectParagraphs": [
+          "Tendyry oĩva sa'íramo, ¿mba'e tembiporúpa omba'apo raẽ va'erã ha mávapa ikatu oha'ãrõ omoĩ'ỹre tesaparápe tembiapo?"
+        ],
+        "sourceHeading": "📚 Moõguipa osẽ:",
+        "sourceCitationPrefix": "NASA (2025). ",
+        "sourceCitationTitle": "Integrated Lunar Power Strategy Considerations",
+        "sourceCitationSuffix": ", pp. 3–4."
+      },
+      "source": "NASA (2025). Integrated Lunar Power Strategy Considerations, pp. 3–4.",
+      "url": "https://ntrs.nasa.gov/api/citations/20250010948/downloads/ACR25%20-%20WP%20-%20Lunar%20Power%20Strategy.pdf",
+      "options": [
+        {
+          "id": "LIFE_SUPPORT",
+          "title": "Emotenonde tekove ñangareko (soporte vital)",
+          "modelSummary": "Oñangareko atýre, péro ombotapykue tembikuaareka.",
+          "deltas": [-7, 8, 0, 0],
+          "feedback": "Tembikuaareka oñepyrũ mbegue ha aty oñongatu tekorosã.",
+          "riskFlag": null,
+          "tooltip": "Ko tape ome'ẽve tendyry umi tembiporu oñangarekóvape tekove rekotevẽre astronauta-kuérape g̃uarã.",
+          "resultNarrative": {
+            "title": "🛡️ Tekove ñangareko tenonde",
+            "narrative": "Aty ome'ẽ hetave tendyry ñepyrũgua oñangareko hag̃ua koty ha astronauta-kuérare. Tembikuaareka oñepyrũ mbegueve ha aty oñongatu tekorosã.",
+            "energyExplanation": "oñemomba'apo hag̃ua umi tembiporu tekotevẽva tekove ñangarekópe g̃uarã ojeporu sa'imi tendyry oĩva.",
+            "healthExplanation": "ñangareko yvytu pytu, mbyry'ái ha tekorosãre omombarete astronauta-kuéra resãi.",
+            "waterExplanation": "y ñongatupyre opyta peteĩcha.",
+            "researchExplanation": "laboratorio oha'ãrõ, ha ndohupytýi tembikuaareka pyahu ko árape.",
+            "nautiDialogue": "«¡Aty oñangareko porã ha ñande koty opyta tekorosãme! Upéicharõ jepe, pya'e ñaikotevẽta tendyry jamyendy hag̃ua laboratorio».",
+            "nautiMood": "happy",
+            "spokenNarration": "Tekove ñangareko tenonde. Aty ome'ẽ hetave tendyry ñepyrũgua oñangareko hag̃ua koty ha astronauta-kuérare. Tembikuaareka oñepyrũ mbegueve ha aty oñongatu tekorosã."
+          }
+        },
+        {
+          "id": "LABORATORY",
+          "title": "Emyendy laboratorio",
+          "modelSummary": "Ombopya'e tembikuaareka ha oiporu heta tendyry.",
+          "deltas": [-17, -4, 0, 3],
+          "feedback": "Laboratorio oho tenonde, péro tendyry ñongatupyre oguejy.",
+          "riskFlag": null,
+          "tooltip": "Ko tape ome'ẽve tendyry laboratorio-pe ikatu hag̃uáicha oiko tembikuaareka.",
+          "resultNarrative": {
+            "title": "🔬 Kuaapy oguereko hepy",
+            "narrative": "Aty oiporavo omyendy laboratorio oĩramo jepe sa'i tendyry. ¡Oñepyrũma umi tembikuaareka peteĩha!",
+            "energyExplanation": "tembiporu tembikuaareka rehegua oiporu tuicha pehẽngue tendyry oĩvagui.",
+            "healthExplanation": "tendyry oñeme'ẽva laboratorio-pe ombosa'i tembiporu tekove ñangareko rehegua, ha upéva omoambue aty tekorosã.",
+            "waterExplanation": "y ñongatupyre opyta peteĩcha.",
+            "researchExplanation": "astronauta-kuéra ohupyty hembiapo kuaapy peteĩha.",
+            "nautiDialogue": "«¡Jahupytyma tembikuaareka! Péro ñane tendyry oguejyhína ha tekove ñangareko oikotevẽ ma'ẽporã. ¿Ikatútapa jahave kóicha?»",
+            "nautiMood": "surprised",
+            "spokenNarration": "Kuaapy oguereko hepy. Aty oiporavo omyendy laboratorio oĩramo jepe sa'i tendyry. ¡Oñepyrũma umi tembikuaareka peteĩha!"
+          }
+        },
+        {
+          "id": "BALANCED",
+          "title": "Tembiapo ojoja porãva",
+          "modelSummary": "Omboja'o tendyry tekove ñangareko ha laboratorio pa'ũme.",
+          "deltas": [-10, 0, 0, 1],
+          "feedback": "Base oñongatu peteĩ joja ñepyrũgua.",
+          "riskFlag": null,
+          "tooltip": "Ko tape omboja'o tendyry oĩva tekove ñangareko ha laboratorio rembiapo pa'ũme.",
+          "resultNarrative": {
+            "title": "⚖️ Joja ñañepyrũ hag̃ua",
+            "narrative": "Aty omboja'o tendyry tekove ñangareko ha laboratorio pa'ũme. Tembiporu tekotevẽva omba'apo gueteri ha astronauta-kuéra oñepyrũma ojapo tembikuaareka.",
+            "energyExplanation": "mokõive tembiporu oñemomba'apo hag̃ua ojeporu heta tendyry.",
+            "healthExplanation": "tekove ñangareko ohupyty tendyry oikotevẽva oñongatu hag̃ua aty peteĩcha.",
+            "waterExplanation": "y ñongatupyre opyta iñambue'ỹre.",
+            "researchExplanation": "laboratorio ohupyty hembiapo peteĩha, jepe mbegueve.",
+            "nautiDialogue": "«¡Jaheja Base oĩ porã ha ñañepyrũma ñane tembikuaareka! Péro ñane tendyry ndahetái. Ñañangareko porã va'erã hese umi ára oúvape».",
+            "nautiMood": "happy",
+            "spokenNarration": "Joja ñañepyrũ hag̃ua. Aty omboja'o tendyry tekove ñangareko ha laboratorio pa'ũme."
+          }
+        }
+      ]
+    },
+    "days": {
+      "2": {
+        "day": 2,
+        "title": "Tendyry opytáva ñandéve",
+        "intro": "¡Mba'éichapa ko'ẽ, aty! Oñepyrũma ñane ára mokõiha Base Aurora-pe. Kuehe jaiporavo mba'éichapa jaiporúta tendyry. Ko ára jahecháta peteĩteĩ jeporavo ohejaha mba'e oikóva uperire.",
+        "context": {
+          "LIFE_SUPPORT": "Astronauta-kuéra oñepyrũ ko ára oĩ porãme. Upéicharõ jepe, laboratorio opyta tapykuépe ha tembikuaahára oikotevẽ ára oñepyrũ hag̃ua hembiapo. Base oĩ peteĩ teko porãme, péro heta gueteri ojekuaa va'erã.",
+          "LABORATORY": "Umi tembikuaareka peteĩha ome'ẽ kuaapy iporãva. Upéicharõ jepe, tendyry jeporu tuicháva omboguejy ñongatupyre ha ombohasa asy tekove ñangarekópe. Ko'ág̃a aty omyatyrõ jey va'erã ipytu'u okañy'ỹre tembikuaareka.",
+          "BALANCED": "Base oñongatu hembiapo tekotevẽva ha oñepyrũ tembikuaareka. Péro oñemomba'apo hag̃ua mokõive oikotevẽ tendyry. Aty oheka va'erã mba'éichapa ohovéta omboguejy'ỹre umi ñongatupyre."
+        },
+        "situation": "Panel solar-kuéra ojapohína tendyry, péro ndaikatúi jaiporupaite peteĩ jave. Ñamohenda va'erã ñane rembiapo umi ára oúvape g̃uarã.",
+        "question": "¿Mba'éichapa ñamohenda va'erã tendyry jeporu Base Aurora-pe?",
+        "science": "Panel solar-kuéra oikotevẽ kuarahy resape ojapo hag̃ua tendyry. Jasýpe, tembiapo ñemohenda ohecha va'erã tendyry apopy, ñongatu ha ñemboja'o umi tembiporu pa'ũme.",
+        "reflection": "¿Mba'éichapa ikatu jasegi tembikuaarekape ñamoĩ'ỹre tesaparápe umi tembiporu oñangarekóva atýre?",
+        "source": {
+          "title": "NASA (2025), Integrated Lunar Power Strategy Considerations",
+          "url": "https://ntrs.nasa.gov/citations/20250010948"
+        },
+        "options": [
+          {
+            "id": "SCHEDULE_SCIENCE",
+            "title": "Emohenda tembikuaareka aravo mbyky",
+            "description": "Laboratorio omba'apóta aravo mbykýpe, ombojerekuévo ambue tembiapo ndive ani hag̃ua ojerurepaite tendyry peteĩ jave.",
+            "tooltip": "Ko tape omohenda laboratorio jeporu aravo mbykýpe oñombojere hag̃ua ambue Base rembiapo ndive.",
+            "effects": { "energy": -5, "health": 0, "water": 0, "research": 2 },
+            "resultTitle": "Tembikuaareka ojuhu ijaravo",
+            "consequence": "Aty omohenda laboratorio aravo mbykyve. Tembikuaareka ome'ẽ kuaapy pyahu ha tembiporu tekotevẽva omba'apo gueteri. Ojeporúramo jepe tendyry, aty oikuaa mba'éichapa omohenda porãve aravo.",
+            "nauti": "¡Jajapo kuaapy ñamyendypa'ỹre opavave tembiporu peteĩ jave! Ñanemandu'áke ko tapére; ikatu ñanepytyvõ tenondeve.",
+            "indicatorExplanations": {
+              "energy": "Tembikuaareka aravo oiporu peteĩ pehẽngue tendyry oĩvagui.",
+              "health": "Tembiporu tekotevẽva omba'apo gueteri ha aty reko opyta peteĩcha.",
+              "water": "Ko tembiapo nomoambuéi y ñongatupyre.",
+              "research": "Tembikuaareka ojejapóva aravo oñemohendávape ome'ẽ marandu pyahu."
+            },
+            "riskHint": null
+          },
+          {
+            "id": "CONSERVE_ENERGY",
+            "title": "Eñongatu tendyry tembiporu tekotevẽvape g̃uarã",
+            "description": "Aty omomichĩta sapy'ami tembikuaareka ombyaty hag̃ua tendyry ha omombarete hag̃ua tekorosã.",
+            "tooltip": "Ko tape omomichĩ sapy'ami tembikuaareka oñongatu hag̃ua tendyry ha omotenonde hag̃ua tembiporu tekotevẽva.",
+            "effects": { "energy": 4, "health": 1, "water": 0, "research": 0 },
+            "resultTitle": "Ñongatupyre tenonderãme g̃uarã",
+            "consequence": "Aty omomichĩ umi tembiapo ndaha'éiva tekotevẽterei. Ko ára pukukuépe, panel solar-kuéra ojapo gueteri tendyry ha peteĩ pehẽngue oñeñongatu. Aty ohupyty tekorosã tuichavéva, jepe tembikuaareka oha'ãrõ va'erã.",
+            "nauti": "¡Ñane ñongatupyre okakuaa! Péro ani ñanderesarái jaguerekoha avei tembikuaareka hupytyrã.",
+            "indicatorExplanations": {
+              "energy": "Kuarahy tendyry apopy tuichave jeporúgui ha oipytyvõ oñembohetave hag̃ua tendyry ñongatupyre.",
+              "health": "Tekorosã tuichavéva oipytyvõ oñemantene hag̃ua teko porãve.",
+              "water": "Y ñongatupyre opyta peteĩcha.",
+              "research": "Ndojejapói tembikuaareka pyahu ko ára pukukuépe."
+            },
+            "riskHint": null
+          }
+        ]
+      },
+      "3": {
+        "day": 3,
+        "title": "Peteĩteĩ y tyky iporã",
+        "intro": "¡Aty! Ko ára ñañe'ẽta peteĩ mba'e jaiporúvare ára ha ára: y. Arapýpe ndaikatúi ñaha'ãrõ ojeguerúnte ñandéve ára ha ára. Upévare, ñamopotĩ ha jaiporu jey y tekotevẽiterei.",
+        "context": {
+          "CONSERVE_ENERGY": "Kuehe ñemohenda oipytyvõ jahecha hag̃ua ko ñembyatyrõ tendyry porãvére.",
+          "SCHEDULE_SCIENCE": "Laboratorio oho tenonde, péro oñemohenda jey va'erã aravo ojejapo hag̃ua ñembyatyrõ."
+        },
+        "situation": "Peteĩ jehecha jepiguápe, y ñemopotĩ jey ñanduhára (sensor) ohechauka oguejyha imba'apo porãkue (eficiencia). Mbogueha (filtro) ha ambue pehẽngue oikotevẽ ñangareko. Tembiporu omba'apo gueteri, péro aty oiporavo va'erã omyatyrõpa ko'ág̃a térã ohejápa uperire.",
+        "question": "¿Jahecha va'erãpa tembiporu ko'ág̃a térã jasegípa tembikuaarekape?",
+        "science": "Y ñemopotĩ jey tembiporu omboguejy mboy y pyahúpa oikotevẽ peteĩ aty. NASA ohechauka Estación Espacial Internacional-pe (ISS) y ñemopotĩ jey og̃uahẽva 98% rupi tembiporu katupyry rupive. Kóva nde'iséi opavave tembiporu arapygua ohupytyha ijehegui upe papapy.",
+        "reflection": "¿Mba'érepa ñangareko ha ñembyatyrõ mboyvegua ikatu iporã avei y ñongatúicha?",
+        "source": {
+          "title": "NASA (2023), NASA Achieves Water Recovery Milestone on International Space Station",
+          "url": "https://www.nasa.gov/missions/station/iss-research/nasa-achieves-water-recovery-milestone-on-international-space-station/"
+        },
+        "options": [
+          {
+            "id": "MAINTAIN_WATER",
+            "title": "Ejapo ñembyatyrõ mboyvegua",
+            "description": "Emombytu'u sapy'ami ambue tembiapo ehecha hag̃ua umi pehẽngue ha emyatyrõ jey hag̃ua tembiporu mba'apo porãkue.",
+            "tooltip": "Ko tape oiporu peteĩ pehẽngue ko áragui ohecha hag̃ua mbogueha (filtro), ñembotyha ha ñanduhára y ñemopotĩ rehegua.",
+            "effects": { "energy": -5, "health": 1, "water": 0, "research": 1 },
+            "resultTitle": "Y rehe ñangareko ha'e tembiapo rehe ñangareko",
+            "consequence": "Aty oiporu ko áragui ohecha hag̃ua mbogueha, joajuha ha ñanduhára. Ñembyatyrõ oiporu tendyry, péro omboyke jey mba'e vai ha oheja tembiporu omba'apo porã jey ha ome'ẽ marandu porã. Aty oguereko gueteri y oñemopotĩva.",
+            "nauti": "¡Peteĩ apañuãi oñatendéva aravoitépe ikatu omboyke apañuãi tuichavéva uperire! Ko ára ñaikũmby ñangareko tembiporúre ha'eha avei arapy jeheka.",
+            "indicatorExplanations": {
+              "energy": "Jehechapy ha tembiporu mba'apo oiporu tendyry.",
+              "health": "Tembiporu mba'apo porã jey omombarete aty tekorosã.",
+              "water": "Y ñongatupyre opyta peteĩcha ko ára pukukuépe.",
+              "research": "Jehechapy ome'ẽ marandu porã tembiporu mba'apógui."
+            },
+            "riskHint": null
+          },
+          {
+            "id": "POSTPONE_WATER",
+            "title": "Eheja uperire ñembyatyrõ",
+            "description": "Eheja tembiporu omba'apo oĩháicha ha eiporu aravo oĩva remotenonde hag̃ua tembikuaareka.",
+            "tooltip": "Ko tape oheja tembiporu omba'apo oĩháicha ha oiporu ko ára ojapo hag̃ua hetave tembikuaareka.",
+            "effects": { "energy": -3, "health": 0, "water": 0, "research": 3 },
+            "resultTitle": "Peteĩ jehechapy oha'ãrõva",
+            "consequence": "Aty omba'apove laboratorio-pe. Tembikuaareka ome'ẽ marandu pyahu, péro y ñemopotĩ jey omba'apo gueteri mbegueve oñeha'ãrõvagui. Ndaipóriramo jepe tesapara pya'egua, apañuãi ndojesolusionái gueteri.",
+            "nauti": "¡Jahupytyve marandu kuaapy rehegua! Péro oĩ gueteri peteĩ tembiapo ñembyatyrõ rehegua ani hag̃ua ñanderesarái.",
+            "indicatorExplanations": {
+              "energy": "Tembikuaareka oiporu tendyry ko árape.",
+              "health": "Ndojehechái ñemoambue pya'egua aty rekópe.",
+              "water": "Y ñongatupyre ndoguejýi pya'e ko'ág̃a, péro tembiporu mba'apo porãkue oguejy gueteri.",
+              "research": "Laboratorio ohupyty tembikuaareka pyahu."
+            },
+            "riskHint": "water_delayed"
+          }
+        ]
+      },
+      "4": {
+        "day": 4,
+        "title": "Yvyku'i yvate gotyo",
+        "intro": "¡Aty! Jahecha peteĩ mba'e ñane tembiporu okapeguáre. ¡Jasy yvyku'i! Ha'ete ndojapóiva mba'eve, péro umi ipartícula ikatu omongaru'i ha oja umi pehẽngue ikangývape.",
+        "context": {
+          "MAINTAIN_WATER": "Kuehe jehechapy ohechauka mba'eichaitépa iporã ñaha'ãrõ mboyve umi apañuãi.",
+          "POSTPONE_WATER": "Y tembiporu oha'ãrõ gueteri jehechapy. Ko'ág̃a osẽ ambue apañuãi tekotevẽva avei ma'ẽporã."
+        },
+        "situation": "Peteĩ jehecha mombyrygua ohechauka oñembyatyha yvyku'i umi panel solar pehẽngue okapeguáre. Tembiporu ojapo gueteri tendyry, péro katupyryhára he'i iporãha ojehecha ha oñemopotĩ omboguejy mboyve imba'apo.",
+        "question": "¿Jaiporúpa ko ára ñañangareko hag̃ua tembiporúre térã jasegípa ñane ma'ẽpy tembikuaareka rehegua?",
+        "science": "Regolito lunar (Jasy yvyku'i hatã) ikatu oja tembiporúre ha ombyai. NASA oñemoarandu tembiporu pyahu rehe omboyke hag̃ua yvyku'i ñembyaty arapy tembiporúre.",
+        "reflection": "¿Mba'e apañuãipa ikatu oñembyaty peteĩ aty ohejáramo heta ñembyatyrõ tembiapo uperire g̃uarã?",
+        "source": {
+          "title": "NASA (2025), NASA's Dust Shield Successfully Repels Lunar Regolith on Moon",
+          "url": "https://www.nasa.gov/image-article/nasas-dust-shield-successfully-repels-lunar-regolith-on-moon/"
+        },
+        "options": [
+          {
+            "id": "MAINTAIN_SOLAR",
+            "title": "Ehecha ha emopotĩ tembiporu",
+            "description": "Eiporu tembiapo rape oĩ porãva remboguejy hag̃ua yvyku'i ha ehecha hag̃ua mba'éichapa oĩ tembiporu.",
+            "tooltip": "Ko tape omotenonde jehechapy ha ñemopotĩ umi tembiporu okapegua oguerekóva Jasy yvyku'i.",
+            "effects": { "energy": -5, "health": 0, "water": 0, "research": 1 },
+            "resultTitle": "Base oĩ porãvéva tenonderãme",
+            "consequence": "Astronauta-kuéra ojapo jehechapy tekorosã rape rupi. Ko tembiapo oiporu tendyry, péro omboguejy yvyku'i oĩva umi pehẽngue ikatuhápe oñeg̃uahẽ. Tembiporu opyta porãve omba'apo hag̃ua.",
+            "nauti": "¡Ñangareko ñane tembiporúre ha'e ñeñongatu tenonderãme! Ko'ág̃a jaguereko peteĩ jepy'apy sa'ive.",
+            "indicatorExplanations": {
+              "energy": "Jehechapy ha ñemopotĩ oiporu tendyry.",
+              "health": "Aty reko opyta peteĩcha.",
+              "water": "Ndoikói ñemoambue tuicháva y ñongatupyrépe.",
+              "research": "Jehechapy oheja marandu porã mba'éichapa oiko Jasy yvyku'i."
+            },
+            "riskHint": null
+          },
+          {
+            "id": "CONTINUE_OBSERVATIONS",
+            "title": "Eseguive ma'ẽpy tembikuaareka rehegua",
+            "description": "Eiporu ko ára rembyaty hag̃ua maranduve, ha eheja jehechapy ambue arápe g̃uarã.",
+            "tooltip": "Ko tape osegi ombyaty marandu kuaapy rehegua ko árape ha oheja okapegua jehechapy uperire.",
+            "effects": { "energy": -4, "health": 0, "water": 0, "research": 3 },
+            "resultTitle": "Jekuaa pyahu yvyku'i pa'ũme",
+            "consequence": "Laboratorio oiporu ára osegi hag̃ua ima'ẽpy ha ohupyty maranduve. Upéicharõ jepe, yvyku'i opyta gueteri tembiporu okapeguáre ha ikatu omboguejy tendyry apopy umi tembiapo oúvape.",
+            "nauti": "¡Ñane jekuaa pyahu oho tenonde! Péro ko'ág̃a jaguereko ambue ñembyatyrõ oha'ãrõva.",
+            "indicatorExplanations": {
+              "energy": "Ma'ẽpy tembikuaareka rehegua oiporu peteĩ pehẽngue tendyrýgui.",
+              "health": "Aty oñongatu teko peteĩcha ko ára pukukuépe.",
+              "water": "Y ñongatupyre opyta iñambue'ỹre.",
+              "research": "Ma'ẽpy ome'ẽ kuaapy pyahu."
+            },
+            "riskHint": "solar_delayed"
+          }
+        ]
+      },
+      "5": {
+        "day": 5,
+        "title": "Kuarahy'ã apañuãi",
+        "intro": "¡Aty! Ñag̃uahẽma peteĩ ára tuichávape. Ñanduhára ohechauka Base Aurora og̃uahẽmahína peteĩ ára kuarahy resape sa'ivehápe. Ñañembosako'i va'erã umi mba'erepy ñañongatuva'ekuére.",
+        "context": {},
+        "situation": "Base oñembosako'i peteĩ ára kuarahy resape sa'ivehápe g̃uarã. Tembiporu tekotevẽva oikotevẽ tendyry, péro aty oguereko avei tembikuaareka hupytyrã oha'ãrõva. Jajapo mboyve jeporavo paha, jahecha va'erã aty tekorosã ha tembikuaareka tenondeho.",
+        "question": "¿Mba'éichapa omba'apo va'erã Base Aurora kuarahy resape sa'ive mboyve?",
+        "science": "Jasy polo sur ag̃ui, yvy ha Kuarahy karapã ikatu omoheñói kuarahy resape ha kuarahy'ã hasýva. Tembiapo arapygua omohenda porã va'erã tendyry apopy ha ñongatu.",
+        "reflection": "¿Mba'e jeporavo yma guarépa ñanepytyvõ ko'ág̃a ha mávapa ombohetave ñane apañuãi?",
+        "source": {
+          "title": "NASA (2025), Integrated Lunar Power Strategy Considerations",
+          "url": "https://ntrs.nasa.gov/citations/20250010948"
+        },
+        "options": [
+          {
+            "id": "FINAL_CONSERVATION",
+            "title": "Emyendy ñeñongatu reko",
+            "description": "Emomichĩ tembiapo ndaha'éiva tekotevẽterei, eiporu porã tendyry ojejapóva ha emotenonde aty tekorosã.",
+            "tooltip": "Ko tape omomichĩ tembiapo ndaha'éiva tekotevẽterei oñongatu hag̃ua tendyry ha oñangareko hag̃ua tekorosãre kuarahy resape oguejy mboyve.",
+            "effects": { "energy": 3, "health": 2, "water": 0, "research": 0 },
+            "resultTitle": "Ñaiméma jahave hag̃ua",
+            "consequence": "Aty omohenda jey tembiapo ha omboguejy jeporu ndaha'éiva tekotevẽterei. Tendyry ojejapóva ha ndojeporúiva ikatu oñeñongatu. Aty oñongatu teko porãve ohasa hag̃ua ára kuarahy sa'i, jepe heta tembikuaareka oha'ãrõ va'erã.",
+            "nauti": "¡Ñambosako'íma ñane Base jahave hag̃ua! Ko'ág̃a jahecháta ñane jeporavo yma guare ohejápa ñandéve mba'erepy oikotevẽva.",
+            "indicatorExplanations": {
+              "energy": "Jeporu oguejýgui ikatu oñeñongatu peteĩ pehẽngue tendyry ojejapóva ko ára ñeha'ãme.",
+              "health": "Oñemotenondégui tembiporu tekotevẽva omoporãve tekorosã.",
+              "water": "Y ñongatupyre naiñambuéi ko jeporavo rupi.",
+              "research": "Ndojejapói tembikuaareka pyahu ko árape."
+            },
+            "riskHint": null
+          },
+          {
+            "id": "FINAL_RESEARCH",
+            "title": "Ejapopa peteĩ tembikuaareka paha",
+            "description": "Eiporu peteĩ pehẽngue tendyry opytávagui rehupyty hag̃ua marandu pyahu remomichĩ mboyve tembiapo.",
+            "tooltip": "Ko tape oiporu tendyry oĩva ojapo hag̃ua peteĩ tembikuaareka paha oñemomichĩ mboyve Base rembiapo.",
+            "effects": { "energy": -8, "health": -1, "water": 0, "research": 4 },
+            "resultTitle": "Peteĩ ára paha jaikuaa hag̃ua",
+            "consequence": "Astronauta-kuéra ojapopa peteĩ tembikuaareka joapy. Marandu ombohovái porandu pyahu, péro laboratorio oiporu tendyry ikatúva oñeñongatu kuarahy sa'i árape g̃uarã.",
+            "nauti": "¡Ajépa iporã umi jekuaa pyahu! Ko'ág̃a jahecha va'erã Base-pa oguereko gueteri mba'erepy omba'apove hag̃ua.",
+            "indicatorExplanations": {
+              "energy": "Laboratorio oiporu tendyry ojapopa hag̃ua tembikuaareka paha. Oñemoarandúramo omohenda hag̃ua aravo mbyky, sa'ive ojeporu.",
+              "health": "Ko tembiapo omomichĩmi tekorosã oĩva tekove ñangarekópe g̃uarã.",
+              "water": "Ndoikói ñemoambue pya'egua y ñongatupyrépe.",
+              "research": "Tembikuaareka ome'ẽ kuaapy pyahu."
+            },
+            "riskHint": null
+          }
+        ],
+        "delayedConsequences": [
+          {
+            "if": "POSTPONE_WATER",
+            "effects": { "water": -5, "health": -1 },
+            "title": "Ára 3 mba'e oguerúva",
+            "text": "¿Penemandu'ápa jahejárõ guare y ñembyatyrõ Ára 3-pe? Upe jeporavo oheja ñandéve ñamba'apo hetave tembikuaarekape, péro tembiporu oguejy imba'apo porãkue ha ko'ág̃a sa'ive ñande y ñongatupyre."
+          },
+          {
+            "if": "MAINTAIN_WATER",
+            "effects": {},
+            "title": "Kañy ñamboykeva'ekue",
+            "text": "Ñembyatyrõ ojejapova'ekue Ára 3-pe oipytyvõ oñongatu hag̃ua y ñemopotĩ jey mba'apo porãkue. Upe jeporavo rupi, ñamboyke peteĩ kañy joapy."
+          },
+          {
+            "if": "CONTINUE_OBSERVATIONS",
+            "effects": { "energy": -6 },
+            "title": "Ára 4 mba'e oguerúva",
+            "text": "Ára 4-pe jaiporavo jasegi ma'ẽpy ha jaheja uperire tembiporu okapegua jehechapy. Yvyku'i ñembyaty omboguejy panel solar tendyry apopy."
+          },
+          {
+            "if": "MAINTAIN_SOLAR",
+            "effects": {},
+            "title": "Tembiporu oñembosako'íma",
+            "text": "Jehechapy ojejapova'ekue Ára 4-pe oipytyvõ oñongatu hag̃ua panel solar oĩ porãme. Upe jeporavo omboyke peteĩ oguejy joapy."
+          },
+          {
+            "if": "CONSERVE_ENERGY",
+            "effects": {},
+            "title": "Ñongatupyre oñembosako'i tenondeve",
+            "text": "Tendyry ñañongatuva'ekue Ára 2-pe oikéma ñane tendyry oĩvape. Ko'ág̃a ikatu jaiporu upe tekorosã."
+          },
+          {
+            "if": "SCHEDULE_SCIENCE",
+            "effects": {},
+            "title": "Mbo'epy ikatúva ñanepytyvõ",
+            "text": "Ára 2-pe ñaikũmby mba'éichapa ñamohenda va'erã laboratorio aravo mbykyve. Upe mbo'epy ikatu omboguejy tendyry jeporu peteĩ tembikuaareka pahápe."
+          }
+        ]
+      }
+    },
+    "outcomes": {
+      "CRITICAL_FAILURE": {
+        "title": "Tesaparápe Base Aurora-pe",
+        "story": "Ñane tembiapo og̃uahẽ peteĩ tesaparápe. Peteĩ mba'erepy tekotevẽva ndaikatuvéima omomba'apo jepiguáicha. Jahecha jey va'erã ñane jeporavo ñaikũmby hag̃ua mba'épa oiko.",
+        "nauti": "Ñane tembiapo og̃uahẽ peteĩ tesaparápe. Jahecha jey ñane jeporavo ñaikũmby hag̃ua mba'épa oiko ha mba'éichapa ñañembosako'i porãvéta ambue jey."
+      },
+      "SUSTAINABLE_MISSION": {
+        "title": "Tembiapo iñongatu porãva",
+        "story": "Aty oñongatu Base Aurora omba'apóvo, oñongatu mba'erepy oikotevẽva ohove hag̃ua ha ohupyty tembikuaareka tuicháva. Ñemohenda, ñangareko ha tembikuaareka oipytyvõ tembiapo osẽ porã hag̃ua.",
+        "nauti": "¡Jahupytyma! Ñane aty oĩ tekorosãme, jaguereko ñongatupyre jahave hag̃ua ha jajapo tembikuaareka iporãva. ¡Peteĩteĩ jeporavo ñanembo'e peteĩ mba'e!"
+      },
+      "FRAGILE_SCIENTIFIC_MISSION": {
+        "title": "Jekuaa tuicháva, apañuãi pyahu",
+        "story": "Aty ohupyty tembikuaareka iporãva, péro peteĩ mba'erepy tekotevẽva ñongatupyre michĩeterei oñehenói hag̃ua iñongatupyre tenonderãme. Base Aurora oikotevẽ peteĩ myatyrõ rape oho mboyve tenonde.",
+        "nauti": "¡Jajapo jekuaa iporãva! Péro ñamombarete va'erã ñane ñongatupyre jasegi hag̃ua jaheka tekorosãme."
+      },
+      "SCIENTIFIC_GOAL_PENDING": {
+        "title": "Base tekorosãme, porandu pyahu",
+        "story": "Aty oĩ tekorosãme, péro ndojehupytýi gueteri tembikuaareka hupytyrã ko pehẽnguégui. Aty ohecha jey va'erã mba'éichapa ombojoajúta mba'erepy ñangareko ha tembikuaareka pa'ũ.",
+        "nauti": "¡Aty oĩ tekorosãme! Jaguereko gueteri porandu tembikuaareka rehegua ñambohovái va'erã. ¿Mba'éichapa ikatu ñambojoaju porãve tembikuaareka ha ñane Base ñangareko?"
+      }
+    },
+    "reflectionQuestions": [
+      "¿Mba'e jeporavópa oguereko mba'e oikóva Ára 5-pe ae ojehecháva, ha mba'éichapa upéva omoambue Base Aurora reko?",
+      "¿Mba'e aravópepa tekotevẽ oñembojoja tembikuaareka tenondeho ñembyatyrõ mboyvegua ha tendyry ñongatu ndive?",
+      "Pemohenda jeýramo tembiapo atýpe, ¿mba'e tapépa pemoambuéta pehupyty hag̃ua ñongatupyre iñongatupyre ha tembikuaareka hupytyrã?"
+    ],
+    "triviaByDay": {
+      "1": {
+        "question": "¿Mboy aravópa ikatu ipuku Jasy pyhare heta Jasy rendápe?",
+        "options": ["12 aravo rupi", "Mokõi arapokõindy Yvy pegua rupi", "30 aravo'i rupi"],
+        "correctIndex": 1,
+        "explanation": "Ipukukue odepende tendágui; heta rendápe og̃uahẽ 14 ára Yvy pegua rupi."
+      },
+      "3": {
+        "question": "¿Mboy porcentaje y ñemopotĩ jey reheguápa ohechauka NASA EEI-pe (ISS) isistema pyahu rupive?",
+        "options": ["98 %", "45 %", "10 %"],
+        "correctIndex": 0,
+        "explanation": "NASA omombe'u peteĩ techauka y ñemopotĩ jey rehegua 98 % rupi EEI-pe."
+      },
+      "4": {
+        "question": "¿Mba'érepa Jasy yvyku'i ikatu ogueru apañuãi?",
+        "options": ["Omongaru'i ha oja rupi umi pehẽngue rehe", "Ha'e rupi y", "Ojapo rupi yvytu pytu (oxígeno)"],
+        "correctIndex": 0,
+        "explanation": "Regolito lunar ikatu ombyai tembiporu, ñembotyha ha panel solar-kuéra."
+      }
+    },
+    "causality": {
+      "scheduleScienceUsed": "Oñemohendágui tembikuaareka aravo mbyky Ára 2-pe, omboguejy tendyry jeporu tembikuaareka paha Ára 5-pe −8-gui −5-pe.",
+      "scheduleScienceUnused": "Ombo'e atýpe ombojere hag̃ua aravo, ohejávo −5 −8 rangue ojejapóramo tembikuaareka paha Ára 5-pe.",
+      "conserveEnergy": "Omoĩ +4 Tendyry ha +1 Tesãi pya'egua Ára 2-pe (ndojejapojeyvéi Ára 5-pe), ombotuichávo ñongatupyre umi ára oúvape.",
+      "finalResearchBonus": "Oiporu mbo'epy Ára 2 pegua: tendyry jeporu ha'e −5 −8 rangue."
+    }
+  },
+  "demo": {
+    "badge": "Techaukaha reko · Ñeha'ãrãnte",
+    "title": "Yvate gotyo: Jasy yvyku'i ovevéva",
+    "problem": "Peteĩ aty michĩ jasy yvyku'i ovevéva ohasáta ag̃ui óga ñemitỹhagui ko'ã aravo'i oútavape. Pende aty oiporavo va'erã mba'éichapa ombohováita pya'e.",
+    "question": "¿Mba'épa oiporavo pende aty ko techaukaha mbykýmime?",
+    "isolatedNote": "Ko techaukaha ha'eño oiko: nomoambuéi ha noñepyrũ jeychéne ne rembiapo 5 ára rehegua.",
+    "nautiPrompt": "¡Techaukaha oĩma! Peiporavo A térã B oñondive pehecha hag̃ua mba'éichapa oñemoambue umi techaukaha.",
+    "confirmBtn": "Ehecha mba'épa oiko",
+    "retryBtn": "Eha'ã ambue jeporavo",
+    "backBtn": "Ejevy ñepyrũhápe",
+    "indicatorsTitle": "Techaukaha ñemoambue (ñepyrũ → osẽva)",
+    "fullMissionTitle": "Tembiapo teetépe oĩ 5 ára ojoaju va'ekue",
+    "fullMissionDesc": "Ko techaukahápe rehecha peteĩ ñemoambue pya'e peteĩ jeporavópe año. Efecto Dominó: Misión Aurora-pe reikovéta 5 ára ojoaju va'ekue, ha umi jeporavo ko'ág̃agua ikatu ohechauka iñemoambue ára rire.",
+    "energyLabel": "Tendyry",
+    "healthLabel": "Tesãi",
+    "waterLabel": "Y",
+    "researchLabel": "Tembikuaareka",
+    "options": [
+      {
+        "id": "shield",
+        "label": "Emohenda ñemo'ãha mbarete",
+        "summary": "Omboty ñemo'ãha ha omombarete pe óga oñangareko hag̃ua tesãi ha y rehe, oiporúvo tendyry hetave.",
+        "resultTitle": "Ñemo'ãha omba'apo porã",
+        "resultNarrative": "Pe óga oñangareko porã ha ndaijái mba'eveichagua mba'e vai. Aty oĩ porã ha y oñongatu imbaretekue, jepe tendyry oguejy michĩmi.",
+        "nautiReaction": "¡Ñangareko porãite! Jaiporu tendyry ko'ág̃a, péro ñañangareko aty ha y rehe."
+      },
+      {
+        "id": "observe",
+        "label": "Eñongatu tendyry ha ehai marandu",
+        "summary": "Oñongatu tendyry ohejávo ñemo'ãha michĩme ha umi ñanduhára ombyaty kuaapy.",
+        "resultTitle": "Marandu iporãva, jepy'apy michĩmi ndive",
+        "resultNarrative": "Umi ñanduhára ombyaty marandu iporãva ha tendyry opyta porãve, péro oryrýigui oñembyai michĩmi y ha tesãi.",
+        "nautiReaction": "¡Heta marandu tembikuaareka rehegua! Upevére, tendyry ñongatu omoĩ michĩmi jepy'apy tesãi ha y rehe."
+      }
+    ]
+  },
+  "desktop": {
+    "heading": "¿Mba'épa jahecháta ko ára?",
+    "subtitle": "Eiporavo peteĩ tembiasa ha eñepyrũ eikuaa.",
+    "nautiPrompt": "¡Mba'éichapa, aty! ¿Mba'épa peikuaase ko ára?",
+    "availableBadge": "Oĩma",
+    "inPreparationBadge": "En preparación",
+    "comingSoonBadge": "Ko'ẽrõite",
+    "openAppHint": "Eike tembiasápe",
+    "comingSoonHint": "Ko'ẽrõite NAUTI-pe",
+    "tooltipLabels": {
+      "whatStudentsLearn": "🎯 Mba'épa oikuaa:",
+      "interactiveActivity": "🎮 Tembiapo ñeha'ã:",
+      "plannedActivityPrefix": "Tembiapo oñembosako'íva",
+      "infoAria": "Ehecha marandu mbo'epy rehegua: {{name}}",
+      "closeAria": "Emboty marandu"
+    },
+    "apps": {
+      "efecto-domino": {
+        "name": "Efecto Dominó",
+        "subtitle": "Jeporavo omoambuéva tembiapo",
+        "tooltip": {
+          "description": "Eikuaa mba'éichapa umi jeporavo ikatu omoambue tenonderã peteĩ tembiapo base Jasýpe.",
+          "learningObjective": "Ehesa'ỹijo mba'épa oiko uperire, eñangareko mba'erepy rehe ha eiporavo kuaapy añetegua ári.",
+          "interactiveActivity": "Ñeha'ã oñondivepa jeporavo, trivia tembikuaareka ha mba'e oñembyatýva reheve."
+        }
+      },
+      "traduciendo-la-ciencia": {
+        "name": "Traduciendo la ciencia",
+        "subtitle": "Grandes descubrimientos, pequeñas grandes historias",
+        "tooltip": {
+          "description": "Eikuaa mba'éichapa NASA tembikuaareka oipytyvõ ñantende hag̃ua arapy ha tekove.",
+          "learningObjective": "Emoñe'ẽkuaa marandu tembikuaareka rehegua ha emombe'u porã hapichápe.",
+          "interactiveActivity": "Ehesa'ỹijo tembikuaareka ha emoambue marandu hasy'ỹvape mayma oikuaa hag̃ua."
+        }
+      },
+      "escucha-imagina-construye": {
+        "name": "Ehendu, eimo'ã ha ejapo",
+        "subtitle": "Eikuaa tembiporu arapy rehegua rehendúvo, reimo'ãvo ha rehaívo atýpe.",
+        "tooltip": {
+          "description": "Ehecha tembiporu arapy rehegua NASA oiporúva térã ohesa'ỹijóva.",
+          "learningObjective": "Emombarete ñehendu porã, jehechakuaa ha tembiapo oñondivepa atýpe.",
+          "interactiveActivity": "Ehendu peteĩ podcast, ehai tembiporu pehẽngue mokõi minútope ha embojoja ta'ãnga ndive."
+        }
+      },
+      "detectives-de-la-nasa": {
+        "name": "Detectives de la NASA",
+        "subtitle": "¡Ehesa'ỹijo mba'e ñembyaty arapýgui kuaapy ha tembikuaareka añetegua reheve!",
+        "tooltip": {
+          "description": "Ehesa'ỹijo mba'e ñembyaty arapy ñemongu'e rehegua NASA kuaapy añetegua rupive.",
+          "learningObjective": "Reikuaáta mba'éichapa remoñe'ẽ marandu tembikuaareka rehegua ha rembojoaju pista-kuéra.",
+          "interactiveActivity": "Eheka pista-kuéra, embojoaju marandu ha embohovái atýpe."
+        }
+      },
+      "biblioteca-cientifica-nasa": {
+        "name": "Biblioteca Científica NASA · NAUTI",
+        "subtitle": "Eheka NASA kuatia ojehechajeypyréva ha kuaapy añetegua.",
+        "tooltip": {
+          "description": "Kuaapy renda oñangareko ha ombojoajúva NASA kuatia tee opaite NAUTI tembiasápe.",
+          "learningObjective": "Reikũmbýta tembikuaareka añetegua, mba'eichagua tekoha oñehesa'ỹijo ha kuatia ypykue.",
+          "interactiveActivity": "Ehecha kuatia ojehechajeypyréva kuaapy aty rupi térã ehesa'ỹijo NASA marandu añetegua."
+        }
+      },
+      "explora-con-nauti": {
+        "name": "Eheka NAUTI ndive",
+        "subtitle": "Tembiasa arapy rehegua",
+        "tooltip": {
+          "description": "Eikundaha yvága rape rehe ha ehecha mba'e apañuáipa ombohovái umi tembiapo añetegua.",
+          "learningObjective": "Eikuaa mba'eichaguápa planeta, jasy ha tenda arapy rehegua.",
+          "interactiveActivity": "Jehasa pehẽnguépe kuaapy ha porandu ñomongetarã atýpe."
+        }
+      },
+      "laboratorio-nauti": {
+        "name": "Laboratorio NAUTI",
+        "subtitle": "Eha'ã ha eikuaa mba'e pyahu",
+        "tooltip": {
+          "description": "Eha'ã mba'e tembikuaareka rehegua rentende hag̃ua mba'éichapa omba'apo tekoha arapýpe.",
+          "learningObjective": "Emoĩ hipótesis ha ehecha mba'éichapa oñemoambue mba'e oikóva.",
+          "interactiveActivity": "Ñeha'ã tembikuaareka rehegua oñondivepa mbo'ehaópe."
+        }
+      },
+      "viajes-sonoros": {
+        "name": "Pu ñanduty rehegua",
+        "subtitle": "Tembikuaareka ha arapy púpe",
+        "tooltip": {
+          "description": "Ehendu mombe'u mbyky arapy ha yvypóra jehóva rehegua púpe.",
+          "learningObjective": "Emombarete ñehendu porã ha kuaapyse mombe'u rupive.",
+          "interactiveActivity": "Ñemombe'u púpe opytáva oñeñomongeta hag̃ua atýpe."
+        }
+      }
+    }
+  },
+  "platform": {
+    "badge": "Mbo'epy Renda NAUTI",
+    "title": "Tembiasa tembikuaareka rehegua oñondive",
+    "subtitle": "Eikuaa tembiapo arapy rehegua, pehesa'ỹijo kuaapy oñondive ha pehecha mba'éichapa peteĩteĩ jeporavo omoambue tembiapo.",
+    "featuredLabel": "Tembiapo oĩmava",
+    "experienceName": "EFECTO DOMINÓ",
+    "experienceLocation": "Base Aurora · 4 episodio Jasýpe",
+    "experienceSummary": "Efecto Dominó-pe, pende aty ombohováita opaichagua ñeha'ã Base Aurora-pe, peteĩ estación tembikuaareka rehegua Jasýpe.\n\nPo ára pukukue peiporavo va'erã mba'épa oiko tendyry, y, tesãi ha tembikuaarekágui.\n\nPehecha mba'éichapa umi sistema ojoaju ha peteĩ jeporavo ikatu ogueru mba'e oñeha'ãrõ'ỹva.",
+    "enterExperienceBtn": "Ehecha umi episodio",
+    "viewTutorialBtn": "Ehecha jey ñembokatupyry",
+    "backToDesktopBtn": "Ejevy escritorio-pe",
+    "nautiPrompt": "¡Mba'éichapa, aty! Che ha'e NAUTI. Base Aurora-pe opaite jeporavo ombojoaju tendyry, y, tesãi ha tembikuaareka. ¿Jahechámapa Efecto Dominó episodio-kuéra?"
+  },
+  "catalog": {
+    "heading": "EFECTO DOMINÓ",
+    "subtitle": "Eiporavo ne rembiasa Base Aurora-pe",
+    "supportingText": "Opaite episodio oiko Base Aurora-pe 5 ára ojoaju va'ekuépe, ombojoajúvo tendyry, y, tesãi ha tembikuaareka.",
+    "backToNautiBtn": "Efecto Dominó",
+    "backToCatalogBtn": "Episodios",
+    "inProgressTag": "Tembiapo oñongatúva oikóvahína",
+    "resumeMissionBtn": "Embojoapy tembiapo",
+    "statusAvailable": "Oĩma",
+    "statusComingSoon": "Ko'ẽrõite",
+    "playBtn": "Ñembosarái",
+    "resumeBtn": "Embojoapy",
+    "comingSoonBtn": "Ko'ẽrõite",
+    "comingSoonHint": "Ko episodio ojejapóhína gueteri ha ko'ẽrõite oĩmbáta oñeha'ã hag̃ua ijeheguiete.",
+    "initialProblemLabel": "Mba'e oñepyrũva",
+    "sharedSystemsLine": "5 ára · Tendyry, Y, Tesãi ha Tembikuaareka",
+    "nautiPrompt": "¡Peiporavo pe episodio peipotáva! Opaite ñeha'ãme jeporavo ombojoaju tendyry, y, tesãi ha tembikuaareka.",
+    "episodes": {
+      "ep-01-energia-aurora": {
+        "numberLabel": "Episodio 01",
+        "title": "¿Ha japytárõ tendyry'ỹre?",
+        "initialProblem": "Tendyry pokã Base Aurora-pe",
+        "description": "Peteĩ apañuái tendyry rehegua oha'ã Base Aurora mba'apo. Opaite jeporavo ikatu ohupyty y, aty tesãi ha tembikuaareka. ¿Ikatútapa pemoĩ porã jey tembiapo?",
+        "coverSynopsis": "Base Aurora opáy Jasy rapépe peteĩ pyhare puku rire. Kuarahy resape michĩva reheve umi panel solar ári, tekotevẽ tenondegua ha laboratorio oñorairõ tendyry oĩvare. ¿Ikatútapa pende aty oñangareko base rehe po ára pukukuépe?"
+      },
+      "ep-02-falla-base-aurora": {
+        "numberLabel": "Episodio 02",
+        "title": "¿Ha oĩrõ oñembyaíva Base Aurora-pe?",
+        "initialProblem": "Tembiporu ñembyai oñeha'ãrõ'ỹva",
+        "description": "Peteĩ ñembyai oñeha'ãrõ'ỹva omoĩ kyhyjépe heta sistema Base Aurora-pe. Pende aty oiporavo va'erã mba'éichapa ombohovái oñembyai'ỹre mba'erepy ha tekove ñangareko.",
+        "coverSynopsis": "Peteĩ marandu ñembyai rehegua omongyrýi Base Aurora tembiapo aja. Oñembyaírõ peteĩ pehẽngue tekotevẽva Jasýpe, opaite ñemyatyrõ oikotevẽ ára, tendyry ha ñe'ẽ peteĩ atýpe. ¿Mba'éichapa pemoĩ porã jeýta pe estación?"
+      },
+      "ep-03-alimentos-lunares": {
+        "numberLabel": "Episodio 03",
+        "title": "¿Ha ñañemitỹ va'erãrõ ñane rembi'u?",
+        "initialProblem": "Tembi'u ñeñemitỹ Base Aurora-pe",
+        "description": "Ojejapo hag̃ua tembi'u Jasýpe tekotevẽ hetave mba'e ka'avo ñotỹgui. Opaite jeporavo ka'avo renda rehegua ikatu omoambue opaite base reko.",
+        "coverSynopsis": "Base Aurora ka'avo rendápe Jasýpe, ñemity ñepyrũ oikotevẽ tesape, y oñemopotĩva ha ñangareko atýgui. Michĩgui mba'e oúva Yvýgui, pende aty oiporavo va'erã mba'éichapa omombarete tembi'u ha tekove base-pe."
+      },
+      "ep-04-tormenta-solar": {
+        "numberLabel": "Episodio 04",
+        "title": "¿Ha peteĩ kuarahy aravai ñanemondýirõ?",
+        "initialProblem": "Kuarahy aravai kyhyjerã",
+        "description": "Peteĩ marandu kuarahy aravai rehegua ojerure oñemohenda jey hag̃ua tembiapo Base Aurora-pe. ¿Mba'éichapa ñañangareko atýre oñembyai'ỹre sistema tenondegua ha tembikuaareka?",
+        "coverSynopsis": "Tembiporu yvágagui ohechauka peteĩ kuarahy aravai mbarete oúva Base Aurora gotyo. Aty oheka aja ñemo'ãha ha oñangareko tembikuaareka rehe, oñemomichĩ ára jeporavorã. ¿Mba'éichapa pemohenda jeýta tembiapo po árape?"
+      }
+    }
+  }
+}
